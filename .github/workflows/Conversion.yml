@@ -1,0 +1,60 @@
+name: Base64 Conversion
+
+on:
+  workflow_dispatch: # 允许手动触发
+  schedule:
+    - cron: '0 */8 * * *' # 每 8 小时运行一次
+
+jobs:
+  convert_to_base64:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x' # 使用 Python 3.x 的最新稳定版
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests PyYAML maxminddb # 保留必要的依赖
+
+      - name: Run conversion script
+        env: 
+          BOT: ${{ secrets.BOT }}
+          URL_LIST_REPO_API: ${{ vars.URL_LIST_REPO_API }}
+          CLASH_TEMPLATE_PATH: "clash_template.yml"
+          ENABLE_CONNECTIVITY_TEST: "true"
+          TCP_TIMEOUT: "1"
+          TCP_RETRIES: "1"
+          TCP_DELAY: "0.5"
+          # MAX_WORKERS: "30" # 如果Python脚本内部有硬编码或默认值，可以考虑移除
+          EXCLUDE_NODES_BY_SERVER: ""
+          FAILED_URL_THRESHOLD: "3" # 如果URL更新逻辑在脚本内部处理，保留此项
+          EXCLUDE_CHINA_NODES: "true"
+          GEOIP_DB_PATH: "clash/Country.mmdb"
+        run: python subscribe/convert_to_base64.py # 脚本直接运行，输出到控制台
+
+      - name: Configure Git and Push
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          # 检查是否有文件更改，如果有则暂存并提交
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            git add data/*
+            git commit -m "Automated update before pull/rebase: $(date '+%Y-%m-%d %H:%M:%S')"
+          fi
+          
+          git pull origin main --rebase # 现在拉取并rebase远程更改
+          
+          # 检查是否有新的更改需要提交，如果上面 rebase 发生了冲突解决或新的内容
+          if ! git diff --staged --quiet; then
+            git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S') by GitHub Action"
+          fi
+          
+          git push origin main
