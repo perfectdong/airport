@@ -1,17 +1,17 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: eef168fe-a6fc-4f79-8dfc-3b82bcbdeff5, udp: true}
-- &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: eef168fe-a6fc-4f79-8dfc-3b82bcbdeff5, udp: true}
-- &id003 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 4a53651e-9dec-4037-b7da-58f6d79a31c6, udp: true}
-- &id004 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 4a53651e-9dec-4037-b7da-58f6d79a31c6, udp: true}
-- &id005 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 4a53651e-9dec-4037-b7da-58f6d79a31c6, udp: true}
+- &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: 85879a85-1c7b-4d39-8eea-ea0f39995523, udp: true}
+- &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 85879a85-1c7b-4d39-8eea-ea0f39995523, udp: true}
+- &id003 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 648d48d5-5c66-4e81-8950-5d8dcc147b6f, udp: true}
+- &id004 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 648d48d5-5c66-4e81-8950-5d8dcc147b6f, udp: true}
+- &id005 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 648d48d5-5c66-4e81-8950-5d8dcc147b6f, udp: true}
 - *id001
 - *id002
-- {name: 🇯🇵 ss(广移)日本1 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 2ed1b3b4-c2c9-4f00-b74d-b1257cbea086, udp: true}
-- {name: 🇯🇵 ss(广移)日本2 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 2ed1b3b4-c2c9-4f00-b74d-b1257cbea086, udp: true}
-- {name: 🇯🇵 ss(广移)日本4 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: 2ed1b3b4-c2c9-4f00-b74d-b1257cbea086, udp: true}
-- {name: 🇯🇵 ss(广移)日本3 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: 2ed1b3b4-c2c9-4f00-b74d-b1257cbea086, udp: true}
+- {name: 🇯🇵 ss(广移)日本1 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 93b4c4b5-699e-430f-8a06-6adfe93eb414, udp: true}
+- {name: 🇯🇵 ss(广移)日本2 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 93b4c4b5-699e-430f-8a06-6adfe93eb414, udp: true}
+- {name: 🇯🇵 ss(广移)日本4 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: 93b4c4b5-699e-430f-8a06-6adfe93eb414, udp: true}
+- {name: 🇯🇵 ss(广移)日本3 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: 93b4c4b5-699e-430f-8a06-6adfe93eb414, udp: true}
 - *id001
 - *id002
 - *id001

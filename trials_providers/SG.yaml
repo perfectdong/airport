@@ -1,18 +1,18 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇸🇬 Singapore-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: eef168fe-a6fc-4f79-8dfc-3b82bcbdeff5, udp: true}
-- &id002 {name: 🇸🇬 Singapore-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: eef168fe-a6fc-4f79-8dfc-3b82bcbdeff5, udp: true}
-- &id003 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4a53651e-9dec-4037-b7da-58f6d79a31c6, udp: true}
-- &id004 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4a53651e-9dec-4037-b7da-58f6d79a31c6, udp: true}
-- &id005 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4a53651e-9dec-4037-b7da-58f6d79a31c6, udp: true}
-- &id006 {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4a53651e-9dec-4037-b7da-58f6d79a31c6, udp: true}
-- &id007 {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4a53651e-9dec-4037-b7da-58f6d79a31c6, udp: true}
-- &id008 {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4a53651e-9dec-4037-b7da-58f6d79a31c6, udp: true}
+- &id001 {name: 🇸🇬 Singapore-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 85879a85-1c7b-4d39-8eea-ea0f39995523, udp: true}
+- &id002 {name: 🇸🇬 Singapore-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: 85879a85-1c7b-4d39-8eea-ea0f39995523, udp: true}
+- &id003 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 648d48d5-5c66-4e81-8950-5d8dcc147b6f, udp: true}
+- &id004 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 648d48d5-5c66-4e81-8950-5d8dcc147b6f, udp: true}
+- &id005 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 648d48d5-5c66-4e81-8950-5d8dcc147b6f, udp: true}
+- &id006 {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 648d48d5-5c66-4e81-8950-5d8dcc147b6f, udp: true}
+- &id007 {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 648d48d5-5c66-4e81-8950-5d8dcc147b6f, udp: true}
+- &id008 {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 648d48d5-5c66-4e81-8950-5d8dcc147b6f, udp: true}
 - *id001
 - *id002
-- {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 2ed1b3b4-c2c9-4f00-b74d-b1257cbea086, udp: true}
-- {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 2ed1b3b4-c2c9-4f00-b74d-b1257cbea086, udp: true}
+- {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 93b4c4b5-699e-430f-8a06-6adfe93eb414, udp: true}
+- {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 93b4c4b5-699e-430f-8a06-6adfe93eb414, udp: true}
 - *id001
 - *id002
 - *id001
