@@ -1,18 +1,18 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇭🇰 HK-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: b7166b5e-d268-4893-ac2a-d64c39912ae1, udp: true}
-- &id002 {name: 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: b7166b5e-d268-4893-ac2a-d64c39912ae1, udp: true}
-- &id003 {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 7a85a2a5-6967-4a9f-9fd7-997be6f4994d, udp: true}
-- &id004 {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 7a85a2a5-6967-4a9f-9fd7-997be6f4994d, udp: true}
-- &id005 {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 7a85a2a5-6967-4a9f-9fd7-997be6f4994d, udp: true}
-- &id006 {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 7a85a2a5-6967-4a9f-9fd7-997be6f4994d, udp: true}
-- &id007 {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 7a85a2a5-6967-4a9f-9fd7-997be6f4994d, udp: true}
-- &id008 {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 7a85a2a5-6967-4a9f-9fd7-997be6f4994d, udp: true}
+- &id001 {name: 🇭🇰 HK-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: 1e14484f-0c00-4860-aa4a-01f60bde8eeb, udp: true}
+- &id002 {name: 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: 1e14484f-0c00-4860-aa4a-01f60bde8eeb, udp: true}
+- &id003 {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 6a9d21dd-1327-4d13-9063-b5330d37cbc9, udp: true}
+- &id004 {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 6a9d21dd-1327-4d13-9063-b5330d37cbc9, udp: true}
+- &id005 {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 6a9d21dd-1327-4d13-9063-b5330d37cbc9, udp: true}
+- &id006 {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 6a9d21dd-1327-4d13-9063-b5330d37cbc9, udp: true}
+- &id007 {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 6a9d21dd-1327-4d13-9063-b5330d37cbc9, udp: true}
+- &id008 {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连一元公益机场, server: gy11.gsulink.top, port: 55408, type: ss, cipher: chacha20-ietf-poly1305, password: 6a9d21dd-1327-4d13-9063-b5330d37cbc9, udp: true}
 - *id001
 - *id002
-- {name: 🇭🇰 ss(广移)香港1 - 雷达, server: gymz2.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 81d37337-7148-4d2f-9ae7-4d3641ab202f, udp: true}
-- {name: 🇭🇰 ss(广移)香港2 - 雷达, server: gymz2.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 81d37337-7148-4d2f-9ae7-4d3641ab202f, udp: true}
+- {name: 🇭🇰 ss(广移)香港1 - 雷达, server: gymz2.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 617cb58c-71c7-43eb-a645-d7bce9e78bb4, udp: true}
+- {name: 🇭🇰 ss(广移)香港2 - 雷达, server: gymz2.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 617cb58c-71c7-43eb-a645-d7bce9e78bb4, udp: true}
 - *id001
 - *id002
 - *id001
