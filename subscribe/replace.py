@@ -288,7 +288,7 @@ def main(urls):
 
 if __name__ == "__main__":
     urls = [
-        'https://github.com/qjlxg/aggregator/raw/refs/heads/main/ss.txt',
+        'https://github.com/moneyfly1/jichangnodes/blob/main/ss.txt',
         
         'https://raw.githubusercontent.com/qjlxg/hy2/refs/heads/main/configtg.txt',
     ]
