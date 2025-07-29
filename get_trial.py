@@ -14,9 +14,12 @@ from utils import (clear_files, g0, keep, list_file_paths, list_folder_paths,
                    read, read_cfg, remove, size2str, str2timestamp,
                    timestamp2str, to_zero, write, write_cfg)
 
-# 全局配置
-MAX_WORKERS = min(16, multiprocessing.cpu_count() * 2)  # 动态设置最大工作线程数
-MAX_TASK_TIMEOUT = 45  # 单任务最大等待时间（秒）
+# 全局配置 - 优化版本
+MAX_WORKERS = min(32, multiprocessing.cpu_count() * 4)  # 增加并发数，提升处理速度
+MAX_TASK_TIMEOUT = 30  # 减少单任务超时时间（秒）
+EMAIL_CODE_TIMEOUT = 30  # 邮箱验证码等待时间（秒）
+NETWORK_TIMEOUT = 8  # 网络请求超时时间（秒）
+MAX_RETRY_COUNT = 3  # 最大重试次数
 DEFAULT_EMAIL_DOMAINS = ['gmail.com', 'qq.com', 'outlook.com']  # 默认邮箱域名池
 
 def generate_random_username(length=12) -> str:
@@ -83,7 +86,7 @@ def _register(session: PanelSession, email: str, *args, **kwargs):
 
 def _get_email_and_email_code(kwargs, session: PanelSession, opt: dict, cache: dict[str, list[str]]):
     retry = 0
-    while retry < 5:
+    while retry < MAX_RETRY_COUNT:  # 使用全局配置的重试次数
         try:
             tm = TempEmail(banned_domains=cache.get('banned_domains', []))
             email_domain = get_available_domain(cache)
@@ -108,14 +111,15 @@ def _get_email_and_email_code(kwargs, session: PanelSession, opt: dict, cache: d
                 retry += 1
                 continue
             raise Exception(f'发送邮箱验证码失败({email}): {e}')
-        email_code = tm.get_email_code(g0(cache, 'name'))
+        # 使用优化的超时时间获取邮箱验证码
+        email_code = tm.get_email_code(g0(cache, 'name'), timeout=EMAIL_CODE_TIMEOUT)
         if not email_code:
             cache.setdefault('banned_domains', []).append(email.split('@')[1])
             retry += 1
             continue
         kwargs['email_code'] = email_code
         return email
-    raise Exception('获取邮箱验证码失败，重试次数过多')
+    raise Exception(f'获取邮箱验证码失败，重试次数过多（已重试{MAX_RETRY_COUNT}次）')
 
 def register(session: PanelSession, opt: dict, cache: dict[str, list[str]], log: list) -> bool:
     """
@@ -496,7 +500,7 @@ if __name__ == '__main__':
                 for line in log:
                     print(line, flush=True)
             except TimeoutError:
-                print("有任务超时（超过45秒未完成），已跳过。", flush=True)
+                print(f"有任务超时（超过{MAX_TASK_TIMEOUT}秒未完成），已跳过。建议检查网络连接或目标站点状态。", flush=True)
             except Exception as e:
                 print(f"任务异常: {e}", flush=True)
 
