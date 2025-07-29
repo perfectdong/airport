@@ -1,0 +1,17 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 香港 - FloatKite, server: hk1.mengze.cloud, port: 32345, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇹🇼 台湾 - FloatKite, server: tw3.mengze.cloud, port: 21661, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇭🇰 香港01/YouTube🛩️ - FloatKite, server: hkt.mengze.cloud, port: 36873, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇭🇰 香港02/Netflix🚁 - FloatKite, server: hk2.mengze.cloud, port: 35723, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇭🇰 香港03/Pixiv✈️ - FloatKite, server: hk3.mengze.cloud, port: 49536, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇭🇰 香港04/Twitter🚀 - FloatKite, server: hk4.mengze.cloud, port: 49537, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇭🇰 香港05/Instagram🛰️ - FloatKite, server: hk5.floatkite.com, port: 12789, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk5.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: hk5.floatkite.com}, udp: true}
+- {name: 🇭🇰 香港06/Twitch🛸 - FloatKite, server: hk6.floatkite.com, port: 12365, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk6.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: hk6.floatkite.com}, udp: true}
+- {name: 🇹🇼 台湾<Dcard> - FloatKite, server: tw1.floatkite.com, port: 16398, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: tw1.floatkite.com}, udp: true}
+- {name: 🇹🇼 台湾<MOMO> - FloatKite, server: tw2.floatkite.com, port: 16531, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: tw2.floatkite.com}, udp: true}
+- {name: 🇭🇰 香港<LIHKG> - FloatKite, server: hk3.floatkite.com, port: 12667, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk3.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: hk3.floatkite.com}, udp: true}
+- {name: 🇭🇰 香港<HKTVmall> - FloatKite, server: hk4.floatkite.com, port: 12328, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk4.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: hk4.floatkite.com}, udp: true}
+- {name: '🇭🇰 香港-[家宽] - FloatKite', server: hk7.mengze.cloud, port: 32357, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: '🇹🇼 台湾-[家宽] - FloatKite', server: tw2.mengze.cloud, port: 31263, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}

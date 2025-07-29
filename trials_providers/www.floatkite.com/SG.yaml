@@ -1,0 +1,6 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇸🇬 新加坡 - FloatKite, server: sg5.mengze.cloud, port: 35631, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇸🇬 新加坡<Shopee> - FloatKite, server: sgp1.floatkite.com, port: 15628, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgp1.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: sgp1.floatkite.com}, udp: true}
+- {name: '🇸🇬 新加坡-[家宽] - FloatKite', server: sg4.mengze.cloud, port: 32785, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}

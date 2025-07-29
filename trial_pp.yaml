@@ -252,7 +252,7 @@ proxy-groups:
 proxy-providers:
   p_All_All_All_All_All_All_HK_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN_CN:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_All_All_All_HK_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN_CN.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-All-All-All-All-HK-HK-HK-HK-HK-HK-CN-CN-CN-CN-CN-CN
     interval: 180
     path: trials_providers/p_All_All_All_All_All_All_HK_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN_CN.yaml
     health-check:
@@ -261,7 +261,7 @@ proxy-providers:
       interval: 30
   p_All_All_All_All_All_All_CN_CN_CN_CN_CN_CN:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_All_All_All_CN_CN_CN_CN_CN_CN.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-All-All-All-All-CN-CN-CN-CN-CN-CN
     interval: 180
     path: trials_providers/p_All_All_All_All_All_All_CN_CN_CN_CN_CN_CN.yaml
     health-check:
@@ -270,7 +270,7 @@ proxy-providers:
       interval: 30
   p_All_All_All_All_All_All_SG_SG_SG_SG_SG_SG:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_All_All_All_SG_SG_SG_SG_SG_SG.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-All-All-All-All-SG-SG-SG-SG-SG-SG
     interval: 180
     path: trials_providers/p_All_All_All_All_All_All_SG_SG_SG_SG_SG_SG.yaml
     health-check:
@@ -279,7 +279,7 @@ proxy-providers:
       interval: 30
   p_All_All_All_All_All_All_JP_JP_JP_JP_JP_JP:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_All_All_All_JP_JP_JP_JP_JP_JP.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-All-All-All-All-JP-JP-JP-JP-JP-JP
     interval: 180
     path: trials_providers/p_All_All_All_All_All_All_JP_JP_JP_JP_JP_JP.yaml
     health-check:
@@ -288,7 +288,7 @@ proxy-providers:
       interval: 30
   p_All_All_All_All_All_All_US_US_US_US_US_US:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_All_All_All_US_US_US_US_US_US.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-All-All-All-All-US-US-US-US-US-US
     interval: 180
     path: trials_providers/p_All_All_All_All_All_All_US_US_US_US_US_US.yaml
     health-check:
@@ -297,7 +297,7 @@ proxy-providers:
       interval: 30
   p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-All-All-All-All-Other-Other-Other-Other-Other-Other
     interval: 180
     path: trials_providers/p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other.yaml
     health-check:
@@ -306,7 +306,7 @@ proxy-providers:
       interval: 30
   p_All_All_Other_Other:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_Other_Other.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-Other-Other
     interval: 180
     path: trials_providers/p_All_All_Other_Other.yaml
     health-check:
@@ -315,7 +315,7 @@ proxy-providers:
       interval: 30
   p_All_All_HK_HK_CN_CN:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_HK_HK_CN_CN.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-HK-HK-CN-CN
     interval: 180
     path: trials_providers/p_All_All_HK_HK_CN_CN.yaml
     health-check:
@@ -324,7 +324,7 @@ proxy-providers:
       interval: 30
   p_All_All_SG_SG:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_SG_SG.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-SG-SG
     interval: 180
     path: trials_providers/p_All_All_SG_SG.yaml
     health-check:
@@ -333,7 +333,7 @@ proxy-providers:
       interval: 30
   p_All_All_JP_JP:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_JP_JP.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-JP-JP
     interval: 180
     path: trials_providers/p_All_All_JP_JP.yaml
     health-check:
@@ -342,7 +342,7 @@ proxy-providers:
       interval: 30
   p_All_All_TW_TW_CN_CN:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_TW_TW_CN_CN.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-TW-TW-CN-CN
     interval: 180
     path: trials_providers/p_All_All_TW_TW_CN_CN.yaml
     health-check:
@@ -351,7 +351,7 @@ proxy-providers:
       interval: 30
   p_All_All_US_US:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_US_US.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-All-US-US
     interval: 180
     path: trials_providers/p_All_All_US_US.yaml
     health-check:
@@ -360,7 +360,7 @@ proxy-providers:
       interval: 30
   p_All_Other:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_Other.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-Other
     interval: 180
     path: trials_providers/p_All_Other.yaml
     health-check:
@@ -369,7 +369,7 @@ proxy-providers:
       interval: 30
   p_All_HK_CN:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_HK_CN.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-HK-CN
     interval: 180
     path: trials_providers/p_All_HK_CN.yaml
     health-check:
@@ -378,7 +378,7 @@ proxy-providers:
       interval: 30
   p_All_SG:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_SG.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-SG
     interval: 180
     path: trials_providers/p_All_SG.yaml
     health-check:
@@ -387,7 +387,7 @@ proxy-providers:
       interval: 30
   p_All_JP:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_JP.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-JP
     interval: 180
     path: trials_providers/p_All_JP.yaml
     health-check:
@@ -396,7 +396,7 @@ proxy-providers:
       interval: 30
   p_All_TW_CN:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_TW_CN.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-TW-CN
     interval: 180
     path: trials_providers/p_All_TW_CN.yaml
     health-check:
@@ -405,7 +405,7 @@ proxy-providers:
       interval: 30
   p_All_US:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_US.yaml
+    url: https://dd.al/gh-moneyfly1-jichangnodes-trial-p-All-US
     interval: 180
     path: trials_providers/p_All_US.yaml
     health-check:

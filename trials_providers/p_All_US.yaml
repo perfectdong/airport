@@ -1,12 +1,17 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 ss(广移)美国1 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: d1dea92a-37ac-4af6-b0c9-10d59f0861ab, udp: true}
-- {name: 🇺🇸 ss(广移)美国2 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: d1dea92a-37ac-4af6-b0c9-10d59f0861ab, udp: true}
-- {name: 🇺🇸 ss(广移)美国2-1 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: d1dea92a-37ac-4af6-b0c9-10d59f0861ab, udp: true}
-- {name: 🇺🇸 ss(广移)美国2-2 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: d1dea92a-37ac-4af6-b0c9-10d59f0861ab, udp: true}
+- {name: 🇺🇸 ss(广移)美国1 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: bea929f8-9264-4056-9e35-cfcdbee300eb, udp: true}
+- {name: 🇺🇸 ss(广移)美国2 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: bea929f8-9264-4056-9e35-cfcdbee300eb, udp: true}
+- {name: 🇺🇸 ss(广移)美国2-1 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: bea929f8-9264-4056-9e35-cfcdbee300eb, udp: true}
+- {name: 🇺🇸 ss(广移)美国2-2 - 雷达, server: gygyjiqi.sefgswgekt.top, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: bea929f8-9264-4056-9e35-cfcdbee300eb, udp: true}
 - {name: 🇺🇸 United States - Atom, server: always.chenyi.pw, port: 23206, type: ss, cipher: chacha20-ietf-poly1305, password: d95bc210-fa64-4f39-813a-81829e286a9f, udp: true}
 - {name: 🇺🇸 美国01 - 迅云加速, server: node1.cenidcbf.ink, port: 45823, type: ss, cipher: chacha20-ietf-poly1305, password: 7d93ddcb-19e6-4722-b1a7-0fa5bed55eba, udp: true}
 - {name: 🇺🇸 美国02 - 迅云加速, server: node2.cenidcbf.ink, port: 15628, type: ss, cipher: chacha20-ietf-poly1305, password: 7d93ddcb-19e6-4722-b1a7-0fa5bed55eba, udp: true}
 - {name: 🇺🇸 美国03 - 迅云加速, server: abc.xunyunnode.sbs, port: 59079, type: ss, cipher: chacha20-ietf-poly1305, password: 7d93ddcb-19e6-4722-b1a7-0fa5bed55eba, udp: true}
 - {name: 🇺🇸 美国04 - 迅云加速, server: bgc.xunyunnode.sbs, port: 36079, type: ss, cipher: chacha20-ietf-poly1305, password: 7d93ddcb-19e6-4722-b1a7-0fa5bed55eba, udp: true}
+- {name: 🇺🇸 美国 - FloatKite, server: us4.mengze.cloud, port: 36527, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇺🇸 美国𝟬𝟭/ChatGPT - FloatKite, server: us6.mengze.cloud, port: 49532, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇺🇸 美国𝟬𝟮/Netflix - FloatKite, server: sfo1.floatkite.com, port: 52637, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sfo1.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: sfo1.floatkite.com}, udp: true}
+- {name: 🇺🇸 美国𝟬𝟯/Amazon - FloatKite, server: us1.floatkite.com, port: 53618, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: us1.floatkite.com}, udp: true}
+- {name: '🇺🇸 美国-[家宽] - FloatKite', server: us2.mengze.cloud, port: 49535, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}

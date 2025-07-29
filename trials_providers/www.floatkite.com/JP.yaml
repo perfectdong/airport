@@ -1,0 +1,8 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵 日本 - FloatKite, server: jp2.mengze.cloud, port: 37253, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇯🇵 日本𝟎𝟏/LINE - FloatKite, server: jp5.mengze.cloud, port: 50702, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇯🇵 日本𝟎𝟐/Netflix - FloatKite, server: osa1.floatkite.com, port: 17636, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: osa1.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: osa1.floatkite.com}, udp: true}
+- {name: 🇯🇵 日本𝟎𝟑/Rakuten - FloatKite, server: jp5.floatkite.com, port: 18756, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp5.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: jp5.floatkite.com}, udp: true}
+- {name: '🇯🇵 日本-[家宽] - FloatKite', server: jp3.mengze.cloud, port: 49534, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}

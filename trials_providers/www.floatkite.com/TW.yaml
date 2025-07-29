@@ -1,0 +1,7 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇹🇼 台湾 - FloatKite, server: tw3.mengze.cloud, port: 21661, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
+- {name: 🇹🇼 台湾<Dcard> - FloatKite, server: tw1.floatkite.com, port: 16398, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: tw1.floatkite.com}, udp: true}
+- {name: 🇹🇼 台湾<MOMO> - FloatKite, server: tw2.floatkite.com, port: 16531, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: tw2.floatkite.com}, udp: true}
+- {name: '🇹🇼 台湾-[家宽] - FloatKite', server: tw2.mengze.cloud, port: 31263, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
