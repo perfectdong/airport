@@ -14,12 +14,9 @@ from utils import (clear_files, g0, keep, list_file_paths, list_folder_paths,
                    read, read_cfg, remove, size2str, str2timestamp,
                    timestamp2str, to_zero, write, write_cfg)
 
-# 全局配置 - 优化版本
-MAX_WORKERS = min(32, multiprocessing.cpu_count() * 4)  # 增加并发数，提升处理速度
-MAX_TASK_TIMEOUT = 30  # 减少单任务超时时间（秒）
-EMAIL_CODE_TIMEOUT = 30  # 邮箱验证码等待时间（秒）
-NETWORK_TIMEOUT = 8  # 网络请求超时时间（秒）
-MAX_RETRY_COUNT = 3  # 最大重试次数
+# 全局配置
+MAX_WORKERS = min(16, multiprocessing.cpu_count() * 2)  # 动态设置最大工作线程数
+MAX_TASK_TIMEOUT = 45  # 单任务最大等待时间（秒）
 DEFAULT_EMAIL_DOMAINS = ['gmail.com', 'qq.com', 'outlook.com']  # 默认邮箱域名池
 
 def generate_random_username(length=12) -> str:
@@ -86,40 +83,31 @@ def _register(session: PanelSession, email: str, *args, **kwargs):
 
 def _get_email_and_email_code(kwargs, session: PanelSession, opt: dict, cache: dict[str, list[str]]):
     retry = 0
-    while retry < MAX_RETRY_COUNT:  # 使用全局配置的重试次数
+    while retry < 5:
+        tm = TempEmail(banned_domains=cache.get('banned_domains', []))
         try:
-            tm = TempEmail(banned_domains=cache.get('banned_domains', []))
             email_domain = get_available_domain(cache)
             email = kwargs['email'] = f"{generate_random_username()}@{email_domain}"
-            # 直接使用tm.email属性，不要尝试设置它
-            email = tm.email  # 获取TempEmail自动生成的邮箱
-            kwargs['email'] = email
+            tm.email = email
         except Exception as e:
-            error_msg = str(e).lower()
-            if 'can\'t set attribute' in error_msg or 'email' in error_msg:
-                # TempEmail邮箱获取失败，跳过此次尝试
-                cache.setdefault('banned_domains', []).append(email_domain if 'email_domain' in locals() else 'unknown')
-                retry += 1
-                continue
             raise Exception(f'获取邮箱失败: {e}')
         try:
             session.send_email_code(email)
         except Exception as e:
             msg = str(e)
             if '禁' in msg or '黑' in msg:
-                cache.setdefault('banned_domains', []).append(email.split('@')[1])
+                cache['banned_domains'].append(email_domain)
                 retry += 1
                 continue
             raise Exception(f'发送邮箱验证码失败({email}): {e}')
-        # 使用优化的超时时间获取邮箱验证码
-        email_code = tm.get_email_code(g0(cache, 'name'), timeout=EMAIL_CODE_TIMEOUT)
+        email_code = tm.get_email_code(g0(cache, 'name'))
         if not email_code:
-            cache.setdefault('banned_domains', []).append(email.split('@')[1])
+            cache['banned_domains'].append(email_domain)
             retry += 1
             continue
         kwargs['email_code'] = email_code
         return email
-    raise Exception(f'获取邮箱验证码失败，重试次数过多（已重试{MAX_RETRY_COUNT}次）')
+    raise Exception('获取邮箱验证码失败，重试次数过多')
 
 def register(session: PanelSession, opt: dict, cache: dict[str, list[str]], log: list) -> bool:
     """
@@ -213,8 +201,8 @@ def register(session: PanelSession, opt: dict, cache: dict[str, list[str]], log:
             break
         retry += 1
     if retry >= 5:
-        log_error(session.host, email, f"注册失败: {msg}，跳过注册", log)
-        return False  # 返回False而不是抛出异常，让程序继续处理其他站点
+        log_error(session.host, email, f"注册失败: {msg}", log)
+        raise Exception(f'注册失败({email}): {msg}{" " + kwargs.get("invite_code") if "邀" in msg else ""}')
     return True
 
 def is_checkin(session, opt: dict):
@@ -266,38 +254,27 @@ def do_turn(session: PanelSession, opt: dict, cache: dict[str, list[str]], log: 
     if not reg_limit:
         login_and_buy_ok = register(session, opt, cache, log)
         is_new_reg = True
-        # 检查session是否有email属性
-        if hasattr(session, 'email') and session.email:
-            cache['email'] = [session.email]
-        else:
-            raise Exception('注册成功但无法获取邮箱信息')
+        cache['email'] = [session.email]
         if is_checkin(session, opt):
             cache['last_checkin'] = ['0']
     else:
         reg_limit = int(reg_limit)
-        if len(cache.get('email', [])) < reg_limit or force_reg:
+        if len(cache['email']) < reg_limit or force_reg:
             login_and_buy_ok = register(session, opt, cache, log)
             is_new_reg = True
-            # 检查session是否有email属性
-            if hasattr(session, 'email') and session.email:
-                cache.setdefault('email', []).append(session.email)
-            else:
-                raise Exception('注册成功但无法获取邮箱信息')
+            cache['email'].append(session.email)
             if is_checkin(session, opt):
-                cache.setdefault('last_checkin', []).extend(['0'] * (len(cache['email']) - len(cache.get('last_checkin', []))))
-        if len(cache.get('email', [])) > reg_limit:
+                cache['last_checkin'] += ['0'] * (len(cache['email']) - len(cache['last_checkin']))
+        if len(cache['email']) > reg_limit:
             del cache['email'][:-reg_limit]
             if is_checkin(session, opt):
                 del cache['last_checkin'][:-reg_limit]
 
-        if cache.get('email'):
-            cache['email'] = cache['email'][-1:] + cache['email'][:-1]
-            if is_checkin(session, opt):
-                cache['last_checkin'] = cache['last_checkin'][-1:] + cache['last_checkin'][:-1]
+        cache['email'] = cache['email'][-1:] + cache['email'][:-1]
+        if is_checkin(session, opt):
+            cache['last_checkin'] = cache['last_checkin'][-1:] + cache['last_checkin'][:-1]
 
     if not login_and_buy_ok:
-        if not cache.get('email'):
-            raise Exception('没有可用的邮箱信息进行登录')
         try:
             session.login(cache['email'][0])
         except Exception as e:
@@ -386,21 +363,7 @@ def get_and_save(session: PanelSession, host, opt: dict, cache: dict[str, list[s
         if sub:
             save_sub(*sub, host, opt, cache, log)
     except Exception as e:
-        error_msg = str(e).lower()
-        # 检查是否为网络相关错误
-        network_error_keywords = [
-            'name or service not known', 'max retries exceeded', 'connection', 'timeout', 'dns', 'invalid label',
-            'ssl', 'certificate', 'wrong version number', 'connection refused', 'connection reset',
-            'connection aborted', 'failed to resolve', 'no address associated with hostname',
-            'certificate verify failed', 'ip address mismatch', 'connection timed out'
-        ]
-        # 检查是否为邮箱相关错误或session属性错误
-        if any(keyword in error_msg for keyword in network_error_keywords):
-            log.append(f"{host} 网络连接失败，跳过注册: {e}")
-        elif any(keyword in error_msg for keyword in ['email', 'attribute', '邮箱', '注册']):
-            log.append(f"{host} 邮箱或注册相关错误，跳过注册: {e}")
-        else:
-            log_error(host, cache.get('email', [''])[0], f"get_and_save 异常: {e}", log)
+        log_error(host, cache.get('email', [''])[0], f"get_and_save 异常: {e}", log)
 
 def new_panel_session(host, cache: dict[str, list[str]], log: list) -> PanelSession | None:
     try:
@@ -408,25 +371,14 @@ def new_panel_session(host, cache: dict[str, list[str]], log: list) -> PanelSess
             info = guess_panel(host)
             if 'type' not in info:
                 if (e := info.get('error')):
-                    log.append(f"{host} 判别类型失败: {e}，跳过注册")
+                    log.append(f"{host} 判别类型失败: {e}")
                 else:
-                    log.append(f"{host} 未知类型，跳过注册")
+                    log.append(f"{host} 未知类型")
                 return None
             cache.update(info)
         return panel_class_map[g0(cache, 'type')](g0(cache, 'api_host', host), **keep(cache, 'auth_path', getitem=g0))
     except Exception as e:
-        # 检查是否为网络相关错误
-        error_msg = str(e).lower()
-        network_error_keywords = [
-            'name or service not known', 'max retries exceeded', 'connection', 'timeout', 'dns', 'invalid label',
-            'ssl', 'certificate', 'wrong version number', 'connection refused', 'connection reset',
-            'connection aborted', 'failed to resolve', 'no address associated with hostname',
-            'certificate verify failed', 'ip address mismatch', 'connection timed out'
-        ]
-        if any(keyword in error_msg for keyword in network_error_keywords):
-            log.append(f"{host} 网络连接失败，跳过注册: {e}")
-        else:
-            log.append(f"{host} new_panel_session 异常: {e}，跳过注册")
+        log.append(f"{host} new_panel_session 异常: {e}")
         return None
 
 def get_trial(host, opt: dict, cache: dict[str, list[str]]):
@@ -438,18 +390,7 @@ def get_trial(host, opt: dict, cache: dict[str, list[str]]):
             if hasattr(session, 'redirect_origin') and session.redirect_origin:
                 cache['api_host'] = session.host
     except Exception as e:
-        # 检查是否为网络相关错误，如果是则跳过
-        error_msg = str(e).lower()
-        network_error_keywords = [
-            'name or service not known', 'max retries exceeded', 'connection', 'timeout', 'dns', 'invalid label',
-            'ssl', 'certificate', 'wrong version number', 'connection refused', 'connection reset',
-            'connection aborted', 'failed to resolve', 'no address associated with hostname',
-            'certificate verify failed', 'ip address mismatch', 'connection timed out'
-        ]
-        if any(keyword in error_msg for keyword in network_error_keywords):
-            log.append(f"{host} 网络连接失败，跳过注册: {e}")
-        else:
-            log.append(f"{host} 处理异常: {e}")
+        log.append(f"{host} 处理异常: {e}")
     return log
 
 def build_options(cfg):
@@ -500,7 +441,7 @@ if __name__ == '__main__':
                 for line in log:
                     print(line, flush=True)
             except TimeoutError:
-                print(f"有任务超时（超过{MAX_TASK_TIMEOUT}秒未完成），已跳过。建议检查网络连接或目标站点状态。", flush=True)
+                print("有任务超时（超过45秒未完成），已跳过。", flush=True)
             except Exception as e:
                 print(f"任务异常: {e}", flush=True)
 
