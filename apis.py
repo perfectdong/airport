@@ -5,7 +5,6 @@ from queue import Queue
 from random import choice
 from threading import RLock, Thread
 from time import sleep, time
-from typing import Union, Optional
 from urllib.parse import (parse_qsl, unquote_plus, urlencode, urljoin,
                           urlsplit, urlunsplit)
 
@@ -181,7 +180,7 @@ class Session(requests.Session):
     def put(self, url='', data=None, **kwargs) -> Response:
         return self.request('PUT', url, data, **kwargs)
 
-    def request(self, method: str, url: str = '', data=None, timeout=8, allow_redirects=None, **kwargs):
+    def request(self, method: str, url: str = '', data=None, timeout=30, allow_redirects=None, **kwargs):
         method = method.upper()
         url = urljoin(self.__base, url.split('#', 1)[0])
         kwargs.update(data=data, timeout=timeout, allow_redirects=False)
@@ -317,7 +316,7 @@ class V2BoardSession(_ROSession):
         if 'data' not in res:
             raise Exception(res)
 
-    def register(self, email: str, password=None, email_code=None, invite_code=None) -> Optional[str]:
+    def register(self, email: str, password=None, email_code=None, invite_code=None) -> str | None:
         self.reset()
         res = self.post('api/v1/passport/auth/register', {
             'email': email,
@@ -346,7 +345,7 @@ class V2BoardSession(_ROSession):
     def send_email_code(self, email):
         res = self.post('api/v1/passport/comm/sendEmailVerify', {
             'email': email
-        }, timeout=15).json()
+        }, timeout=60).json()
         self.raise_for_fail(res)
 
     def buy(self, data=None):
@@ -427,7 +426,7 @@ class SSPanelSession(_ROSession):
         if not res.get('ret'):
             raise Exception(res)
 
-    def register(self, email: str, password=None, email_code=None, invite_code=None, name_eq_email=None, reg_fmt=None, im_type=False, aff=None) -> Optional[str]:
+    def register(self, email: str, password=None, email_code=None, invite_code=None, name_eq_email=None, reg_fmt=None, im_type=False, aff=None) -> str | None:
         self.reset()
         email_code_k, invite_code_k = ('email_code', 'invite_code') if reg_fmt == 'B' else ('emailcode', 'code')
         password = password or email.split('@')[0]
@@ -643,7 +642,7 @@ class HkspeedupSession(_ROSession):
         if res.get('code') != 200:
             raise Exception(res)
 
-    def register(self, email: str, password=None, email_code=None, invite_code=None) -> Optional[str]:
+    def register(self, email: str, password=None, email_code=None, invite_code=None) -> str | None:
         self.reset()
         password = password or email.split('@')[0]
         res = self.post('user/register', json={
@@ -677,7 +676,7 @@ class HkspeedupSession(_ROSession):
     def send_email_code(self, email):
         res = self.post('user/sendAuthCode', json={
             'email': email
-        }, timeout=15).json()
+        }, timeout=60).json()
         self.raise_for_fail(res)
 
     def checkin(self):
@@ -981,7 +980,7 @@ class Linshiyou(TempEmailSession):
 
 
 @cached
-def temp_email_domain_to_session_type(domain: str = None) -> Union[dict[str, type[TempEmailSession]], type[TempEmailSession], None]:
+def temp_email_domain_to_session_type(domain: str = None) -> dict[str, type[TempEmailSession]] | type[TempEmailSession] | None:
     if domain:
         return temp_email_domain_to_session_type().get(domain)
 
@@ -1019,7 +1018,7 @@ class TempEmail:
         del self.__banned
         return address
 
-    def get_email_code(self, keyword, timeout=60) -> Optional[str]:
+    def get_email_code(self, keyword, timeout=60) -> str | None:
         queue = Queue(1)
         with self.__lock:
             self.__queues.append((keyword, queue, time() + timeout))
