@@ -1,8 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇺🇸 美国 - FloatKite, server: us4.mengze.cloud, port: 36527, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
-- {name: 🇺🇸 美国𝟬𝟭/ChatGPT - FloatKite, server: us6.mengze.cloud, port: 49532, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
-- {name: 🇺🇸 美国𝟬𝟮/Netflix - FloatKite, server: sfo1.floatkite.com, port: 52637, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sfo1.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: sfo1.floatkite.com}, udp: true}
-- {name: 🇺🇸 美国𝟬𝟯/Amazon - FloatKite, server: us1.floatkite.com, port: 53618, type: vmess, uuid: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.floatkite.com, network: grpc, grpc-opts: {grpc-service-name: us1.floatkite.com}, udp: true}
-- {name: '🇺🇸 美国-[家宽] - FloatKite', server: us2.mengze.cloud, port: 49535, type: ss, cipher: chacha20-ietf-poly1305, password: e7ed8d4f-b1e9-4cf2-b677-0361cf600b66, udp: true}
