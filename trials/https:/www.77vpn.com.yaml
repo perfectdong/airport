@@ -12,19 +12,9 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
-  - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
@@ -33,39 +23,17 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰 香港01 - 迅云加速
-  - 🇭🇰 香港02 - 迅云加速
-  - 🇭🇰 香港03 - 迅云加速
-  - 🇭🇰 香港04 - 迅云加速
-  - 🇹🇼 台湾01 - 迅云加速
-  - 🇹🇼 台湾02 - 迅云加速
-  - 🇹🇼 台湾03 - 迅云加速
-  - 🇹🇼 台湾04 - 迅云加速
-  - 🇸🇬 新加坡01 - 迅云加速
-  - 🇸🇬 新加坡02 - 迅云加速
-  - 🇸🇬 新加坡03 - 迅云加速
-  - 🇸🇬 新加坡04 - 迅云加速
-  - 🇯🇵 日本01 - 迅云加速
-  - 🇯🇵 日本02 - 迅云加速
-  - 🇯🇵 日本03 - 迅云加速
-  - 🇯🇵 日本04 - 迅云加速
-  - 🇺🇸 美国01 - 迅云加速
-  - 🇺🇸 美国02 - 迅云加速
-  - 🇺🇸 美国03 - 迅云加速
-  - 🇺🇸 美国04 - 迅云加速
-  - ℹ️ 迅云跳转域名：xyjs.app - 迅云加速
-  - 🇬🇧 英国01 - 迅云加速
-  - 🇬🇧 英国02 - 迅云加速
-  - 🇬🇧 英国03 - 迅云加速
-  - 🇬🇧 英国04 - 迅云加速
-  - 🇨🇦 加拿大01 - 迅云加速
-  - 🇨🇦 加拿大02 - 迅云加速
-  - 🇨🇦 加拿大03 - 迅云加速
-  - 🇨🇦 加拿大04 - 迅云加速
-  - 🇻🇳 越南01 - 迅云加速
-  - 🇻🇳 越南02 - 迅云加速
-  - 🇻🇳 越南03 - 迅云加速
-  - 🇻🇳 越南04 - 迅云加速
+  - 🇭🇰 香港-Trojan-01 - 77vpn
+  - 🇭🇰 香港-ssr-01 - 77vpn
+  - 🇭🇰 shanghai-hk-ssr-01 - 77vpn
+  - 🇭🇰 香港-grpc-01 - 77vpn
+  - 🇭🇰 香港-vmess - 77vpn
+  - 🇺🇸 us-Trojan-01 - 77vpn
+  - 🇺🇸 us-ssr-01 - 77vpn
+  - 🇺🇸 hk-us-ssr-01 - 77vpn
+  - 🇺🇸 shanghai-hk-us-ssr-01 - 77vpn
+  - 🇺🇸 us-vmess - 77vpn
+  - 🇺🇸 us-grpc-01 - 77vpn
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -86,27 +54,15 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -121,138 +77,41 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇭🇰 香港01 - 迅云加速
-  - 🇭🇰 香港02 - 迅云加速
-  - 🇭🇰 香港03 - 迅云加速
-  - 🇭🇰 香港04 - 迅云加速
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾01 - 迅云加速
-  - 🇹🇼 台湾02 - 迅云加速
-  - 🇹🇼 台湾03 - 迅云加速
-  - 🇹🇼 台湾04 - 迅云加速
-- name: 🇨🇳 ‍中国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id004
-  - 🇭🇰 香港01 - 迅云加速
-  - 🇭🇰 香港02 - 迅云加速
-  - 🇭🇰 香港03 - 迅云加速
-  - 🇭🇰 香港04 - 迅云加速
-  - 🇹🇼 台湾01 - 迅云加速
-  - 🇹🇼 台湾02 - 迅云加速
-  - 🇹🇼 台湾03 - 迅云加速
-  - 🇹🇼 台湾04 - 迅云加速
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id005
-  - 🇸🇬 新加坡01 - 迅云加速
-  - 🇸🇬 新加坡02 - 迅云加速
-  - 🇸🇬 新加坡03 - 迅云加速
-  - 🇸🇬 新加坡04 - 迅云加速
-- name: 🇯🇵 ‍日本
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id006
-  - 🇯🇵 日本01 - 迅云加速
-  - 🇯🇵 日本02 - 迅云加速
-  - 🇯🇵 日本03 - 迅云加速
-  - 🇯🇵 日本04 - 迅云加速
+  - 🇭🇰 香港-Trojan-01 - 77vpn
+  - 🇭🇰 香港-ssr-01 - 77vpn
+  - 🇭🇰 shanghai-hk-ssr-01 - 77vpn
+  - 🇭🇰 香港-grpc-01 - 77vpn
+  - 🇭🇰 香港-vmess - 77vpn
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇸 美国01 - 迅云加速
-  - 🇺🇸 美国02 - 迅云加速
-  - 🇺🇸 美国03 - 迅云加速
-  - 🇺🇸 美国04 - 迅云加速
-- name: 🎏 ‍其他
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
-  tolerance: 100
-  proxies: &id008
-  - ℹ️ 迅云跳转域名：xyjs.app - 迅云加速
-  - 🇬🇧 英国01 - 迅云加速
-  - 🇬🇧 英国02 - 迅云加速
-  - 🇬🇧 英国03 - 迅云加速
-  - 🇬🇧 英国04 - 迅云加速
-  - 🇨🇦 加拿大01 - 迅云加速
-  - 🇨🇦 加拿大02 - 迅云加速
-  - 🇨🇦 加拿大03 - 迅云加速
-  - 🇨🇦 加拿大04 - 迅云加速
-  - 🇻🇳 越南01 - 迅云加速
-  - 🇻🇳 越南02 - 迅云加速
-  - 🇻🇳 越南03 - 迅云加速
-  - 🇻🇳 越南04 - 迅云加速
+  proxies: &id003
+  - 🇺🇸 us-Trojan-01 - 77vpn
+  - 🇺🇸 us-ssr-01 - 77vpn
+  - 🇺🇸 hk-us-ssr-01 - 77vpn
+  - 🇺🇸 shanghai-hk-us-ssr-01 - 77vpn
+  - 🇺🇸 us-vmess - 77vpn
+  - 🇺🇸 us-grpc-01 - 77vpn
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  proxies: *id003
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  proxies: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  proxies: *id005
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  proxies: *id006
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
-- name: 👆🏻🎏 ‍其他
-  type: select
-  proxies: *id008
+  proxies: *id003
 proxies:
-- {name: ℹ️ 迅云跳转域名：xyjs.app - 迅云加速, server: mo.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇯🇵 日本01 - 迅云加速, server: mo.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇯🇵 日本02 - 迅云加速, server: abc.xunyunnode.sbs, port: 16720, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇯🇵 日本03 - 迅云加速, server: qs.xunyunnode.sbs, port: 57353, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇯🇵 日本04 - 迅云加速, server: bgc.xunyunnode.sbs, port: 25856, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇭🇰 香港01 - 迅云加速, server: mo.xunyunnode.sbs, port: 13058, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇭🇰 香港02 - 迅云加速, server: abc.xunyunnode.sbs, port: 55587, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇭🇰 香港03 - 迅云加速, server: qs.xunyunnode.sbs, port: 11976, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇭🇰 香港04 - 迅云加速, server: bgc.xunyunnode.sbs, port: 35301, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇸🇬 新加坡01 - 迅云加速, server: mo.xunyunnode.sbs, port: 14195, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇸🇬 新加坡02 - 迅云加速, server: abc.xunyunnode.sbs, port: 19673, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇸🇬 新加坡03 - 迅云加速, server: qs.xunyunnode.sbs, port: 34949, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇸🇬 新加坡04 - 迅云加速, server: bgc.xunyunnode.sbs, port: 50764, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇹🇼 台湾01 - 迅云加速, server: mo.xunyunnode.sbs, port: 16755, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇹🇼 台湾02 - 迅云加速, server: abc.xunyunnode.sbs, port: 58456, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇹🇼 台湾03 - 迅云加速, server: qs.xunyunnode.sbs, port: 11240, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇹🇼 台湾04 - 迅云加速, server: bgc.xunyunnode.sbs, port: 12009, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇬🇧 英国01 - 迅云加速, server: mo.xunyunnode.sbs, port: 17587, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇬🇧 英国02 - 迅云加速, server: abc.xunyunnode.sbs, port: 63862, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇬🇧 英国03 - 迅云加速, server: qs.xunyunnode.sbs, port: 15953, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇬🇧 英国04 - 迅云加速, server: bgc.xunyunnode.sbs, port: 25174, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇺🇸 美国01 - 迅云加速, server: mo.xunyunnode.sbs, port: 45823, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇺🇸 美国02 - 迅云加速, server: abc.xunyunnode.sbs, port: 59079, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇺🇸 美国03 - 迅云加速, server: qs.xunyunnode.sbs, port: 15765, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇺🇸 美国04 - 迅云加速, server: bgc.xunyunnode.sbs, port: 22041, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇨🇦 加拿大01 - 迅云加速, server: mo.xunyunnode.sbs, port: 44306, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇨🇦 加拿大02 - 迅云加速, server: abc.xunyunnode.sbs, port: 64182, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇨🇦 加拿大03 - 迅云加速, server: qs.xunyunnode.sbs, port: 20321, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇨🇦 加拿大04 - 迅云加速, server: bgc.xunyunnode.sbs, port: 50737, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇻🇳 越南01 - 迅云加速, server: mo.xunyunnode.sbs, port: 10326, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇻🇳 越南02 - 迅云加速, server: abc.xunyunnode.sbs, port: 37837, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇻🇳 越南03 - 迅云加速, server: qs.xunyunnode.sbs, port: 25845, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
-- {name: 🇻🇳 越南04 - 迅云加速, server: bgc.xunyunnode.sbs, port: 43680, type: ss, cipher: chacha20-ietf-poly1305, password: f458520b-ca60-42c2-b48b-5d65cd71309c, udp: true}
+- {name: 🇺🇸 us-Trojan-01 - 77vpn, server: us-elegang-aws-100.77vpn.com, port: 1080, type: trojan, password: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, sni: us-elegang-aws-100.77vpn.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-Trojan-01 - 77vpn, server: hk-aws-171.77vpn.com, port: 1080, type: trojan, password: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, sni: hk-aws-171.77vpn.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 us-ssr-01 - 77vpn, server: us-elegang-aws-100.77vpn.com, port: 1081, type: ss, cipher: chacha20-ietf-poly1305, password: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, udp: true}
+- {name: 🇺🇸 hk-us-ssr-01 - 77vpn, server: 16.162.50.142, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, udp: true}
+- {name: 🇭🇰 香港-ssr-01 - 77vpn, server: hk-aws-171.77vpn.com, port: 1081, type: ss, cipher: chacha20-ietf-poly1305, password: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, udp: true}
+- {name: 🇺🇸 shanghai-hk-us-ssr-01 - 77vpn, server: 115.120.244.50, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, udp: true}
+- {name: 🇭🇰 shanghai-hk-ssr-01 - 77vpn, server: 115.120.244.50, port: 20101, type: ss, cipher: chacha20-ietf-poly1305, password: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, udp: true}
+- {name: 🇺🇸 us-vmess - 77vpn, server: us-elegang-aws-100.77vpn.com, port: 1082, type: vmess, uuid: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us-elegang-aws-100.77vpn.com, network: ws, ws-opts: {path: /77vpn, headers: {Host: us-elegang-aws-100.77vpn.com}}, udp: true}
+- {name: 🇺🇸 us-grpc-01 - 77vpn, server: us-elegang-aws-100.77vpn.com, port: 1083, type: vmess, uuid: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us-elegang-aws-100.77vpn.com, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+- {name: 🇭🇰 香港-grpc-01 - 77vpn, server: hk-aws-171.77vpn.com, port: 1083, type: vmess, uuid: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-aws-171.77vpn.com, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+- {name: 🇭🇰 香港-vmess - 77vpn, server: hk-aws-171.77vpn.com, port: 1082, type: vmess, uuid: ba249c1b-0151-408c-8ea8-d8d8a8cd4d19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-aws-171.77vpn.com, network: ws, ws-opts: {path: /77vpn, headers: {Host: hk-aws-171.77vpn.com}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
