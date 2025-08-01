@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 HK-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: e8d3b1b4-84d6-4725-acab-2e4e7597c9d1, udp: true}
-- {name: 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: e8d3b1b4-84d6-4725-acab-2e4e7597c9d1, udp: true}
-- {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: e8d3b1b4-84d6-4725-acab-2e4e7597c9d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: e8d3b1b4-84d6-4725-acab-2e4e7597c9d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇭🇰 HK-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: 869d5567-fdf9-4450-94eb-8ff0b04dbb18, udp: true}
+- {name: 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: 869d5567-fdf9-4450-94eb-8ff0b04dbb18, udp: true}
+- {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: 869d5567-fdf9-4450-94eb-8ff0b04dbb18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: 869d5567-fdf9-4450-94eb-8ff0b04dbb18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
