@@ -1,3 +1,17 @@
+def sanitize_filename(filename):
+    """清理文件名，移除Windows不允许的字符"""
+    # Windows不允许的字符: < > : " | ? * \ /
+    # 将 : 替换为 _
+    # 将 / 替换为 _
+    # 将 \ 替换为 _
+    # 移除其他不允许的字符
+    filename = re.sub(r'[<>:"|?*\\/]', '_', filename)
+    filename = filename.replace(':', '_')
+    return filename
+
+import re
+from urllib.parse import urlparse
+
 import os
 import re
 from base64 import b64decode, b64encode
@@ -272,8 +286,11 @@ def _split_and_write_providers(y: YAML, providers_dir, clash=None, providers_dir
     to_real_providers, real_provider_map = _split_providers(provider_map)
     clear_files(providers_dir)
     for k, v in (provider_map | real_provider_map).items():
+        # 在 GitHub Actions 环境中，路径分隔符是 /，不需要特殊处理
+        # 但在 Windows 本地测试时，需要处理特殊字符
+        safe_k = k.replace(':', '_').replace('/', '_').replace('\\', '_')
         write(
-            f'{providers_dir}/{k}.yaml',
+            f'{providers_dir}/{safe_k}.yaml',
             lambda f: y.dump({'proxies': [name_to_node_map[name] for name in v]}, f)
         )
     _exclude_p_Other(to_real_providers, real_provider_map, name_to_node_map)
@@ -287,11 +304,14 @@ def _add_proxy_providers(cfg, real_providers, providers_dir, use_short_url):
     base_provider = _base_yaml()['proxy-providers']['All']
     for k in real_providers:
         provider = deepcopy(base_provider)
+        # 在 GitHub Actions 环境中，路径分隔符是 /，不需要特殊处理
+        # 但在 Windows 本地测试时，需要处理特殊字符
+        safe_k = k.replace(':', '_').replace('/', '_').replace('\\', '_')
         if use_short_url:
-            provider['url'] = get_short_url(f'{providers_dir}/{k}.yaml')
+            provider['url'] = get_short_url(f'{providers_dir}/{safe_k}.yaml')
         else:
-            provider['url'] = f'{github_raw_url_prefix}/{providers_dir}/{k}.yaml'
-        provider['path'] = f'{providers_dir}/{k}.yaml'
+            provider['url'] = f'{github_raw_url_prefix}/{providers_dir}/{safe_k}.yaml'
+        provider['path'] = f'{providers_dir}/{safe_k}.yaml'
         providers[k] = provider
     cfg['proxy-providers'] = providers
 
