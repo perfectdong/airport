@@ -13,9 +13,12 @@ proxies:
 - *id004
 - *id005
 - *id006
-- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 0a2b9443-29d3-4199-b69b-28ba3f91bcdb, udp: true}
-- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 0a2b9443-29d3-4199-b69b-28ba3f91bcdb, udp: true}
-- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 0a2b9443-29d3-4199-b69b-28ba3f91bcdb, udp: true}
+- &id007 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 9f47e89e-d2f4-4dc1-a34a-bc0fad244217, udp: true}
+- &id008 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 9f47e89e-d2f4-4dc1-a34a-bc0fad244217, udp: true}
+- &id009 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 9f47e89e-d2f4-4dc1-a34a-bc0fad244217, udp: true}
+- *id007
+- *id008
+- *id009
 - {name: 🇯🇵 ss(广移)日本1 - 雷达, server: gy1.ldldfwq.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: c29968a3-c58b-46ec-b014-0e6b9fac2efb, udp: true}
 - {name: 🇯🇵 ss(广移)日本2 - 雷达, server: gy1.ldldfwq.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: c29968a3-c58b-46ec-b014-0e6b9fac2efb, udp: true}
 - {name: 🇯🇵 ss(广移)日本4 - 雷达, server: gy1.ldldfwq.top, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: c29968a3-c58b-46ec-b014-0e6b9fac2efb, udp: true}
