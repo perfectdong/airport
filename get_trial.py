@@ -1,3 +1,17 @@
+def sanitize_filename(filename):
+    """清理文件名，移除Windows不允许的字符"""
+    # Windows不允许的字符: < > : " | ? * \ /
+    # 将 : 替换为 _
+    # 将 / 替换为 _
+    # 将 \ 替换为 _
+    # 移除其他不允许的字符
+    filename = re.sub(r'[<>:"|?*\\/]', '_', filename)
+    filename = filename.replace(':', '_')
+    return filename
+
+from urllib.parse import urlparse
+import re
+
 import os
 import string
 import secrets
@@ -329,10 +343,13 @@ def cache_sub_info(info, opt: dict, cache: dict[str, list[str]]):
     cache['sub_info'] = [size2str(used), size2str(total), expire, rest]
 
 def save_sub_base64_and_clash(base64, clash, host, opt: dict):
+    # 在 GitHub Actions 环境中，路径分隔符是 /，不需要特殊处理
+    # 但在 Windows 本地测试时，需要处理 URL 中的特殊字符
+    safe_host = host.replace(':', '_').replace('/', '_').replace('\\', '_')
     return gen_base64_and_clash_config(
-        base64_path=f'trials/{host}',
-        clash_path=f'trials/{host}.yaml',
-        providers_dir=f'trials_providers/{host}',
+        base64_path=f'trials/{safe_host}',
+        clash_path=f'trials/{safe_host}.yaml',
+        providers_dir=f'trials_providers/{safe_host}',
         base64=base64,
         clash=clash,
         exclude=opt.get('exclude')
@@ -403,7 +420,7 @@ def build_options(cfg):
 if __name__ == '__main__':
     pre_repo = read('.github/repo_get_trial')
     cur_repo = os.getenv('GITHUB_REPOSITORY')
-    if pre_repo != cur_repo:
+    if pre_repo != cur_repo and cur_repo is not None:
         remove('trial.cache')
         write('.github/repo_get_trial', cur_repo)
 
