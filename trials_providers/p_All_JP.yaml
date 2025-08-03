@@ -1,6 +1,12 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇯🇵 日本 4 原生 - 飞马加速器, server: gz.pddwdf.store, port: 28485, type: ss, cipher: chacha20-ietf-poly1305, password: c88c385b-dc94-4e9f-a043-a9c1c6bb9d2b, udp: true}
+- {name: 🇯🇵 日本 5 - 飞马加速器, server: gz.pddwdf.store, port: 47431, type: ss, cipher: chacha20-ietf-poly1305, password: c88c385b-dc94-4e9f-a043-a9c1c6bb9d2b, udp: true}
+- {name: 🇯🇵 日本 6 原生 - 飞马加速器, server: gz.pddwdf.store, port: 48973, type: ss, cipher: chacha20-ietf-poly1305, password: c88c385b-dc94-4e9f-a043-a9c1c6bb9d2b, udp: true}
+- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 492f0a10-ff4a-4ab1-b7c0-64a45d41019a, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 492f0a10-ff4a-4ab1-b7c0-64a45d41019a, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 492f0a10-ff4a-4ab1-b7c0-64a45d41019a, udp: true}
 - {name: 🇯🇵 ss(广移)日本1 - 雷达, server: gy1.ldldfwq.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: c30e0cd9-c772-4739-aab7-00790b1bdb79, udp: true}
 - {name: 🇯🇵 ss(广移)日本2 - 雷达, server: gy1.ldldfwq.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: c30e0cd9-c772-4739-aab7-00790b1bdb79, udp: true}
 - {name: 🇯🇵 ss(广移)日本4 - 雷达, server: gy1.ldldfwq.top, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: c30e0cd9-c772-4739-aab7-00790b1bdb79, udp: true}
