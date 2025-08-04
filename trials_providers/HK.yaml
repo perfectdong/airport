@@ -5,11 +5,11 @@ proxies:
 - &id002 {name: 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: 6e52a35f-0ee5-4348-9571-4598211c4f38, udp: true}
 - &id003 {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: 6e52a35f-0ee5-4348-9571-4598211c4f38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - &id004 {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: 6e52a35f-0ee5-4348-9571-4598211c4f38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 🇭🇰  Hongkong 香港 HKT - EasierLife, server: tkg.easylink1.com, port: 13115, type: vmess, uuid: 917a40c7-2761-3b2b-877c-ea2b83c2798d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tkg.easylink1.com}}, udp: true}
-- {name: 🇭🇰 Hongkong  00 香港 - EasierLife, server: sg2g.easylink1.com, port: 13047, type: vmess, uuid: 917a40c7-2761-3b2b-877c-ea2b83c2798d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg2g.easylink1.com}}, udp: true}
-- {name: 🇭🇰 Hongkong 00 香港 - EasierLife, server: hk0g.easylink1.com, port: 13100, type: vmess, uuid: 917a40c7-2761-3b2b-877c-ea2b83c2798d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk0g.easylink1.com}}, udp: true}
-- {name: 🇭🇰 Hongkong01 香港 - EasierLife, server: hk1g.easylink1.com, port: 21316, type: vmess, uuid: 917a40c7-2761-3b2b-877c-ea2b83c2798d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1g.easylink1.com}}, udp: true}
-- {name: 🇭🇰 Hongkong02 香港 Test - EasierLife, server: hk3g.easylink1.com, port: 21321, type: vmess, uuid: 917a40c7-2761-3b2b-877c-ea2b83c2798d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk3g.easylink1.com}}, udp: true}
+- {name: 🇭🇰  Hongkong 香港 HKT - EasierLife, server: tkg.easylink1.com, port: 13115, type: vmess, uuid: 8bf6f7be-6a12-3893-a41e-d6ae7c109bd3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tkg.easylink1.com}}, udp: true}
+- {name: 🇭🇰 Hongkong  00 香港 - EasierLife, server: sg2g.easylink1.com, port: 13047, type: vmess, uuid: 8bf6f7be-6a12-3893-a41e-d6ae7c109bd3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg2g.easylink1.com}}, udp: true}
+- {name: 🇭🇰 Hongkong 00 香港 - EasierLife, server: hk0g.easylink1.com, port: 13100, type: vmess, uuid: 8bf6f7be-6a12-3893-a41e-d6ae7c109bd3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk0g.easylink1.com}}, udp: true}
+- {name: 🇭🇰 Hongkong01 香港 - EasierLife, server: hk1g.easylink1.com, port: 21316, type: vmess, uuid: 8bf6f7be-6a12-3893-a41e-d6ae7c109bd3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1g.easylink1.com}}, udp: true}
+- {name: 🇭🇰 Hongkong02 香港 Test - EasierLife, server: hk3g.easylink1.com, port: 21321, type: vmess, uuid: 8bf6f7be-6a12-3893-a41e-d6ae7c109bd3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk3g.easylink1.com}}, udp: true}
 - {name: 🇭🇰 香港-线路1 - 神盾, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 8e617c50-1f91-4cbb-a18b-dcd6bd6ce1fa, udp: true}
 - *id001
 - *id002
@@ -23,12 +23,12 @@ proxies:
 - *id006
 - *id007
 - *id008
-- &id009 {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8968ba8a-2f42-4f02-84a6-6b204ba1bb05, udp: true}
-- &id010 {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8968ba8a-2f42-4f02-84a6-6b204ba1bb05, udp: true}
-- &id011 {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8968ba8a-2f42-4f02-84a6-6b204ba1bb05, udp: true}
-- &id012 {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8968ba8a-2f42-4f02-84a6-6b204ba1bb05, udp: true}
-- &id013 {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8968ba8a-2f42-4f02-84a6-6b204ba1bb05, udp: true}
-- &id014 {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8968ba8a-2f42-4f02-84a6-6b204ba1bb05, udp: true}
+- &id009 {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 4a8037ad-3879-4bc4-bd0b-565f676fe9dc, udp: true}
+- &id010 {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 4a8037ad-3879-4bc4-bd0b-565f676fe9dc, udp: true}
+- &id011 {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 4a8037ad-3879-4bc4-bd0b-565f676fe9dc, udp: true}
+- &id012 {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 4a8037ad-3879-4bc4-bd0b-565f676fe9dc, udp: true}
+- &id013 {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 4a8037ad-3879-4bc4-bd0b-565f676fe9dc, udp: true}
+- &id014 {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 4a8037ad-3879-4bc4-bd0b-565f676fe9dc, udp: true}
 - *id009
 - *id010
 - *id011
@@ -38,8 +38,8 @@ proxies:
 - {name: 🇭🇰 香港②一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18820, type: vmess, uuid: fd9a965e-17b4-31a5-9f7c-ad05a93c7ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇭🇰 香港②一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18820, type: vmess, uuid: fd9a965e-17b4-31a5-9f7c-ad05a93c7ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇭🇰 香港③一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18838, type: vmess, uuid: fd9a965e-17b4-31a5-9f7c-ad05a93c7ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇭🇰 ss(广移)香港1 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 3ae94474-4ac8-482e-ab74-a3c5e266fb77, udp: true}
-- {name: 🇭🇰 ss(广移)香港2 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 3ae94474-4ac8-482e-ab74-a3c5e266fb77, udp: true}
+- {name: 🇭🇰 ss(广移)香港1 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: baa7eada-1cb4-411f-a4b2-18edb4a8af07, udp: true}
+- {name: 🇭🇰 ss(广移)香港2 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: baa7eada-1cb4-411f-a4b2-18edb4a8af07, udp: true}
 - {name: 🇭🇰 香港 - 快云加速, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇭🇰 香港2 - 快云加速, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - *id001
@@ -56,11 +56,11 @@ proxies:
 - *id002
 - *id003
 - *id004
-- {name: 🇭🇰 香港 -1  x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 66fa7c48-8809-3999-aa19-9a47c289e826, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -2 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 66fa7c48-8809-3999-aa19-9a47c289e826, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 66fa7c48-8809-3999-aa19-9a47c289e826, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -5 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 66fa7c48-8809-3999-aa19-9a47c289e826, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -6 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 66fa7c48-8809-3999-aa19-9a47c289e826, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -1  x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 9ea97534-58e1-31af-a5f6-9456b7ced17a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -2 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 9ea97534-58e1-31af-a5f6-9456b7ced17a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 9ea97534-58e1-31af-a5f6-9456b7ced17a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -5 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 9ea97534-58e1-31af-a5f6-9456b7ced17a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -6 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 9ea97534-58e1-31af-a5f6-9456b7ced17a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003
