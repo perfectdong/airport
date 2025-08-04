@@ -46,7 +46,8 @@ proxies:
 - *id002
 - *id003
 - *id004
-- {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 8711f5e6-3d93-38ce-9ab7-968fb2bb1397, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
+- &id015 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 8711f5e6-3d93-38ce-9ab7-968fb2bb1397, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
+- *id015
 - *id001
 - *id002
 - *id003

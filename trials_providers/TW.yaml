@@ -30,5 +30,6 @@ proxies:
 - {name: 🇹🇼 ss(广移)台湾2 - 雷达, server: gy1.ldldfwq.top, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 3ae94474-4ac8-482e-ab74-a3c5e266fb77, udp: true}
 - {name: 🇹🇼 ss(广移)台湾2-1 - 雷达, server: gy1.ldldfwq.top, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 3ae94474-4ac8-482e-ab74-a3c5e266fb77, udp: true}
 - {name: 🇹🇼 ss(广移)台湾2-2 - 雷达, server: gy1.ldldfwq.top, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 3ae94474-4ac8-482e-ab74-a3c5e266fb77, udp: true}
-- {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 8711f5e6-3d93-38ce-9ab7-968fb2bb1397, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
+- &id011 {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 8711f5e6-3d93-38ce-9ab7-968fb2bb1397, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
+- *id011
 - {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: ddb34621-7655-37e3-b3c9-f390b3080f67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

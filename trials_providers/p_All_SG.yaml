@@ -11,7 +11,6 @@ proxies:
 - {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: gy1.ldldfwq.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 3ae94474-4ac8-482e-ab74-a3c5e266fb77, udp: true}
 - {name: 🇸🇬 新加坡 - 快云加速, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇸🇬 新加坡2 - 快云加速, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
-- {name: '🇸🇬 [vip①]②新加坡 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 8711f5e6-3d93-38ce-9ab7-968fb2bb1397, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
 - {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: ddb34621-7655-37e3-b3c9-f390b3080f67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: ddb34621-7655-37e3-b3c9-f390b3080f67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: ddb34621-7655-37e3-b3c9-f390b3080f67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

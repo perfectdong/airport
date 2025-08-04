@@ -8,3 +8,4 @@ proxies:
 - {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8968ba8a-2f42-4f02-84a6-6b204ba1bb05, udp: true}
 - {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8968ba8a-2f42-4f02-84a6-6b204ba1bb05, udp: true}
 - {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8968ba8a-2f42-4f02-84a6-6b204ba1bb05, udp: true}
+- {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 8711f5e6-3d93-38ce-9ab7-968fb2bb1397, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mamamajd.site}}, udp: true}
