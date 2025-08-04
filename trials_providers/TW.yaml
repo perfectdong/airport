@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 Taiwan01 台湾 - EasierLife, server: hinetg.easylink1.com, port: 13177, type: vmess, uuid: 87ac7760-46b0-3c10-a889-97e3f17bd5d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hinetg.easylink1.com}}, udp: true}
+- {name: 🇹🇼 Taiwan01 台湾 - EasierLife, server: hinetg.easylink1.com, port: 13177, type: vmess, uuid: 5173c486-1c3d-3f86-88ca-7483981e1078, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hinetg.easylink1.com}}, udp: true}
 - &id001 {name: 🇹🇼 台湾01 - 迅云加速, server: mo.xunyunnode.sbs, port: 16755, type: ss, cipher: chacha20-ietf-poly1305, password: ef015f53-c552-4650-876a-3f195914d72b, udp: true}
 - &id002 {name: 🇹🇼 台湾02 - 迅云加速, server: abc.xunyunnode.sbs, port: 58456, type: ss, cipher: chacha20-ietf-poly1305, password: ef015f53-c552-4650-876a-3f195914d72b, udp: true}
 - &id003 {name: 🇹🇼 台湾03 - 迅云加速, server: qs.xunyunnode.sbs, port: 11240, type: ss, cipher: chacha20-ietf-poly1305, password: ef015f53-c552-4650-876a-3f195914d72b, udp: true}

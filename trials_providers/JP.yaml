@@ -3,7 +3,7 @@
 proxies:
 - &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: 271d77d5-a24a-4a82-bb57-0c323220b418, udp: true}
 - &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 271d77d5-a24a-4a82-bb57-0c323220b418, udp: true}
-- {name: 🇯🇵 Japan00 日本 - EasierLife, server: jp1g.easylink1.com, port: 21315, type: vmess, uuid: 87ac7760-46b0-3c10-a889-97e3f17bd5d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1g.easylink1.com}}, udp: true}
+- {name: 🇯🇵 Japan00 日本 - EasierLife, server: jp1g.easylink1.com, port: 21315, type: vmess, uuid: 5173c486-1c3d-3f86-88ca-7483981e1078, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1g.easylink1.com}}, udp: true}
 - *id001
 - *id002
 - &id003 {name: 🇯🇵 日本01 - 迅云加速, server: mo.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: ef015f53-c552-4650-876a-3f195914d72b, udp: true}
