@@ -39,19 +39,19 @@ proxies:
 - *id010
 - *id011
 - *id012
-- &id013 {name: ℹ️ 迅云跳转域名：xyjs.app - 迅云加速, server: mo.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id014 {name: 🇬🇧 英国01 - 迅云加速, server: mo.xunyunnode.sbs, port: 17587, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id015 {name: 🇬🇧 英国02 - 迅云加速, server: abc.xunyunnode.sbs, port: 63862, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id016 {name: 🇬🇧 英国03 - 迅云加速, server: qs.xunyunnode.sbs, port: 15953, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id017 {name: 🇬🇧 英国04 - 迅云加速, server: wa.xunyunnode.sbs, port: 25174, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id018 {name: 🇨🇦 加拿大01 - 迅云加速, server: mo.xunyunnode.sbs, port: 44306, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id019 {name: 🇨🇦 加拿大02 - 迅云加速, server: abc.xunyunnode.sbs, port: 64182, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id020 {name: 🇨🇦 加拿大03 - 迅云加速, server: qs.xunyunnode.sbs, port: 20321, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id021 {name: 🇨🇦 加拿大04 - 迅云加速, server: wa.xunyunnode.sbs, port: 50737, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id022 {name: 🇻🇳 越南01 - 迅云加速, server: mo.xunyunnode.sbs, port: 10326, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id023 {name: 🇻🇳 越南02 - 迅云加速, server: abc.xunyunnode.sbs, port: 37837, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id024 {name: 🇻🇳 越南03 - 迅云加速, server: qs.xunyunnode.sbs, port: 25845, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
-- &id025 {name: 🇻🇳 越南04 - 迅云加速, server: wa.xunyunnode.sbs, port: 43680, type: ss, cipher: chacha20-ietf-poly1305, password: 20f8007a-7fd7-4093-a41e-e7650edf84b2, udp: true}
+- &id013 {name: ℹ️ 迅云跳转域名：xyjs.app - 迅云加速, server: mo.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id014 {name: 🇬🇧 英国01 - 迅云加速, server: mo.xunyunnode.sbs, port: 17587, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id015 {name: 🇬🇧 英国02 - 迅云加速, server: abc.xunyunnode.sbs, port: 63862, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id016 {name: 🇬🇧 英国03 - 迅云加速, server: qs.xunyunnode.sbs, port: 15953, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id017 {name: 🇬🇧 英国04 - 迅云加速, server: wa.xunyunnode.sbs, port: 25174, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id018 {name: 🇨🇦 加拿大01 - 迅云加速, server: mo.xunyunnode.sbs, port: 44306, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id019 {name: 🇨🇦 加拿大02 - 迅云加速, server: abc.xunyunnode.sbs, port: 64182, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id020 {name: 🇨🇦 加拿大03 - 迅云加速, server: qs.xunyunnode.sbs, port: 20321, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id021 {name: 🇨🇦 加拿大04 - 迅云加速, server: wa.xunyunnode.sbs, port: 50737, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id022 {name: 🇻🇳 越南01 - 迅云加速, server: mo.xunyunnode.sbs, port: 10326, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id023 {name: 🇻🇳 越南02 - 迅云加速, server: abc.xunyunnode.sbs, port: 37837, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id024 {name: 🇻🇳 越南03 - 迅云加速, server: qs.xunyunnode.sbs, port: 25845, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
+- &id025 {name: 🇻🇳 越南04 - 迅云加速, server: wa.xunyunnode.sbs, port: 43680, type: ss, cipher: chacha20-ietf-poly1305, password: ebd9125d-15a2-4e60-89ca-62e3537ed4d9, udp: true}
 - *id013
 - *id014
 - *id015
@@ -208,8 +208,8 @@ proxies:
 - *id010
 - *id011
 - *id012
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: f3748503-84dc-374c-a42c-f6ddf90edc92, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: f3748503-84dc-374c-a42c-f6ddf90edc92, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 19adc2e7-296b-33af-9762-023dc450a34b, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 19adc2e7-296b-33af-9762-023dc450a34b, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 - *id002
 - *id003
 - *id004
@@ -221,9 +221,9 @@ proxies:
 - *id010
 - *id011
 - *id012
-- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: e122f87c-f7e1-3a22-865a-59b1a19dcf17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: e122f87c-f7e1-3a22-865a-59b1a19dcf17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: e122f87c-f7e1-3a22-865a-59b1a19dcf17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: eb961301-4e02-36ac-b3ff-533df873fb9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: eb961301-4e02-36ac-b3ff-533df873fb9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: eb961301-4e02-36ac-b3ff-533df873fb9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id002
 - *id003
 - *id004
