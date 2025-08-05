@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 Singapore00 新加坡 - EasierLife, server: sp1dg.easylink1.com, port: 22222, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sp1dg.easylink1.com}}, udp: true}
-- {name: 🇸🇬 Singapore01 新加坡 - EasierLife, server: guang2.easylink1.com, port: 59103, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guang2.easylink1.com}}, udp: true}
+- {name: 🇸🇬 Singapore00 新加坡 - EasierLife, server: sp1dg.easylink1.com, port: 22222, type: vmess, uuid: 71a55f76-1efb-3169-81fe-3d9a24b7d097, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sp1dg.easylink1.com}}, udp: true}
+- {name: 🇸🇬 Singapore01 新加坡 - EasierLife, server: guang2.easylink1.com, port: 59103, type: vmess, uuid: 71a55f76-1efb-3169-81fe-3d9a24b7d097, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guang2.easylink1.com}}, udp: true}
