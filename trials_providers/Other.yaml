@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 2a38c985-27b9-32f9-966f-2b9118322c7f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: cf9dc142-969e-31df-bd13-20b61d44b7de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: 🇫🇷 FR-Paris - 脉冲云, server: gyjd.yy9866.com, port: 16947, type: ss, cipher: chacha20-ietf-poly1305, password: 921df996-c08a-427c-aefe-f14bd85077ca, udp: true}
 - &id003 {name: 🇲🇾 MY-Malaysia-PQ - 脉冲云, server: gyjd.yy9866.com, port: 37681, type: ss, cipher: chacha20-ietf-poly1305, password: 921df996-c08a-427c-aefe-f14bd85077ca, udp: true}
 - &id004 {name: 🇦🇺 AU-Sydney - 脉冲云, server: gyjd.yy9866.com, port: 39263, type: ss, cipher: chacha20-ietf-poly1305, password: 921df996-c08a-427c-aefe-f14bd85077ca, udp: true}
@@ -13,19 +13,19 @@ proxies:
 - &id010 {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: 921df996-c08a-427c-aefe-f14bd85077ca, udp: true}
 - &id011 {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: 921df996-c08a-427c-aefe-f14bd85077ca, udp: true}
 - &id012 {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: 921df996-c08a-427c-aefe-f14bd85077ca, udp: true}
-- {name: '   Select Location - EasierLife', server: twg.easylink1.com, port: 13078, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: twg.easylink1.com}}, udp: true}
-- {name: 🇩🇪 Germany 德国 NEW - EasierLife, server: deg.easylink1.com, port: 13099, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deg.easylink1.com}}, udp: true}
-- {name: 🇹🇷 Turkey 土耳其 - EasierLife, server: indog.easylink1.com, port: 10010, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: indog.easylink1.com}}, udp: true}
-- {name: 🇬🇧 UK 英国 - EasierLife, server: ukguang.easylink1.com, port: 13052, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk.easylink1.com}}, udp: true}
-- {name: 🇬🇧 UK2 英国 Netflix - EasierLife, server: g10000.easylink1.com, port: 13067, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: g10000.easylink1.com}}, udp: true}
-- {name: 🇻🇳 Vietnam 越南 - EasierLife, server: guangz1.easylink1.com, port: 13051, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guangz1.easylink1.com}}, udp: true}
-- {name: 🇨🇦 加拿大 Canada Netflix - EasierLife, server: cag.easylink1.com, port: 13056, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cag.easylink1.com}}, udp: true}
-- {name: 🇿🇦 南非 South AfricA - EasierLife, server: sag.easylink1.com, port: 13116, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sacn.easylink1.com}}, udp: true}
-- {name: 🇮🇳 印度 India - EasierLife, server: ing.easylink1.com, port: 13053, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ing.easylink1.com}}, udp: true}
-- {name: 🇫🇷 法国 France Netflix - EasierLife, server: frg.easylink1.com, port: 13112, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frg.easylink1.com}}, udp: true}
-- {name: 🇳🇱 荷兰 Netherlands - EasierLife, server: nlg.easylink1.com, port: 21307, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.easylink1.com}}, udp: true}
-- {name: 路由器Router & IPTV  - EasierLife, server: iptvg.easylink1.com, port: 12121, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iptvg.easylink1.com}}, udp: true}
-- {name: 路由器Router & IPTV 2 - EasierLife, server: iptv2g.easylink1.com, port: 13131, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iptv2g.easylink1.com}}, udp: true}
+- {name: '   Select Location - EasierLife', server: twg.easylink1.com, port: 13078, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: twg.easylink1.com}}, udp: true}
+- {name: 🇩🇪 Germany 德国 NEW - EasierLife, server: deg.easylink1.com, port: 13099, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deg.easylink1.com}}, udp: true}
+- {name: 🇹🇷 Turkey 土耳其 - EasierLife, server: indog.easylink1.com, port: 10010, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: indog.easylink1.com}}, udp: true}
+- {name: 🇬🇧 UK 英国 - EasierLife, server: ukguang.easylink1.com, port: 13052, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk.easylink1.com}}, udp: true}
+- {name: 🇬🇧 UK2 英国 Netflix - EasierLife, server: g10000.easylink1.com, port: 13067, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: g10000.easylink1.com}}, udp: true}
+- {name: 🇻🇳 Vietnam 越南 - EasierLife, server: guangz1.easylink1.com, port: 13051, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guangz1.easylink1.com}}, udp: true}
+- {name: 🇨🇦 加拿大 Canada Netflix - EasierLife, server: cag.easylink1.com, port: 13056, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cag.easylink1.com}}, udp: true}
+- {name: 🇿🇦 南非 South AfricA - EasierLife, server: sag.easylink1.com, port: 13116, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sacn.easylink1.com}}, udp: true}
+- {name: 🇮🇳 印度 India - EasierLife, server: ing.easylink1.com, port: 13053, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ing.easylink1.com}}, udp: true}
+- {name: 🇫🇷 法国 France Netflix - EasierLife, server: frg.easylink1.com, port: 13112, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frg.easylink1.com}}, udp: true}
+- {name: 🇳🇱 荷兰 Netherlands - EasierLife, server: nlg.easylink1.com, port: 21307, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.easylink1.com}}, udp: true}
+- {name: 路由器Router & IPTV  - EasierLife, server: iptvg.easylink1.com, port: 12121, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iptvg.easylink1.com}}, udp: true}
+- {name: 路由器Router & IPTV 2 - EasierLife, server: iptv2g.easylink1.com, port: 13131, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iptv2g.easylink1.com}}, udp: true}
 - *id001
 - {name: 🇮🇪 爱尔兰-都柏林 - 神盾, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: d633328c-230d-4953-9dab-f0008840534c, udp: true}
 - *id002
@@ -65,32 +65,32 @@ proxies:
 - *id023
 - *id024
 - *id025
-- &id026 {name: ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id027 {name: ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id028 {name: 🇰🇷 韩国 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id029 {name: 🇰🇷 韩国 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id030 {name: 🇰🇷 韩国 (广港)3x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id031 {name: 🇹🇷 土耳其 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id032 {name: 🇹🇷 土耳其 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id033 {name: 🇹🇷 土耳其 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id034 {name: 🇮🇸 冰岛 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32008, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id035 {name: 🇮🇸 冰岛 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32008, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id036 {name: 🇮🇸 冰岛 (广港)3x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32008, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id037 {name: 🇮🇳 印度 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id038 {name: 🇮🇳 印度 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id039 {name: 🇮🇳 印度 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id040 {name: 🇧🇷 巴西 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id041 {name: 🇧🇷 巴西 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id042 {name: 🇧🇷 巴西 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id043 {name: 🇮🇱 以色列 (广港)1x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id044 {name: 🇮🇱 以色列 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id045 {name: 🇮🇱 以色列 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id046 {name: 🇲🇽 墨西哥 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id047 {name: 🇲🇽 墨西哥 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id048 {name: 🇲🇽 墨西哥 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id049 {name: 🇹🇭 泰国 (广新)1  x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id050 {name: 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id051 {name: 🇹🇭 泰国 (广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
+- &id026 {name: ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id027 {name: ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id028 {name: 🇰🇷 韩国 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id029 {name: 🇰🇷 韩国 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id030 {name: 🇰🇷 韩国 (广港)3x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id031 {name: 🇹🇷 土耳其 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id032 {name: 🇹🇷 土耳其 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id033 {name: 🇹🇷 土耳其 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id034 {name: 🇮🇸 冰岛 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32008, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id035 {name: 🇮🇸 冰岛 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32008, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id036 {name: 🇮🇸 冰岛 (广港)3x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32008, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id037 {name: 🇮🇳 印度 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id038 {name: 🇮🇳 印度 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id039 {name: 🇮🇳 印度 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id040 {name: 🇧🇷 巴西 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id041 {name: 🇧🇷 巴西 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id042 {name: 🇧🇷 巴西 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id043 {name: 🇮🇱 以色列 (广港)1x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id044 {name: 🇮🇱 以色列 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id045 {name: 🇮🇱 以色列 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id046 {name: 🇲🇽 墨西哥 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id047 {name: 🇲🇽 墨西哥 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id048 {name: 🇲🇽 墨西哥 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id049 {name: 🇹🇭 泰国 (广新)1  x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id050 {name: 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id051 {name: 🇹🇭 泰国 (广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
 - *id026
 - *id027
 - *id028
@@ -146,34 +146,33 @@ proxies:
 - {name: 🇦🇷 阿根廷一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18853, type: vmess, uuid: fd9a965e-17b4-31a5-9f7c-ad05a93c7ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇦🇷 阿根廷一优化① - tuboshu.io|土拨鼠.co, server: tbsyd.tbstbs.live, port: 18853, type: vmess, uuid: fd9a965e-17b4-31a5-9f7c-ad05a93c7ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tbsyd.tbstbs.live}}, udp: true}
 - {name: 🇦🇷 阿根廷一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18853, type: vmess, uuid: fd9a965e-17b4-31a5-9f7c-ad05a93c7ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
-- {name: ℹ️ 官网链接 ldld.whtjdasha.com - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: ℹ️ 无法连接请到官网导入订阅更新 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: ℹ️ 试用1小时 请到官网新购套餐 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇰🇷 ss(广移)韩国1 - 雷达, server: gy1.ldldfwq.top, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇰🇷 ss(广移)韩国2 - 雷达, server: gy1.ldldfwq.top, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇲🇾 ss(广移)马来西亚1 - 雷达, server: gy1.ldldfwq.top, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇲🇾 ss(广移)马来西亚2 - 雷达, server: gy1.ldldfwq.top, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇮🇱 ss(广移)以色列1 - 雷达, server: gy1.ldldfwq.top, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇮🇱 ss(广移)以色列2 - 雷达, server: gy1.ldldfwq.top, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇮🇳 ss(广移)印度1 - 雷达, server: gy1.ldldfwq.top, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇮🇳 ss(广移)印度2 - 雷达, server: gy1.ldldfwq.top, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇹🇷 ss(广移)土耳其1 - 雷达, server: gy1.ldldfwq.top, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇹🇷 ss(广移)土耳其2 - 雷达, server: gy1.ldldfwq.top, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇮🇸 ss(广移)冰岛1 - 雷达, server: gy1.ldldfwq.top, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇮🇸 ss(广移)冰岛2 - 雷达, server: gy1.ldldfwq.top, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇧🇷 ss(广移) 巴西1 - 雷达, server: gy1.ldldfwq.top, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇧🇷 ss(广移)巴西2 - 雷达, server: gy1.ldldfwq.top, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇲🇽 ss(广移)墨西哥1 - 雷达, server: gy1.ldldfwq.top, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇲🇽 ss(广移)墨西哥2 - 雷达, server: gy1.ldldfwq.top, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇹🇭 ss(广移)泰国1 - 雷达, server: gy1.ldldfwq.top, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇹🇭 ss(广移)泰国2 - 雷达, server: gy1.ldldfwq.top, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
+- {name: ℹ️ 官网链接 ldld.whtjdasha.com - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: ℹ️ 无法连接请到官网导入订阅更新 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: ℹ️ 试用1小时 请到官网新购套餐 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇰🇷 ss(广移)韩国1 - 雷达, server: gy1.ldldfwq.top, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇰🇷 ss(广移)韩国2 - 雷达, server: gy1.ldldfwq.top, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇲🇾 ss(广移)马来西亚1 - 雷达, server: gy1.ldldfwq.top, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇲🇾 ss(广移)马来西亚2 - 雷达, server: gy1.ldldfwq.top, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇮🇱 ss(广移)以色列1 - 雷达, server: gy1.ldldfwq.top, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇮🇱 ss(广移)以色列2 - 雷达, server: gy1.ldldfwq.top, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇮🇳 ss(广移)印度1 - 雷达, server: gy1.ldldfwq.top, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇮🇳 ss(广移)印度2 - 雷达, server: gy1.ldldfwq.top, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇹🇷 ss(广移)土耳其1 - 雷达, server: gy1.ldldfwq.top, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇹🇷 ss(广移)土耳其2 - 雷达, server: gy1.ldldfwq.top, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇮🇸 ss(广移)冰岛1 - 雷达, server: gy1.ldldfwq.top, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇮🇸 ss(广移)冰岛2 - 雷达, server: gy1.ldldfwq.top, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇧🇷 ss(广移) 巴西1 - 雷达, server: gy1.ldldfwq.top, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇧🇷 ss(广移)巴西2 - 雷达, server: gy1.ldldfwq.top, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇲🇽 ss(广移)墨西哥1 - 雷达, server: gy1.ldldfwq.top, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇲🇽 ss(广移)墨西哥2 - 雷达, server: gy1.ldldfwq.top, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇹🇭 ss(广移)泰国1 - 雷达, server: gy1.ldldfwq.top, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇹🇭 ss(广移)泰国2 - 雷达, server: gy1.ldldfwq.top, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
 - {name: ℹ️ 官网:kuaiyun666.xyz - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: ℹ️ 续费qq:1921546475 - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: ℹ️ 节点超时请更新订阅 - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇰🇷 韩国 - 快云加速, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇹🇭 泰国 - 快云加速, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇮🇩 印度尼西亚 - 快云加速, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
-- *id001
 - *id002
 - *id003
 - *id004
@@ -208,8 +207,8 @@ proxies:
 - *id010
 - *id011
 - *id012
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 993762fa-fe19-3eef-b054-31b85289770f, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 993762fa-fe19-3eef-b054-31b85289770f, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 109a8208-82ec-3da6-9879-744cf50bddab, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 109a8208-82ec-3da6-9879-744cf50bddab, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 - *id002
 - *id003
 - *id004
@@ -221,9 +220,9 @@ proxies:
 - *id010
 - *id011
 - *id012
-- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: df630a6a-a1a7-3f3d-bc0c-78e7eb9d70d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: df630a6a-a1a7-3f3d-bc0c-78e7eb9d70d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: df630a6a-a1a7-3f3d-bc0c-78e7eb9d70d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: b2fd7420-349e-3b9d-86ba-9df779434c8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: b2fd7420-349e-3b9d-86ba-9df779434c8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: b2fd7420-349e-3b9d-86ba-9df779434c8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id002
 - *id003
 - *id004

@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 Taiwan01 台湾 - EasierLife, server: hinetg.easylink1.com, port: 13177, type: vmess, uuid: df9c2783-338b-38b4-9299-b21f6fcc2d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hinetg.easylink1.com}}, udp: true}
+- {name: 🇹🇼 Taiwan01 台湾 - EasierLife, server: hinetg.easylink1.com, port: 13177, type: vmess, uuid: 8f775bf8-973e-3cc8-b344-acb139f94828, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hinetg.easylink1.com}}, udp: true}
 - &id001 {name: 🇹🇼 台湾01 - 迅云加速, server: mo.xunyunnode.sbs, port: 16755, type: ss, cipher: chacha20-ietf-poly1305, password: 6d099c90-824c-40f7-921c-3378de7cfc0e, udp: true}
 - &id002 {name: 🇹🇼 台湾02 - 迅云加速, server: abc.xunyunnode.sbs, port: 58456, type: ss, cipher: chacha20-ietf-poly1305, password: 6d099c90-824c-40f7-921c-3378de7cfc0e, udp: true}
 - &id003 {name: 🇹🇼 台湾03 - 迅云加速, server: qs.xunyunnode.sbs, port: 11240, type: ss, cipher: chacha20-ietf-poly1305, password: 6d099c90-824c-40f7-921c-3378de7cfc0e, udp: true}
@@ -10,12 +10,12 @@ proxies:
 - *id002
 - *id003
 - *id004
-- &id005 {name: 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id006 {name: 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id007 {name: 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id008 {name: 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id009 {name: 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
-- &id010 {name: 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: b64a678d-0bee-49e8-a5c5-50b903011a46, udp: true}
+- &id005 {name: 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id006 {name: 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id007 {name: 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id008 {name: 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id009 {name: 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
+- &id010 {name: 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 2699a8c9-9347-4114-806f-a1a65cfd0b79, udp: true}
 - *id005
 - *id006
 - *id007
@@ -26,10 +26,10 @@ proxies:
 - {name: 🇹🇼 台湾②一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18850, type: vmess, uuid: fd9a965e-17b4-31a5-9f7c-ad05a93c7ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18856, type: vmess, uuid: fd9a965e-17b4-31a5-9f7c-ad05a93c7ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇹🇼 台湾台北原生一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18856, type: vmess, uuid: fd9a965e-17b4-31a5-9f7c-ad05a93c7ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇹🇼 ss(广移)台湾1 - 雷达, server: gy1.ldldfwq.top, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇹🇼 ss(广移)台湾2 - 雷达, server: gy1.ldldfwq.top, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇹🇼 ss(广移)台湾2-1 - 雷达, server: gy1.ldldfwq.top, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
-- {name: 🇹🇼 ss(广移)台湾2-2 - 雷达, server: gy1.ldldfwq.top, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: c618041c-1f7a-4421-ba6f-12ad3b06c971, udp: true}
+- {name: 🇹🇼 ss(广移)台湾1 - 雷达, server: gy1.ldldfwq.top, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2 - 雷达, server: gy1.ldldfwq.top, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2-1 - 雷达, server: gy1.ldldfwq.top, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2-2 - 雷达, server: gy1.ldldfwq.top, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 9927a5d9-3ecf-4bcd-b08a-428278844bed, udp: true}
 - &id011 {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 8711f5e6-3d93-38ce-9ab7-968fb2bb1397, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
 - *id011
-- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: df630a6a-a1a7-3f3d-bc0c-78e7eb9d70d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: b2fd7420-349e-3b9d-86ba-9df779434c8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
