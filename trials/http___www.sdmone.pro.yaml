@@ -19,13 +19,7 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇺🇲 美国|【dabai.in】<<前往官网|GPT+流媒体|共享 - 大白
-  - 🇺🇲 美国|【db01.in】<<前往官网|GPT+流媒体|共享 - 大白
-  - 🇺🇲 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享 - 大白
-  - 🇺🇲 美国|【使用前请更新订阅】每日会变更节点密码|GPT+流媒体|共享 - 大白
-  - 🇺🇲 美国|【注册免费领1TB流量】前往-注册|共享 - 大白
-  - 🇺🇲 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享 - 大白
-  - 🇺🇲 美国|最低35%-aff招募进行中|共享 - 大白
+  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -60,13 +54,7 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 🇺🇲 美国|【dabai.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s3.db-link01.top, port: 8080, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.37.64, headers: {Host: 100-167-43-229.s3.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|【db01.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s2.cn-db.top, port: 80, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.49.243, headers: {Host: 100-51-23-143.s2.cn-db.top}}, udp: true}
-- {name: 🇺🇲 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享 - 大白, server: s4.db-link01.top, port: 8880, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.99.185, headers: {Host: 100-180-65-152.s4.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|【使用前请更新订阅】每日会变更节点密码|GPT+流媒体|共享 - 大白, server: s4.db-link01.top, port: 2086, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.34.6, headers: {Host: 100-218-195-205.s4.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|【注册免费领1TB流量】前往-注册|共享 - 大白, server: s1.db-link02.top, port: 80, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.75.30, headers: {Host: 100-235-60-14.s1.db-link02.top}}, udp: true}
-- {name: '🇺🇲 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享 - 大白', server: s1.db-link01.top, port: 80, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.220.101, headers: {Host: 100-123-15-228.s1.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|最低35%-aff招募进行中|共享 - 大白, server: s1.db-link01.top, port: 8080, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.204.79, headers: {Host: 100-20-96-114.s1.db-link01.top}}, udp: true}
+- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 30eb0ba0-c124-3869-b6c5-192a75e423bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
