@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 30eb0ba0-c124-3869-b6c5-192a75e423bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 3d10d87f-ba1e-39a8-b191-d95a420ad8bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: 🇭🇰 HK-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: 1bc52da6-4da0-4a46-8206-7e8a998f42da, udp: true}
 - &id003 {name: 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: 1bc52da6-4da0-4a46-8206-7e8a998f42da, udp: true}
 - &id004 {name: 🇨🇳 CN-TaiBei-01 - 脉冲云, server: gyjd.yy9866.com, port: 21525, type: ss, cipher: chacha20-ietf-poly1305, password: 1bc52da6-4da0-4a46-8206-7e8a998f42da, udp: true}
@@ -81,13 +81,13 @@ proxies:
 - *id023
 - *id024
 - *id025
-- {name: 🇺🇲 美国|【dabai.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s3.db-link01.top, port: 8880, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.30.184, headers: {Host: 100-191-173-174.s3.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|【db01.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s5.cn-db.top, port: 8880, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.78.71, headers: {Host: 100-48-52-180.s5.cn-db.top}}, udp: true}
-- {name: 🇺🇲 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享 - 大白, server: s3.db-link01.top, port: 2095, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.71.224, headers: {Host: 100-8-252-232.s3.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|【使用前请更新订阅】每日会变更节点密码|GPT+流媒体|共享 - 大白, server: s2.db-link02.top, port: 2052, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.19.220.5, headers: {Host: 100-248-37-92.s2.db-link02.top}}, udp: true}
-- {name: 🇺🇲 美国|【注册免费领1TB流量】前往-注册|共享 - 大白, server: s4.db-link01.top, port: 2095, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.32.105, headers: {Host: 100-117-108-152.s4.db-link01.top}}, udp: true}
-- {name: '🇺🇲 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享 - 大白', server: s3.db-link01.top, port: 2082, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.211.99, headers: {Host: 100-194-250-30.s3.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|最低35%-aff招募进行中|共享 - 大白, server: s3.db-link01.top, port: 2052, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.133.45, headers: {Host: 100-241-134-103.s3.db-link01.top}}, udp: true}
+- {name: 🇺🇲 美国|【dabai.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s5.db-link01.top, port: 2086, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.30.253, headers: {Host: 100-169-169-193.s5.db-link01.top}}, udp: true}
+- {name: 🇺🇲 美国|【db01.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s5.db-link02.top, port: 8880, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.19.177, headers: {Host: 100-99-95-241.s5.db-link02.top}}, udp: true}
+- {name: 🇺🇲 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享 - 大白, server: s5.db-link01.top, port: 8880, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.184.151, headers: {Host: 100-121-60-17.s5.db-link01.top}}, udp: true}
+- {name: 🇺🇲 美国|【使用前请更新订阅】每日会变更节点密码|GPT+流媒体|共享 - 大白, server: s3.db-link01.top, port: 8080, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.32.76, headers: {Host: 100-207-247-181.s3.db-link01.top}}, udp: true}
+- {name: 🇺🇲 美国|【注册免费领1TB流量】前往-注册|共享 - 大白, server: s3.cn-db.top, port: 8080, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.0.39, headers: {Host: 100-252-121-200.s3.cn-db.top}}, udp: true}
+- {name: '🇺🇲 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享 - 大白', server: s4.cn-db.top, port: 8880, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.65.201, headers: {Host: 100-174-159-146.s4.cn-db.top}}, udp: true}
+- {name: 🇺🇲 美国|最低35%-aff招募进行中|共享 - 大白, server: s3.cn-db.top, port: 80, type: vmess, uuid: 09ea0213-04f9-30aa-871c-71a9dc869b91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.112.244, headers: {Host: 100-14-53-220.s3.cn-db.top}}, udp: true}
 - &id026 {name: ℹ️ 迅云跳转域名：xyjs.app - 迅云加速, server: mo.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
 - &id027 {name: 🇯🇵 日本01 - 迅云加速, server: mo.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
 - &id028 {name: 🇯🇵 日本02 - 迅云加速, server: abc.xunyunnode.sbs, port: 16720, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
@@ -357,6 +357,7 @@ proxies:
 - {name: 🇹🇭 泰国 - 快云加速, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇸🇬 新加坡2 - 快云加速, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇮🇩 印度尼西亚 - 快云加速, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- *id001
 - *id002
 - *id003
 - *id004
@@ -425,8 +426,8 @@ proxies:
 - *id023
 - *id024
 - *id025
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: c10d7357-09d9-31d6-9c28-336458546c8d, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: c10d7357-09d9-31d6-9c28-336458546c8d, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: ac828f7d-0447-32b5-8803-e342dfd9df33, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: ac828f7d-0447-32b5-8803-e342dfd9df33, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 - *id002
 - *id003
 - *id004
@@ -451,26 +452,26 @@ proxies:
 - *id023
 - *id024
 - *id025
-- {name: 🇭🇰 香港 -1  x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -2 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -5 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -6 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 1 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 24889, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 3 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: e951e94e-0dcf-3a62-a072-5e5eaad5e8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -1  x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -2 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -5 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -6 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 - 1 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 24889, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 - 3 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 - 4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: dc132b2e-82cd-3b51-ad65-1a9569660cd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id002
 - *id003
 - *id004

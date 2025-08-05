@@ -85,56 +85,11 @@ proxy-groups:
   - ♻️ 自动选择
   - 1
 proxy-providers:
-  HK:
+  All:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___maichongyun.xyz/HK.yaml
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___a.sdmone.pro/All.yaml
     interval: 180
-    path: trials_providers/https___maichongyun.xyz/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_CN:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___maichongyun.xyz/p_All_CN.yaml
-    interval: 180
-    path: trials_providers/https___maichongyun.xyz/p_All_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  SG:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___maichongyun.xyz/SG.yaml
-    interval: 180
-    path: trials_providers/https___maichongyun.xyz/SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  JP:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___maichongyun.xyz/JP.yaml
-    interval: 180
-    path: trials_providers/https___maichongyun.xyz/JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  US:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___maichongyun.xyz/US.yaml
-    interval: 180
-    path: trials_providers/https___maichongyun.xyz/US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  Other:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___maichongyun.xyz/Other.yaml
-    interval: 180
-    path: trials_providers/https___maichongyun.xyz/Other.yaml
+    path: trials_providers/https___a.sdmone.pro/All.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
