@@ -3,7 +3,7 @@
 proxies:
 - &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: 435b422c-52bc-48f6-bd36-08c00738852b, udp: true}
 - &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 435b422c-52bc-48f6-bd36-08c00738852b, udp: true}
-- {name: 🇯🇵 Japan00 日本 - EasierLife, server: jp1g.easylink1.com, port: 21315, type: vmess, uuid: ef0e96c7-5528-3e04-91a2-d40d39b4bc84, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1g.easylink1.com}}, udp: true}
+- {name: 🇯🇵 Japan00 日本 - EasierLife, server: jp1g.easylink1.com, port: 21315, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1g.easylink1.com}}, udp: true}
 - *id001
 - *id002
 - &id003 {name: 🇯🇵 日本01 - 迅云加速, server: mo.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 91a9805b-9178-4604-a4f5-57be1cf09961, udp: true}
@@ -14,9 +14,9 @@ proxies:
 - *id004
 - *id005
 - *id006
-- &id007 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 03fde60f-0b13-4012-afb4-72c2e7725d93, udp: true}
-- &id008 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 03fde60f-0b13-4012-afb4-72c2e7725d93, udp: true}
-- &id009 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 03fde60f-0b13-4012-afb4-72c2e7725d93, udp: true}
+- &id007 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: e0bb8714-e547-4ecd-b296-6e4c920de7cc, udp: true}
+- &id008 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: e0bb8714-e547-4ecd-b296-6e4c920de7cc, udp: true}
+- &id009 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: e0bb8714-e547-4ecd-b296-6e4c920de7cc, udp: true}
 - *id007
 - *id008
 - *id009
@@ -38,10 +38,12 @@ proxies:
 - *id002
 - *id001
 - *id002
-- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: bfdcbaeb-6a45-3e53-ac29-183a671f3dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: bfdcbaeb-6a45-3e53-ac29-183a671f3dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: bfdcbaeb-6a45-3e53-ac29-183a671f3dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: bfdcbaeb-6a45-3e53-ac29-183a671f3dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
+- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 6f43461a-4018-331f-a171-4f7a390c28fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 6f43461a-4018-331f-a171-4f7a390c28fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 6f43461a-4018-331f-a171-4f7a390c28fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 6f43461a-4018-331f-a171-4f7a390c28fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003

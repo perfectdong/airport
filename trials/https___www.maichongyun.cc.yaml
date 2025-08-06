@@ -12,14 +12,12 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
@@ -33,34 +31,30 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰  Hongkong 香港 HKT - EasierLife
-  - 🇭🇰 Hongkong  00 香港 - EasierLife
-  - 🇭🇰 Hongkong 00 香港 - EasierLife
-  - 🇭🇰 Hongkong01 香港 - EasierLife
-  - 🇭🇰 Hongkong02 香港 Test - EasierLife
-  - 🇹🇼 Taiwan01 台湾 - EasierLife
-  - 🇸🇬 Singapore00 新加坡 - EasierLife
-  - 🇸🇬 Singapore01 新加坡 - EasierLife
-  - 🇯🇵 Japan00 日本 - EasierLife
-  - 🇺🇲  USA 0 美国 Netflix - EasierLife
-  - 🇺🇲  USA 美国 Netflix - EasierLife
-  - 🇺🇲 USA AT&T - EasierLife
-  - 🇺🇲 USA NETFLIX - EasierLife
-  - 🇺🇲 USA NEW - EasierLife
-  - 🇺🇲 USA1 HBO HULU D+ NT - EasierLife
-  - '   Select Location - EasierLife'
-  - 🇩🇪 Germany 德国 NEW - EasierLife
-  - 🇹🇷 Turkey 土耳其 - EasierLife
-  - 🇬🇧 UK 英国 - EasierLife
-  - 🇬🇧 UK2 英国 Netflix - EasierLife
-  - 🇻🇳 Vietnam 越南 - EasierLife
-  - 🇨🇦 加拿大 Canada Netflix - EasierLife
-  - 🇿🇦 南非 South AfricA - EasierLife
-  - 🇮🇳 印度 India - EasierLife
-  - 🇫🇷 法国 France Netflix - EasierLife
-  - 🇳🇱 荷兰 Netherlands - EasierLife
-  - 路由器Router & IPTV  - EasierLife
-  - 路由器Router & IPTV 2 - EasierLife
+  - 🇭🇰 HK-wap(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 AK香港-新疆国外节点 - 脉冲云
+  - 🇭🇰 WAP香港-新疆国外节点 - 脉冲云
+  - 🇸🇬 Singapore-01-st - 脉冲云
+  - 🇸🇬 Singapore-02-wap - 脉冲云
+  - 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云
+  - 🇯🇵 JP-Tokyo-01 - 脉冲云
+  - 🇯🇵 JP-Tokyo-wap-02 - 脉冲云
+  - 🇺🇸 US-Los Angeles-01 - 脉冲云
+  - 🇺🇸 US-Los Angeles-02-wap - 脉冲云
+  - 🇫🇷 FR-Paris - 脉冲云
+  - 🇲🇾 MY-Malaysia-PQ - 脉冲云
+  - 🇦🇺 AU-Sydney - 脉冲云
+  - 🇳🇱 NL-Amsterdam - 脉冲云
+  - 🇨🇦 CA-Toronto - 脉冲云
+  - 🇬🇧 GB-London - 脉冲云
+  - 🇪🇸 ES-Madrid - 脉冲云
+  - 🇮🇹 IT-Milan - 脉冲云
+  - 🇦🇹 AT-Vienna - 脉冲云
+  - 🇩🇪 DE-Nuremberg - 脉冲云
+  - 🇰🇷 KR-Seoul - 脉冲云
+  - 🇨🇳 CN-TaiBei-01 - 脉冲云
+  - 🇨🇳 CN-TaiBei-02-wap - 脉冲云
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -81,24 +75,20 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
   - ✈️ ‍起飞
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
@@ -116,126 +106,107 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇭🇰  Hongkong 香港 HKT - EasierLife
-  - 🇭🇰 Hongkong  00 香港 - EasierLife
-  - 🇭🇰 Hongkong 00 香港 - EasierLife
-  - 🇭🇰 Hongkong01 香港 - EasierLife
-  - 🇭🇰 Hongkong02 香港 Test - EasierLife
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇹🇼 Taiwan01 台湾 - EasierLife
+  - 🇭🇰 HK-wap(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 AK香港-新疆国外节点 - 脉冲云
+  - 🇭🇰 WAP香港-新疆国外节点 - 脉冲云
 - name: 🇨🇳 ‍中国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id004
-  - 🇭🇰  Hongkong 香港 HKT - EasierLife
-  - 🇭🇰 Hongkong  00 香港 - EasierLife
-  - 🇭🇰 Hongkong 00 香港 - EasierLife
-  - 🇭🇰 Hongkong01 香港 - EasierLife
-  - 🇭🇰 Hongkong02 香港 Test - EasierLife
-  - 🇹🇼 Taiwan01 台湾 - EasierLife
+  proxies: &id003
+  - 🇭🇰 HK-wap(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 AK香港-新疆国外节点 - 脉冲云
+  - 🇭🇰 WAP香港-新疆国外节点 - 脉冲云
+  - 🇨🇳 CN-TaiBei-01 - 脉冲云
+  - 🇨🇳 CN-TaiBei-02-wap - 脉冲云
 - name: 🇸🇬 ‍新加坡
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id005
-  - 🇸🇬 Singapore00 新加坡 - EasierLife
-  - 🇸🇬 Singapore01 新加坡 - EasierLife
+  proxies: &id004
+  - 🇸🇬 Singapore-01-st - 脉冲云
+  - 🇸🇬 Singapore-02-wap - 脉冲云
+  - 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云
 - name: 🇯🇵 ‍日本
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id006
-  - 🇯🇵 Japan00 日本 - EasierLife
+  proxies: &id005
+  - 🇯🇵 JP-Tokyo-01 - 脉冲云
+  - 🇯🇵 JP-Tokyo-wap-02 - 脉冲云
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇲  USA 0 美国 Netflix - EasierLife
-  - 🇺🇲  USA 美国 Netflix - EasierLife
-  - 🇺🇲 USA AT&T - EasierLife
-  - 🇺🇲 USA NETFLIX - EasierLife
-  - 🇺🇲 USA NEW - EasierLife
-  - 🇺🇲 USA1 HBO HULU D+ NT - EasierLife
+  proxies: &id006
+  - 🇺🇸 US-Los Angeles-01 - 脉冲云
+  - 🇺🇸 US-Los Angeles-02-wap - 脉冲云
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 30
   tolerance: 100
-  proxies: &id008
-  - '   Select Location - EasierLife'
-  - 🇩🇪 Germany 德国 NEW - EasierLife
-  - 🇹🇷 Turkey 土耳其 - EasierLife
-  - 🇬🇧 UK 英国 - EasierLife
-  - 🇬🇧 UK2 英国 Netflix - EasierLife
-  - 🇻🇳 Vietnam 越南 - EasierLife
-  - 🇨🇦 加拿大 Canada Netflix - EasierLife
-  - 🇿🇦 南非 South AfricA - EasierLife
-  - 🇮🇳 印度 India - EasierLife
-  - 🇫🇷 法国 France Netflix - EasierLife
-  - 🇳🇱 荷兰 Netherlands - EasierLife
-  - 路由器Router & IPTV  - EasierLife
-  - 路由器Router & IPTV 2 - EasierLife
+  proxies: &id007
+  - 🇫🇷 FR-Paris - 脉冲云
+  - 🇲🇾 MY-Malaysia-PQ - 脉冲云
+  - 🇦🇺 AU-Sydney - 脉冲云
+  - 🇳🇱 NL-Amsterdam - 脉冲云
+  - 🇨🇦 CA-Toronto - 脉冲云
+  - 🇬🇧 GB-London - 脉冲云
+  - 🇪🇸 ES-Madrid - 脉冲云
+  - 🇮🇹 IT-Milan - 脉冲云
+  - 🇦🇹 AT-Vienna - 脉冲云
+  - 🇩🇪 DE-Nuremberg - 脉冲云
+  - 🇰🇷 KR-Seoul - 脉冲云
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  proxies: *id003
 - name: 👆🏻🇨🇳 ‍中国
   type: select
-  proxies: *id004
+  proxies: *id003
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  proxies: *id005
+  proxies: *id004
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id006
+  proxies: *id005
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
+  proxies: *id006
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id008
+  proxies: *id007
 proxies:
-- {name: '   Select Location - EasierLife', server: twg.easylink1.com, port: 13078, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: twg.easylink1.com}}, udp: true}
-- {name: 🇭🇰  Hongkong 香港 HKT - EasierLife, server: tkg.easylink1.com, port: 13115, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tkg.easylink1.com}}, udp: true}
-- {name: 🇺🇲  USA 0 美国 Netflix - EasierLife, server: us11g.easylink1.com, port: 13077, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us11g.easylink1.com}}, udp: true}
-- {name: 🇺🇲  USA 美国 Netflix - EasierLife, server: vng.easylink1.com, port: 13054, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vng.easylink1.com}}, udp: true}
-- {name: 🇩🇪 Germany 德国 NEW - EasierLife, server: deg.easylink1.com, port: 13099, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deg.easylink1.com}}, udp: true}
-- {name: 🇭🇰 Hongkong  00 香港 - EasierLife, server: sg2g.easylink1.com, port: 13047, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg2g.easylink1.com}}, udp: true}
-- {name: 🇭🇰 Hongkong 00 香港 - EasierLife, server: hk0g.easylink1.com, port: 13100, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk0g.easylink1.com}}, udp: true}
-- {name: 🇭🇰 Hongkong01 香港 - EasierLife, server: hk1g.easylink1.com, port: 21316, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1g.easylink1.com}}, udp: true}
-- {name: 🇭🇰 Hongkong02 香港 Test - EasierLife, server: hk3g.easylink1.com, port: 21321, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk3g.easylink1.com}}, udp: true}
-- {name: 🇯🇵 Japan00 日本 - EasierLife, server: jp1g.easylink1.com, port: 21315, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1g.easylink1.com}}, udp: true}
-- {name: 🇸🇬 Singapore00 新加坡 - EasierLife, server: sp1dg.easylink1.com, port: 22222, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sp1dg.easylink1.com}}, udp: true}
-- {name: 🇸🇬 Singapore01 新加坡 - EasierLife, server: guang2.easylink1.com, port: 59103, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guang2.easylink1.com}}, udp: true}
-- {name: 🇹🇼 Taiwan01 台湾 - EasierLife, server: hinetg.easylink1.com, port: 13177, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hinetg.easylink1.com}}, udp: true}
-- {name: 🇹🇷 Turkey 土耳其 - EasierLife, server: indog.easylink1.com, port: 10010, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: indog.easylink1.com}}, udp: true}
-- {name: 🇬🇧 UK 英国 - EasierLife, server: ukguang.easylink1.com, port: 13052, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk.easylink1.com}}, udp: true}
-- {name: 🇬🇧 UK2 英国 Netflix - EasierLife, server: g10000.easylink1.com, port: 13067, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: g10000.easylink1.com}}, udp: true}
-- {name: 🇺🇲 USA AT&T - EasierLife, server: usmaing.easylink1.com, port: 13080, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usmaing.easylink1.com}}, udp: true}
-- {name: 🇺🇲 USA NETFLIX - EasierLife, server: us22g.easylink1.com, port: 12345, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us22.easylink1.com}}, udp: true}
-- {name: 🇺🇲 USA NEW - EasierLife, server: us1g.easylink1.com, port: 7550, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1g.easylink1.com}}, udp: true}
-- {name: 🇺🇲 USA1 HBO HULU D+ NT - EasierLife, server: ushg.easylink1.com, port: 13103, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ush.easylink1.com}}, udp: true}
-- {name: 🇻🇳 Vietnam 越南 - EasierLife, server: guangz1.easylink1.com, port: 13051, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guangz1.easylink1.com}}, udp: true}
-- {name: 🇨🇦 加拿大 Canada Netflix - EasierLife, server: cag.easylink1.com, port: 13056, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cag.easylink1.com}}, udp: true}
-- {name: 🇿🇦 南非 South AfricA - EasierLife, server: sag.easylink1.com, port: 13116, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sacn.easylink1.com}}, udp: true}
-- {name: 🇮🇳 印度 India - EasierLife, server: ing.easylink1.com, port: 13053, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ing.easylink1.com}}, udp: true}
-- {name: 🇫🇷 法国 France Netflix - EasierLife, server: frg.easylink1.com, port: 13112, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frg.easylink1.com}}, udp: true}
-- {name: 🇳🇱 荷兰 Netherlands - EasierLife, server: nlg.easylink1.com, port: 21307, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.easylink1.com}}, udp: true}
-- {name: 路由器Router & IPTV  - EasierLife, server: iptvg.easylink1.com, port: 12121, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iptvg.easylink1.com}}, udp: true}
-- {name: 路由器Router & IPTV 2 - EasierLife, server: iptv2g.easylink1.com, port: 13131, type: vmess, uuid: 1ab2d7d8-fbcd-3e6e-889f-c0701c48b289, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iptv2g.easylink1.com}}, udp: true}
+- {name: 🇭🇰 HK-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇨🇳 CN-TaiBei-01 - 脉冲云, server: gyjd.yy9866.com, port: 21525, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇨🇳 CN-TaiBei-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21589, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇸🇬 Singapore-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇸🇬 Singapore-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇺🇸 US-Los Angeles-01 - 脉冲云, server: gyjd.yy9866.com, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇺🇸 US-Los Angeles-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇫🇷 FR-Paris - 脉冲云, server: gyjd.yy9866.com, port: 16947, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇲🇾 MY-Malaysia-PQ - 脉冲云, server: gyjd.yy9866.com, port: 37681, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇦🇺 AU-Sydney - 脉冲云, server: gyjd.yy9866.com, port: 39263, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇳🇱 NL-Amsterdam - 脉冲云, server: gyjd.yy9866.com, port: 23262, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇨🇦 CA-Toronto - 脉冲云, server: gyjd.yy9866.com, port: 28322, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇬🇧 GB-London - 脉冲云, server: gyjd.yy9866.com, port: 45092, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇪🇸 ES-Madrid - 脉冲云, server: gyjd.yy9866.com, port: 34502, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇮🇹 IT-Milan - 脉冲云, server: gyjd.yy9866.com, port: 39062, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, udp: true}
+- {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: a4bf5e2e-4a0c-40bd-b679-f9768119d3c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
