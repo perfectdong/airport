@@ -13,19 +13,19 @@ proxies:
 - &id010 {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: d16b55a4-e21f-4135-acd0-2e4be0223c8c, udp: true}
 - &id011 {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: d16b55a4-e21f-4135-acd0-2e4be0223c8c, udp: true}
 - &id012 {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: d16b55a4-e21f-4135-acd0-2e4be0223c8c, udp: true}
-- {name: '   Select Location - EasierLife', server: twg.easylink1.com, port: 13078, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: twg.easylink1.com}}, udp: true}
-- {name: 🇩🇪 Germany 德国 NEW - EasierLife, server: deg.easylink1.com, port: 13099, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deg.easylink1.com}}, udp: true}
-- {name: 🇹🇷 Turkey 土耳其 - EasierLife, server: indog.easylink1.com, port: 10010, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: indog.easylink1.com}}, udp: true}
-- {name: 🇬🇧 UK 英国 - EasierLife, server: ukguang.easylink1.com, port: 13052, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk.easylink1.com}}, udp: true}
-- {name: 🇬🇧 UK2 英国 Netflix - EasierLife, server: g10000.easylink1.com, port: 13067, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: g10000.easylink1.com}}, udp: true}
-- {name: 🇻🇳 Vietnam 越南 - EasierLife, server: guangz1.easylink1.com, port: 13051, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guangz1.easylink1.com}}, udp: true}
-- {name: 🇨🇦 加拿大 Canada Netflix - EasierLife, server: cag.easylink1.com, port: 13056, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cag.easylink1.com}}, udp: true}
-- {name: 🇿🇦 南非 South AfricA - EasierLife, server: sag.easylink1.com, port: 13116, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sacn.easylink1.com}}, udp: true}
-- {name: 🇮🇳 印度 India - EasierLife, server: ing.easylink1.com, port: 13053, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ing.easylink1.com}}, udp: true}
-- {name: 🇫🇷 法国 France Netflix - EasierLife, server: frg.easylink1.com, port: 13112, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frg.easylink1.com}}, udp: true}
-- {name: 🇳🇱 荷兰 Netherlands - EasierLife, server: nlg.easylink1.com, port: 21307, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.easylink1.com}}, udp: true}
-- {name: 路由器Router & IPTV  - EasierLife, server: iptvg.easylink1.com, port: 12121, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iptvg.easylink1.com}}, udp: true}
-- {name: 路由器Router & IPTV 2 - EasierLife, server: iptv2g.easylink1.com, port: 13131, type: vmess, uuid: 5b07df76-6819-311f-9772-7d0b379752b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iptv2g.easylink1.com}}, udp: true}
+- {name: '   Select Location - EasierLife', server: twg.easylink1.com, port: 13078, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: twg.easylink1.com}}, udp: true}
+- {name: 🇩🇪 Germany 德国 NEW - EasierLife, server: deg.easylink1.com, port: 13099, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deg.easylink1.com}}, udp: true}
+- {name: 🇹🇷 Turkey 土耳其 - EasierLife, server: indog.easylink1.com, port: 10010, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: indog.easylink1.com}}, udp: true}
+- {name: 🇬🇧 UK 英国 - EasierLife, server: ukguang.easylink1.com, port: 13052, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk.easylink1.com}}, udp: true}
+- {name: 🇬🇧 UK2 英国 Netflix - EasierLife, server: g10000.easylink1.com, port: 13067, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: g10000.easylink1.com}}, udp: true}
+- {name: 🇻🇳 Vietnam 越南 - EasierLife, server: guangz1.easylink1.com, port: 13051, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guangz1.easylink1.com}}, udp: true}
+- {name: 🇨🇦 加拿大 Canada Netflix - EasierLife, server: cag.easylink1.com, port: 13056, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cag.easylink1.com}}, udp: true}
+- {name: 🇿🇦 南非 South AfricA - EasierLife, server: sag.easylink1.com, port: 13116, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sacn.easylink1.com}}, udp: true}
+- {name: 🇮🇳 印度 India - EasierLife, server: ing.easylink1.com, port: 13053, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ing.easylink1.com}}, udp: true}
+- {name: 🇫🇷 法国 France Netflix - EasierLife, server: frg.easylink1.com, port: 13112, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frg.easylink1.com}}, udp: true}
+- {name: 🇳🇱 荷兰 Netherlands - EasierLife, server: nlg.easylink1.com, port: 21307, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.easylink1.com}}, udp: true}
+- {name: 路由器Router & IPTV  - EasierLife, server: iptvg.easylink1.com, port: 12121, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iptvg.easylink1.com}}, udp: true}
+- {name: 路由器Router & IPTV 2 - EasierLife, server: iptv2g.easylink1.com, port: 13131, type: vmess, uuid: a6d06fbb-42e2-3484-8f61-1be73652a478, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iptv2g.easylink1.com}}, udp: true}
 - *id001
 - {name: 🇮🇪 爱尔兰-都柏林 - 神盾, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: d633328c-230d-4953-9dab-f0008840534c, udp: true}
 - *id002
@@ -39,19 +39,19 @@ proxies:
 - *id010
 - *id011
 - *id012
-- &id013 {name: ℹ️ 迅云跳转域名：xyjs.app - 迅云加速, server: mo.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id014 {name: 🇬🇧 英国01 - 迅云加速, server: mo.xunyunnode.sbs, port: 17587, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id015 {name: 🇬🇧 英国02 - 迅云加速, server: abc.xunyunnode.sbs, port: 63862, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id016 {name: 🇬🇧 英国03 - 迅云加速, server: qs.xunyunnode.sbs, port: 15953, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id017 {name: 🇬🇧 英国04 - 迅云加速, server: wa.xunyunnode.sbs, port: 25174, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id018 {name: 🇨🇦 加拿大01 - 迅云加速, server: mo.xunyunnode.sbs, port: 44306, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id019 {name: 🇨🇦 加拿大02 - 迅云加速, server: abc.xunyunnode.sbs, port: 64182, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id020 {name: 🇨🇦 加拿大03 - 迅云加速, server: qs.xunyunnode.sbs, port: 20321, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id021 {name: 🇨🇦 加拿大04 - 迅云加速, server: wa.xunyunnode.sbs, port: 50737, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id022 {name: 🇻🇳 越南01 - 迅云加速, server: mo.xunyunnode.sbs, port: 10326, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id023 {name: 🇻🇳 越南02 - 迅云加速, server: abc.xunyunnode.sbs, port: 37837, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id024 {name: 🇻🇳 越南03 - 迅云加速, server: qs.xunyunnode.sbs, port: 25845, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
-- &id025 {name: 🇻🇳 越南04 - 迅云加速, server: wa.xunyunnode.sbs, port: 43680, type: ss, cipher: chacha20-ietf-poly1305, password: 55ad538a-58f3-4744-9914-608fc1aeb93f, udp: true}
+- &id013 {name: ℹ️ 迅云跳转域名：xyjs.app - 迅云加速, server: mo.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id014 {name: 🇬🇧 英国01 - 迅云加速, server: mo.xunyunnode.sbs, port: 17587, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id015 {name: 🇬🇧 英国02 - 迅云加速, server: abc.xunyunnode.sbs, port: 63862, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id016 {name: 🇬🇧 英国03 - 迅云加速, server: qs.xunyunnode.sbs, port: 15953, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id017 {name: 🇬🇧 英国04 - 迅云加速, server: wa.xunyunnode.sbs, port: 25174, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id018 {name: 🇨🇦 加拿大01 - 迅云加速, server: mo.xunyunnode.sbs, port: 44306, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id019 {name: 🇨🇦 加拿大02 - 迅云加速, server: abc.xunyunnode.sbs, port: 64182, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id020 {name: 🇨🇦 加拿大03 - 迅云加速, server: qs.xunyunnode.sbs, port: 20321, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id021 {name: 🇨🇦 加拿大04 - 迅云加速, server: wa.xunyunnode.sbs, port: 50737, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id022 {name: 🇻🇳 越南01 - 迅云加速, server: mo.xunyunnode.sbs, port: 10326, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id023 {name: 🇻🇳 越南02 - 迅云加速, server: abc.xunyunnode.sbs, port: 37837, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id024 {name: 🇻🇳 越南03 - 迅云加速, server: qs.xunyunnode.sbs, port: 25845, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
+- &id025 {name: 🇻🇳 越南04 - 迅云加速, server: wa.xunyunnode.sbs, port: 43680, type: ss, cipher: chacha20-ietf-poly1305, password: a06d9b37-aa41-495c-a76e-49c129c37f10, udp: true}
 - *id013
 - *id014
 - *id015
@@ -208,8 +208,11 @@ proxies:
 - *id010
 - *id011
 - *id012
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 837a14dc-e3af-331c-874f-d2aa2a850f85, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 837a14dc-e3af-331c-874f-d2aa2a850f85, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: b9edd003-3516-3e40-9e3d-3f581085e6fd, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: b9edd003-3516-3e40-9e3d-3f581085e6fd, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: db56367e-f2fb-3760-a8bd-c9f473ae17bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: db56367e-f2fb-3760-a8bd-c9f473ae17bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: db56367e-f2fb-3760-a8bd-c9f473ae17bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id002
 - *id003
 - *id004
@@ -221,17 +224,16 @@ proxies:
 - *id010
 - *id011
 - *id012
-- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 76b89873-7043-3b78-b7ac-f46c7d33fe71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 76b89873-7043-3b78-b7ac-f46c7d33fe71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: 76b89873-7043-3b78-b7ac-f46c7d33fe71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- *id002
-- *id003
-- *id004
-- *id005
-- *id006
-- *id007
-- *id008
-- *id009
-- *id010
-- *id011
-- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+- *id023
+- *id024
+- *id025
