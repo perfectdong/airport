@@ -11,55 +11,16 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🇺🇸 ‍美国
-  - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇭🇰 香港1|IEPL|1X - 无界畅游
-  - 🇭🇰 香港2|IEPL|1X - 无界畅游
-  - 🇭🇰 香港3|IEPL|1X - 无界畅游
-  - 🇭🇰 香港4|IEPL|1X - 无界畅游
-  - 🇭🇰 香港1[BGP] - 无界畅游
-  - 🇭🇰 香港2[BGP] - 无界畅游
-  - 🇭🇰 香港3[BGP] - 无界畅游
-  - 🇹🇼 台湾1|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾2|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾3|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾4|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾1[BGP] - 无界畅游
-  - 🇸🇬 新加坡1|IEPL|1X - 无界畅游
-  - 🇸🇬 新加坡2|IEPL|1X - 无界畅游
-  - 🇸🇬 新加坡3|IEPL|1X - 无界畅游
-  - 🇸🇬 新加坡4|IEPL|1X - 无界畅游
-  - 🇸🇬 新加坡2[BGP] - 无界畅游
-  - 🇯🇵 日本2[BGP] - 无界畅游
-  - 🇺🇸 美国1[BGP] - 无界畅游
-  - 🇻🇳 越南1|IEPL|1X - 无界畅游
-  - 🇰🇷 首尔1[BGP] - 无界畅游
-  - 🇦🇺 悉尼1[BGP] - 无界畅游
-  - 🇩🇪 德国2[BGP] - 无界畅游
-  - 非洲1[BGP] - 无界畅游
+  use: &id001
+  - All
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -76,28 +37,12 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🎏 ‍其他
   - ✈️ ‍起飞
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -106,130 +51,16 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id002
-  - 🇭🇰 香港1|IEPL|1X - 无界畅游
-  - 🇭🇰 香港2|IEPL|1X - 无界畅游
-  - 🇭🇰 香港3|IEPL|1X - 无界畅游
-  - 🇭🇰 香港4|IEPL|1X - 无界畅游
-  - 🇭🇰 香港1[BGP] - 无界畅游
-  - 🇭🇰 香港2[BGP] - 无界畅游
-  - 🇭🇰 香港3[BGP] - 无界畅游
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾1|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾2|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾3|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾4|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾1[BGP] - 无界畅游
-- name: 🇨🇳 ‍中国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id004
-  - 🇭🇰 香港1|IEPL|1X - 无界畅游
-  - 🇭🇰 香港2|IEPL|1X - 无界畅游
-  - 🇭🇰 香港3|IEPL|1X - 无界畅游
-  - 🇭🇰 香港4|IEPL|1X - 无界畅游
-  - 🇭🇰 香港1[BGP] - 无界畅游
-  - 🇭🇰 香港2[BGP] - 无界畅游
-  - 🇭🇰 香港3[BGP] - 无界畅游
-  - 🇹🇼 台湾1|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾2|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾3|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾4|IEPL|1X - 无界畅游
-  - 🇹🇼 台湾1[BGP] - 无界畅游
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id005
-  - 🇸🇬 新加坡1|IEPL|1X - 无界畅游
-  - 🇸🇬 新加坡2|IEPL|1X - 无界畅游
-  - 🇸🇬 新加坡3|IEPL|1X - 无界畅游
-  - 🇸🇬 新加坡4|IEPL|1X - 无界畅游
-  - 🇸🇬 新加坡2[BGP] - 无界畅游
-- name: 🇯🇵 ‍日本
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id006
-  - 🇯🇵 日本2[BGP] - 无界畅游
-- name: 🇺🇸 ‍美国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 300
-  proxies: &id007
-  - 🇺🇸 美国1[BGP] - 无界畅游
-- name: 🎏 ‍其他
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
-  tolerance: 100
-  proxies: &id008
-  - 🇻🇳 越南1|IEPL|1X - 无界畅游
-  - 🇰🇷 首尔1[BGP] - 无界畅游
-  - 🇦🇺 悉尼1[BGP] - 无界畅游
-  - 🇩🇪 德国2[BGP] - 无界畅游
-  - 非洲1[BGP] - 无界畅游
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  proxies: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  proxies: *id003
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  proxies: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  proxies: *id005
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  proxies: *id006
-- name: 👆🏻🇺🇸 ‍美国
-  type: select
-  proxies: *id007
-- name: 👆🏻🎏 ‍其他
-  type: select
-  proxies: *id008
-proxies:
-- {name: 🇭🇰 香港1|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50011, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港2|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50012, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港3|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50013, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港4|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50014, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾1|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50021, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾2|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50022, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾3|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50023, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾4|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50024, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡1|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50031, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡2|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50032, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡3|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50033, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡4|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50034, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇻🇳 越南1|IEPL|1X - 无界畅游, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50071, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: '🇭🇰 香港1[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 23034, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
-- {name: '🇭🇰 香港2[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 23114, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
-- {name: '🇭🇰 香港3[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 23137, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
-- {name: '🇹🇼 台湾1[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 23100, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
-- {name: '🇸🇬 新加坡2[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 23139, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
-- {name: '🇯🇵 日本2[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 23155, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
-- {name: '🇰🇷 首尔1[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 28804, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
-- {name: '🇦🇺 悉尼1[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 23046, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
-- {name: '🇩🇪 德国2[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 23111, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
-- {name: '🇺🇸 美国1[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 23142, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
-- {name: '非洲1[BGP] - 无界畅游', server: bgp.v4.sc.gz.v2word.art, port: 23023, type: ss, cipher: chacha20-ietf-poly1305, password: 3f82f613-53f1-47ec-a92b-569769fac468, udp: true}
+proxy-providers:
+  All:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/http___www.sdmone.pro/All.yaml
+    interval: 180
+    path: trials_providers/http___www.sdmone.pro/All.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
