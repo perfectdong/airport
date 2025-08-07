@@ -17,12 +17,12 @@ proxies:
 - *id005
 - *id006
 - *id007
-- &id008 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 596adcce-8a64-4afe-88b6-9def71647200, udp: true}
-- &id009 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 596adcce-8a64-4afe-88b6-9def71647200, udp: true}
-- &id010 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 596adcce-8a64-4afe-88b6-9def71647200, udp: true}
-- &id011 {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 596adcce-8a64-4afe-88b6-9def71647200, udp: true}
-- &id012 {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 596adcce-8a64-4afe-88b6-9def71647200, udp: true}
-- &id013 {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 596adcce-8a64-4afe-88b6-9def71647200, udp: true}
+- &id008 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a52b581b-5569-4f3c-baaa-a36f01756716, udp: true}
+- &id009 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a52b581b-5569-4f3c-baaa-a36f01756716, udp: true}
+- &id010 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a52b581b-5569-4f3c-baaa-a36f01756716, udp: true}
+- &id011 {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a52b581b-5569-4f3c-baaa-a36f01756716, udp: true}
+- &id012 {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a52b581b-5569-4f3c-baaa-a36f01756716, udp: true}
+- &id013 {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a52b581b-5569-4f3c-baaa-a36f01756716, udp: true}
 - *id008
 - *id009
 - *id010
@@ -33,8 +33,8 @@ proxies:
 - {name: 🇸🇬 新加坡①一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18810, type: vmess, uuid: 86607670-b95f-3724-8320-def6e1bba226, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇸🇬 新加坡②一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18829, type: vmess, uuid: 86607670-b95f-3724-8320-def6e1bba226, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇸🇬 新加坡②一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18829, type: vmess, uuid: 86607670-b95f-3724-8320-def6e1bba226, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: gy1.ldldfwq.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: f323d236-8e6c-4026-91fe-109708a4a1eb, udp: true}
-- {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: gy1.ldldfwq.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: f323d236-8e6c-4026-91fe-109708a4a1eb, udp: true}
+- {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: gy1.ldldfwq.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 68cc1edd-4fe7-4658-8c3d-b0e683564382, udp: true}
+- {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: gy1.ldldfwq.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 68cc1edd-4fe7-4658-8c3d-b0e683564382, udp: true}
 - {name: 🇸🇬 新加坡01 - freedom, server: wujrnbitcet.gym0boy.com, port: 21878, type: ss, cipher: aes-256-gcm, password: d166f7e0-7383-492d-aa73-b73a2775e481, udp: true}
 - {name: 🇸🇬 新加坡02 - freedom, server: i2plcwjnhrl6.gym0boy.com, port: 17377, type: ss, cipher: aes-256-gcm, password: d166f7e0-7383-492d-aa73-b73a2775e481, udp: true}
 - {name: 🇸🇬 新加坡03 - freedom, server: wujrnbitcet.gym0boy.com, port: 37908, type: ss, cipher: aes-256-gcm, password: d166f7e0-7383-492d-aa73-b73a2775e481, udp: true}
@@ -52,10 +52,10 @@ proxies:
 - *id001
 - *id002
 - *id003
-- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 6ba60b5a-6865-3831-8a3d-b35733cf6c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 6ba60b5a-6865-3831-8a3d-b35733cf6c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 6ba60b5a-6865-3831-8a3d-b35733cf6c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 6ba60b5a-6865-3831-8a3d-b35733cf6c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 1517d1b1-c233-3018-b209-41de287c784d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 1517d1b1-c233-3018-b209-41de287c784d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 1517d1b1-c233-3018-b209-41de287c784d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 1517d1b1-c233-3018-b209-41de287c784d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003
