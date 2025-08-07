@@ -1,11 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国01 - 迅云加速, server: mo.xunyunnode.sbs, port: 45823, type: ss, cipher: chacha20-ietf-poly1305, password: c04e2333-cc15-47b1-86a1-66ef17eff827, udp: true}
-- {name: 🇺🇸 美国02 - 迅云加速, server: abc.xunyunnode.sbs, port: 59079, type: ss, cipher: chacha20-ietf-poly1305, password: c04e2333-cc15-47b1-86a1-66ef17eff827, udp: true}
-- {name: 🇺🇸 美国03 - 迅云加速, server: qs.xunyunnode.sbs, port: 15765, type: ss, cipher: chacha20-ietf-poly1305, password: c04e2333-cc15-47b1-86a1-66ef17eff827, udp: true}
-- {name: 🇺🇸 美国04 - 迅云加速, server: wa.xunyunnode.sbs, port: 22041, type: ss, cipher: chacha20-ietf-poly1305, password: c04e2333-cc15-47b1-86a1-66ef17eff827, udp: true}
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a52b581b-5569-4f3c-baaa-a36f01756716, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a52b581b-5569-4f3c-baaa-a36f01756716, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a52b581b-5569-4f3c-baaa-a36f01756716, udp: true}
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8ca3bbb4-67eb-4848-8d20-1e563e2fc492, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8ca3bbb4-67eb-4848-8d20-1e563e2fc492, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8ca3bbb4-67eb-4848-8d20-1e563e2fc492, udp: true}
 - {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 55310ed7-6feb-32c2-9fd5-2f7ef32803b5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
