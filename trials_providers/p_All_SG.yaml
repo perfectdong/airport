@@ -1,17 +1,17 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇸🇬 Singapore00 新加坡 - EasierLife, server: sp1dg.easylink1.com, port: 22222, type: vmess, uuid: 8ac5f828-17ae-396d-996f-b6079e77551b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sp1dg.easylink1.com}}, udp: true}
+- {name: 🇸🇬 Singapore01 新加坡 - EasierLife, server: guang2.easylink1.com, port: 59103, type: vmess, uuid: 8ac5f828-17ae-396d-996f-b6079e77551b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guang2.easylink1.com}}, udp: true}
+- {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: gy1.ldldfwq.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 9d082e17-e105-4d16-9db5-cf9f75111b96, udp: true}
+- {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: gy1.ldldfwq.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 9d082e17-e105-4d16-9db5-cf9f75111b96, udp: true}
 - {name: 🇸🇬 新加坡01 - freedom, server: wujrnbitcet.gym0boy.com, port: 21878, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇸🇬 新加坡02 - freedom, server: i2plcwjnhrl6.gym0boy.com, port: 17377, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇸🇬 新加坡03 - freedom, server: wujrnbitcet.gym0boy.com, port: 37908, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇸🇬 新加坡04 - freedom, server: i2plcwjnhrl6.gym0boy.com, port: 12600, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
-- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 061d2377-22c9-388b-83b5-885831fa60bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 061d2377-22c9-388b-83b5-885831fa60bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 061d2377-22c9-388b-83b5-885831fa60bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 061d2377-22c9-388b-83b5-885831fa60bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 新加坡 - 快云加速, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇸🇬 新加坡2 - 快云加速, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
-- {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: gy1.ldldfwq.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 9d082e17-e105-4d16-9db5-cf9f75111b96, udp: true}
-- {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: gy1.ldldfwq.top, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 9d082e17-e105-4d16-9db5-cf9f75111b96, udp: true}
-- {name: 🇸🇬 Singapore00 新加坡 - EasierLife, server: sp1dg.easylink1.com, port: 22222, type: vmess, uuid: 32204593-c703-3757-bb4a-2504cd16ac2c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sp1dg.easylink1.com}}, udp: true}
-- {name: 🇸🇬 Singapore01 新加坡 - EasierLife, server: guang2.easylink1.com, port: 59103, type: vmess, uuid: 32204593-c703-3757-bb4a-2504cd16ac2c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guang2.easylink1.com}}, udp: true}
+- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 3d8909e6-4a03-3e5a-ab46-39dfedd83a6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 3d8909e6-4a03-3e5a-ab46-39dfedd83a6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 3d8909e6-4a03-3e5a-ab46-39dfedd83a6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 3d8909e6-4a03-3e5a-ab46-39dfedd83a6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
