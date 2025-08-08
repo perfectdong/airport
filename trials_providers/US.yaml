@@ -1,53 +1,48 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇺🇸 US-Los Angeles-01 - 脉冲云, server: gyjd.yy9866.com, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 7a84e0d6-50da-43eb-a1d6-8d7664504fcb, udp: true}
-- &id002 {name: 🇺🇸 US-Los Angeles-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 7a84e0d6-50da-43eb-a1d6-8d7664504fcb, udp: true}
-- {name: 🇺🇲  USA 0 美国 Netflix - EasierLife, server: us11g.easylink1.com, port: 13077, type: vmess, uuid: 18e5bfb7-4c2c-3699-90b7-b4aadbf755ec, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us11g.easylink1.com}}, udp: true}
-- {name: 🇺🇲  USA 美国 Netflix - EasierLife, server: vng.easylink1.com, port: 13054, type: vmess, uuid: 18e5bfb7-4c2c-3699-90b7-b4aadbf755ec, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vng.easylink1.com}}, udp: true}
-- {name: 🇺🇲 USA AT&T - EasierLife, server: usmaing.easylink1.com, port: 13080, type: vmess, uuid: 18e5bfb7-4c2c-3699-90b7-b4aadbf755ec, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usmaing.easylink1.com}}, udp: true}
-- {name: 🇺🇲 USA NETFLIX - EasierLife, server: us22g.easylink1.com, port: 12345, type: vmess, uuid: 18e5bfb7-4c2c-3699-90b7-b4aadbf755ec, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us22.easylink1.com}}, udp: true}
-- {name: 🇺🇲 USA NEW - EasierLife, server: us1g.easylink1.com, port: 7550, type: vmess, uuid: 18e5bfb7-4c2c-3699-90b7-b4aadbf755ec, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1g.easylink1.com}}, udp: true}
-- {name: 🇺🇲 USA1 HBO HULU D+ NT - EasierLife, server: ushg.easylink1.com, port: 13103, type: vmess, uuid: 18e5bfb7-4c2c-3699-90b7-b4aadbf755ec, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ush.easylink1.com}}, udp: true}
-- *id001
-- *id002
-- {name: 🇺🇲 美国|【dabai.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.36.119, headers: {Host: 100-167-116-109.s1.db-link02.top}}, udp: true}
-- {name: 🇺🇲 美国|【db01.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s1.db-link01.top, port: 8880, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.21.13, headers: {Host: 100-23-26-134.s1.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享 - 大白, server: s3.db-link01.top, port: 80, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.31.129, headers: {Host: 100-21-141-249.s3.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|【使用前请更新订阅】每日会变更节点密码|GPT+流媒体|共享 - 大白, server: s5.db-link01.top, port: 2082, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.33.62, headers: {Host: 100-163-251-211.s5.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|【注册免费领1TB流量】前往-注册|共享 - 大白, server: s5.db-link02.top, port: 80, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.209.187, headers: {Host: 100-101-209-172.s5.db-link02.top}}, udp: true}
-- {name: '🇺🇲 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享 - 大白', server: s5.db-link01.top, port: 8080, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.129.8, headers: {Host: 100-139-170-65.s5.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|最低35%-aff招募进行中|共享 - 大白, server: s4.cn-db.top, port: 8080, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.1.86, headers: {Host: 100-10-214-171.s4.cn-db.top}}, udp: true}
-- &id003 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: f50247a1-178d-4432-916f-5da670ac2b74, udp: true}
-- &id004 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: f50247a1-178d-4432-916f-5da670ac2b74, udp: true}
-- &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: f50247a1-178d-4432-916f-5da670ac2b74, udp: true}
-- *id003
-- *id004
-- *id005
-- {name: 🇺🇸 美国①弗里蒙特一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18814, type: vmess, uuid: c076b895-2dbd-37a1-807a-6e5223192e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇺🇸 美国①弗里蒙特一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18814, type: vmess, uuid: c076b895-2dbd-37a1-807a-6e5223192e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇺🇸 美国②亚特兰大一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18830, type: vmess, uuid: c076b895-2dbd-37a1-807a-6e5223192e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇺🇸 美国②亚特兰大一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18830, type: vmess, uuid: c076b895-2dbd-37a1-807a-6e5223192e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇺🇸 美国洛杉矶②一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18837, type: vmess, uuid: c076b895-2dbd-37a1-807a-6e5223192e0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇺🇸 ss(广移)美国1 - 雷达, server: gy1.ldldfwq.top, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 52a561d1-1434-4bcf-8d7c-d2560264553f, udp: true}
-- {name: 🇺🇸 ss(广移)美国2 - 雷达, server: gy1.ldldfwq.top, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 52a561d1-1434-4bcf-8d7c-d2560264553f, udp: true}
-- {name: 🇺🇸 ss(广移)美国2-1 - 雷达, server: gy1.ldldfwq.top, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 52a561d1-1434-4bcf-8d7c-d2560264553f, udp: true}
-- {name: 🇺🇸 ss(广移)美国2-2 - 雷达, server: gy1.ldldfwq.top, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 52a561d1-1434-4bcf-8d7c-d2560264553f, udp: true}
 - {name: 🇺🇸 美国01 - freedom, server: wujrnbitcet.gym0boy.com, port: 59270, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇺🇸 美国02 - freedom, server: i2plcwjnhrl6.gym0boy.com, port: 52448, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇺🇸 美国03 - freedom, server: wujrnbitcet.gym0boy.com, port: 29646, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇺🇸 美国04 - freedom, server: i2plcwjnhrl6.gym0boy.com, port: 32656, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
+- {name: 🇺🇸 美国 - 1 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 24889, type: vmess, uuid: 274eee39-bf1b-3302-a72f-8084841e6e1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 - 3 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: 274eee39-bf1b-3302-a72f-8084841e6e1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 - 4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: 274eee39-bf1b-3302-a72f-8084841e6e1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇺🇸 US-Los Angeles-01 - 脉冲云, server: gyjd.yy9866.com, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 2bbc5dbb-4c04-4595-a8da-11ecfb517a66, udp: true}
+- &id002 {name: 🇺🇸 US-Los Angeles-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 2bbc5dbb-4c04-4595-a8da-11ecfb517a66, udp: true}
+- *id001
+- *id002
 - {name: 🇺🇸 美国1 - 快云加速, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - *id001
 - *id002
+- *id001
+- *id002
+- {name: 🇺🇲 美国|【dabai.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s2.db-link02.top, port: 8080, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.68.2, headers: {Host: 100-162-175-103.s2.db-link02.top}}, udp: true}
+- {name: 🇺🇲 美国|【db01.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s4.cn-db.top, port: 2095, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.53.103, headers: {Host: 100-126-235-11.s4.cn-db.top}}, udp: true}
+- {name: 🇺🇲 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享 - 大白, server: s5.cn-db.top, port: 2086, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.201.227, headers: {Host: 100-3-136-32.s5.cn-db.top}}, udp: true}
+- {name: 🇺🇲 美国|【使用前请更新订阅】每日会变更节点密码|GPT+流媒体|共享 - 大白, server: s5.db-link01.top, port: 8880, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.238.12, headers: {Host: 100-134-69-191.s5.db-link01.top}}, udp: true}
+- {name: 🇺🇲 美国|【注册免费领1TB流量】前往-注册|共享 - 大白, server: s5.cn-db.top, port: 2052, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.19.141.157, headers: {Host: 100-82-17-215.s5.cn-db.top}}, udp: true}
+- {name: '🇺🇲 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享 - 大白', server: s1.db-link02.top, port: 80, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.6.198, headers: {Host: 100-114-67-82.s1.db-link02.top}}, udp: true}
+- {name: 🇺🇲 美国|最低35%-aff招募进行中|共享 - 大白, server: s2.db-link01.top, port: 8880, type: vmess, uuid: 4c30be02-bc64-34bd-8084-2302513aa717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.37.21, headers: {Host: 100-121-244-64.s2.db-link01.top}}, udp: true}
+- {name: 🇺🇸 ss(广移)美国1 - 雷达, server: gy1.ldldfwq.top, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 52a561d1-1434-4bcf-8d7c-d2560264553f, udp: true}
+- {name: 🇺🇸 ss(广移)美国2 - 雷达, server: gy1.ldldfwq.top, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 52a561d1-1434-4bcf-8d7c-d2560264553f, udp: true}
+- {name: 🇺🇸 ss(广移)美国2-1 - 雷达, server: gy1.ldldfwq.top, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 52a561d1-1434-4bcf-8d7c-d2560264553f, udp: true}
+- {name: 🇺🇸 ss(广移)美国2-2 - 雷达, server: gy1.ldldfwq.top, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 52a561d1-1434-4bcf-8d7c-d2560264553f, udp: true}
+- &id003 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 758f6d62-2a00-4ada-9a00-55f480fd8dfd, udp: true}
+- &id004 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 758f6d62-2a00-4ada-9a00-55f480fd8dfd, udp: true}
+- &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 758f6d62-2a00-4ada-9a00-55f480fd8dfd, udp: true}
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- {name: 🇺🇲  USA 0 美国 Netflix - EasierLife, server: us11g.easylink1.com, port: 13077, type: vmess, uuid: 32204593-c703-3757-bb4a-2504cd16ac2c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us11g.easylink1.com}}, udp: true}
+- {name: 🇺🇲  USA 美国 Netflix - EasierLife, server: vng.easylink1.com, port: 13054, type: vmess, uuid: 32204593-c703-3757-bb4a-2504cd16ac2c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vng.easylink1.com}}, udp: true}
+- {name: 🇺🇲 USA AT&T - EasierLife, server: usmaing.easylink1.com, port: 13080, type: vmess, uuid: 32204593-c703-3757-bb4a-2504cd16ac2c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usmaing.easylink1.com}}, udp: true}
+- {name: 🇺🇲 USA NETFLIX - EasierLife, server: us22g.easylink1.com, port: 12345, type: vmess, uuid: 32204593-c703-3757-bb4a-2504cd16ac2c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us22.easylink1.com}}, udp: true}
+- {name: 🇺🇲 USA NEW - EasierLife, server: us1g.easylink1.com, port: 7550, type: vmess, uuid: 32204593-c703-3757-bb4a-2504cd16ac2c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1g.easylink1.com}}, udp: true}
+- {name: 🇺🇲 USA1 HBO HULU D+ NT - EasierLife, server: ushg.easylink1.com, port: 13103, type: vmess, uuid: 32204593-c703-3757-bb4a-2504cd16ac2c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ush.easylink1.com}}, udp: true}
 - &id006 {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 3310a214-791a-3e19-8575-9baf347a00bf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id006
-- *id001
-- *id002
-- *id001
-- *id002
-- {name: 🇺🇸 美国 - 1 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 24889, type: vmess, uuid: 554399ba-0c60-3c4a-b935-32ae5eea90f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 3 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: 554399ba-0c60-3c4a-b935-32ae5eea90f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: 554399ba-0c60-3c4a-b935-32ae5eea90f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
