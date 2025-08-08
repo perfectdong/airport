@@ -1,13 +1,13 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 Taiwan01 台湾 - EasierLife, server: hinetg.easylink1.com, port: 13177, type: vmess, uuid: 8ac5f828-17ae-396d-996f-b6079e77551b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hinetg.easylink1.com}}, udp: true}
-- {name: 🇹🇼 ss(广移)台湾1 - 雷达, server: gy1.ldldfwq.top, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 9d082e17-e105-4d16-9db5-cf9f75111b96, udp: true}
-- {name: 🇹🇼 ss(广移)台湾2 - 雷达, server: gy1.ldldfwq.top, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 9d082e17-e105-4d16-9db5-cf9f75111b96, udp: true}
-- {name: 🇹🇼 ss(广移)台湾2-1 - 雷达, server: gy1.ldldfwq.top, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 9d082e17-e105-4d16-9db5-cf9f75111b96, udp: true}
-- {name: 🇹🇼 ss(广移)台湾2-2 - 雷达, server: gy1.ldldfwq.top, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 9d082e17-e105-4d16-9db5-cf9f75111b96, udp: true}
+- {name: 🇹🇼 Taiwan01 台湾 - EasierLife, server: hinetg.easylink1.com, port: 13177, type: vmess, uuid: 5b1aeabf-fd46-3f48-84ae-089ccba65532, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hinetg.easylink1.com}}, udp: true}
+- {name: 🇹🇼 ss(广移)台湾1 - 雷达, server: gy1.ldldfwq.top, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: e8005477-d261-4e6a-acc7-3c642d8a9a59, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2 - 雷达, server: gy1.ldldfwq.top, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: e8005477-d261-4e6a-acc7-3c642d8a9a59, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2-1 - 雷达, server: gy1.ldldfwq.top, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: e8005477-d261-4e6a-acc7-3c642d8a9a59, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2-2 - 雷达, server: gy1.ldldfwq.top, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: e8005477-d261-4e6a-acc7-3c642d8a9a59, udp: true}
 - {name: 🇹🇼 台湾01 - freedom, server: wujrnbitcet.gym0boy.com, port: 30372, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇹🇼 台湾02 - freedom, server: i2plcwjnhrl6.gym0boy.com, port: 50796, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇹🇼 台湾03 - freedom, server: wujrnbitcet.gym0boy.com, port: 40034, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇹🇼 台湾04 - freedom, server: i2plcwjnhrl6.gym0boy.com, port: 30555, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
-- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 3d8909e6-4a03-3e5a-ab46-39dfedd83a6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: af4905ff-8075-3c87-90db-edff4ba2d5b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
