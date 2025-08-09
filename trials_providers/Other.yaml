@@ -2,9 +2,9 @@
 ---
 proxies:
 - &id012 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 690c0292-b15f-34a6-b71a-433aed16350b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 90df1f7d-02d0-3b76-8a6c-9861c999eb4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 90df1f7d-02d0-3b76-8a6c-9861c999eb4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: 90df1f7d-02d0-3b76-8a6c-9861c999eb4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: c3198745-a537-341e-9a30-0bee5011000f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: c3198745-a537-341e-9a30-0bee5011000f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: c3198745-a537-341e-9a30-0bee5011000f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id001 {name: 🇫🇷 FR-Paris - 脉冲云, server: gyjd.yy9866.com, port: 16947, type: ss, cipher: chacha20-ietf-poly1305, password: f5adeb66-209e-4ba7-92c8-4d57444c62c1, udp: true}
 - &id002 {name: 🇲🇾 MY-Malaysia-PQ - 脉冲云, server: gyjd.yy9866.com, port: 37681, type: ss, cipher: chacha20-ietf-poly1305, password: f5adeb66-209e-4ba7-92c8-4d57444c62c1, udp: true}
 - &id003 {name: 🇦🇺 AU-Sydney - 脉冲云, server: gyjd.yy9866.com, port: 39263, type: ss, cipher: chacha20-ietf-poly1305, password: f5adeb66-209e-4ba7-92c8-4d57444c62c1, udp: true}
@@ -16,8 +16,8 @@ proxies:
 - &id009 {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: f5adeb66-209e-4ba7-92c8-4d57444c62c1, udp: true}
 - &id010 {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: f5adeb66-209e-4ba7-92c8-4d57444c62c1, udp: true}
 - &id011 {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: f5adeb66-209e-4ba7-92c8-4d57444c62c1, udp: true}
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: f92a4aaf-2a16-3eed-8022-07e29aa855bb, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: f92a4aaf-2a16-3eed-8022-07e29aa855bb, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 29e2b214-945b-3847-8530-5f8f7be24ac3, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 29e2b214-945b-3847-8530-5f8f7be24ac3, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003
@@ -88,53 +88,53 @@ proxies:
 - *id009
 - *id010
 - *id011
-- {name: ℹ️ 官网链接 ldld.whtjdasha.com - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: ℹ️ 无法连接请到官网导入订阅更新 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: ℹ️ 试用1小时 请到官网新购套餐 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇰🇷 ss(广移)韩国1 - 雷达, server: gy1.ldldfwq.top, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇰🇷 ss(广移)韩国2 - 雷达, server: gy1.ldldfwq.top, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇲🇾 ss(广移)马来西亚1 - 雷达, server: gy1.ldldfwq.top, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇲🇾 ss(广移)马来西亚2 - 雷达, server: gy1.ldldfwq.top, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇮🇱 ss(广移)以色列1 - 雷达, server: gy1.ldldfwq.top, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇮🇱 ss(广移)以色列2 - 雷达, server: gy1.ldldfwq.top, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇮🇳 ss(广移)印度1 - 雷达, server: gy1.ldldfwq.top, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇮🇳 ss(广移)印度2 - 雷达, server: gy1.ldldfwq.top, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇹🇷 ss(广移)土耳其1 - 雷达, server: gy1.ldldfwq.top, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇹🇷 ss(广移)土耳其2 - 雷达, server: gy1.ldldfwq.top, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇮🇸 ss(广移)冰岛1 - 雷达, server: gy1.ldldfwq.top, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇮🇸 ss(广移)冰岛2 - 雷达, server: gy1.ldldfwq.top, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇧🇷 ss(广移) 巴西1 - 雷达, server: gy1.ldldfwq.top, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇧🇷 ss(广移)巴西2 - 雷达, server: gy1.ldldfwq.top, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇲🇽 ss(广移)墨西哥1 - 雷达, server: gy1.ldldfwq.top, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇲🇽 ss(广移)墨西哥2 - 雷达, server: gy1.ldldfwq.top, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇹🇭 ss(广移)泰国1 - 雷达, server: gy1.ldldfwq.top, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- {name: 🇹🇭 ss(广移)泰国2 - 雷达, server: gy1.ldldfwq.top, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 3e6d772a-530d-466f-9972-f951142e9c94, udp: true}
-- &id013 {name: ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id014 {name: ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id015 {name: 🇰🇷 韩国 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id016 {name: 🇰🇷 韩国 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id017 {name: 🇰🇷 韩国 (广港)3x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id018 {name: 🇹🇷 土耳其 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id019 {name: 🇹🇷 土耳其 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id020 {name: 🇹🇷 土耳其 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id021 {name: 🇮🇸 冰岛 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id022 {name: 🇮🇸 冰岛 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id023 {name: 🇮🇸 冰岛 (广港)3x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id024 {name: 🇮🇳 印度 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id025 {name: 🇮🇳 印度 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id026 {name: 🇮🇳 印度 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id027 {name: 🇧🇷 巴西 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id028 {name: 🇧🇷 巴西 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id029 {name: 🇧🇷 巴西 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id030 {name: 🇮🇱 以色列 (广港)1x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id031 {name: 🇮🇱 以色列 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id032 {name: 🇮🇱 以色列 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id033 {name: 🇲🇽 墨西哥 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id034 {name: 🇲🇽 墨西哥 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id035 {name: 🇲🇽 墨西哥 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id036 {name: 🇹🇭 泰国 (广新)1  x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id037 {name: 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
-- &id038 {name: 🇹🇭 泰国 (广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: ec4aefb8-f540-47d9-8e0a-0ef5f284dd2d, udp: true}
+- {name: ℹ️ 官网链接 ldld.whtjdasha.com - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: ℹ️ 无法连接请到官网导入订阅更新 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: ℹ️ 试用1小时 请到官网新购套餐 - 雷达, server: gy1.ldldfwq.top, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇰🇷 ss(广移)韩国1 - 雷达, server: gy1.ldldfwq.top, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇰🇷 ss(广移)韩国2 - 雷达, server: gy1.ldldfwq.top, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇲🇾 ss(广移)马来西亚1 - 雷达, server: gy1.ldldfwq.top, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇲🇾 ss(广移)马来西亚2 - 雷达, server: gy1.ldldfwq.top, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇮🇱 ss(广移)以色列1 - 雷达, server: gy1.ldldfwq.top, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇮🇱 ss(广移)以色列2 - 雷达, server: gy1.ldldfwq.top, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇮🇳 ss(广移)印度1 - 雷达, server: gy1.ldldfwq.top, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇮🇳 ss(广移)印度2 - 雷达, server: gy1.ldldfwq.top, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇹🇷 ss(广移)土耳其1 - 雷达, server: gy1.ldldfwq.top, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇹🇷 ss(广移)土耳其2 - 雷达, server: gy1.ldldfwq.top, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇮🇸 ss(广移)冰岛1 - 雷达, server: gy1.ldldfwq.top, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇮🇸 ss(广移)冰岛2 - 雷达, server: gy1.ldldfwq.top, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇧🇷 ss(广移) 巴西1 - 雷达, server: gy1.ldldfwq.top, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇧🇷 ss(广移)巴西2 - 雷达, server: gy1.ldldfwq.top, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇲🇽 ss(广移)墨西哥1 - 雷达, server: gy1.ldldfwq.top, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇲🇽 ss(广移)墨西哥2 - 雷达, server: gy1.ldldfwq.top, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇹🇭 ss(广移)泰国1 - 雷达, server: gy1.ldldfwq.top, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- {name: 🇹🇭 ss(广移)泰国2 - 雷达, server: gy1.ldldfwq.top, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 9c460451-23b4-4920-9804-06b0d2bfd0f6, udp: true}
+- &id013 {name: ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id014 {name: ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id015 {name: 🇰🇷 韩国 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id016 {name: 🇰🇷 韩国 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id017 {name: 🇰🇷 韩国 (广港)3x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id018 {name: 🇹🇷 土耳其 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id019 {name: 🇹🇷 土耳其 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id020 {name: 🇹🇷 土耳其 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id021 {name: 🇮🇸 冰岛 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id022 {name: 🇮🇸 冰岛 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id023 {name: 🇮🇸 冰岛 (广港)3x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id024 {name: 🇮🇳 印度 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id025 {name: 🇮🇳 印度 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id026 {name: 🇮🇳 印度 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id027 {name: 🇧🇷 巴西 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id028 {name: 🇧🇷 巴西 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id029 {name: 🇧🇷 巴西 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id030 {name: 🇮🇱 以色列 (广港)1x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id031 {name: 🇮🇱 以色列 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id032 {name: 🇮🇱 以色列 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id033 {name: 🇲🇽 墨西哥 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id034 {name: 🇲🇽 墨西哥 (广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id035 {name: 🇲🇽 墨西哥 (广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id036 {name: 🇹🇭 泰国 (广新)1  x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id037 {name: 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
+- &id038 {name: 🇹🇭 泰国 (广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 4b0c7e4b-34c3-41af-ad21-685aab319c05, udp: true}
 - *id001
 - *id002
 - *id003
