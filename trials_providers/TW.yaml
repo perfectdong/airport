@@ -5,7 +5,7 @@ proxies:
 - {name: 🇹🇼 台湾02 - freedom, server: i2plcwjnhrl6.gym0boy.com, port: 50796, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇹🇼 台湾03 - freedom, server: wujrnbitcet.gym0boy.com, port: 40034, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
 - {name: 🇹🇼 台湾04 - freedom, server: i2plcwjnhrl6.gym0boy.com, port: 30555, type: ss, cipher: aes-256-gcm, password: 6eb5992a-2854-4e63-a5ce-db1b4543bc2a, udp: true}
-- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: bd3bc9bb-b17d-307a-9c34-0f17e0000b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: c222268a-ccf6-35c8-8835-ac1b0b513fb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾②一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18850, type: vmess, uuid: 54a8c0b4-1176-3d95-b965-9f98b35928fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇹🇼 台湾②一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18850, type: vmess, uuid: 54a8c0b4-1176-3d95-b965-9f98b35928fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18856, type: vmess, uuid: 54a8c0b4-1176-3d95-b965-9f98b35928fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
@@ -26,6 +26,6 @@ proxies:
 - *id004
 - *id005
 - *id006
-- {name: 🇹🇼 Taiwan01 台湾 - EasierLife, server: hinetg.easylink1.com, port: 13177, type: vmess, uuid: d8e0bd15-5b4e-3e4d-917d-7ea225769e57, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hinetg.easylink1.com}}, udp: true}
+- {name: 🇹🇼 Taiwan01 台湾 - EasierLife, server: hinetg.easylink1.com, port: 13177, type: vmess, uuid: e0a0d674-1691-31fe-9c1c-e91ce7418ee5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hinetg.easylink1.com}}, udp: true}
 - &id007 {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 3310a214-791a-3e19-8575-9baf347a00bf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id007
