@@ -31,9 +31,8 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id001
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
+  - p_All_All_Other_Other
+  - p_All_All_Other_Other
   - p_All_HK_CN
   - p_All_JP
   - p_All_TW_CN
@@ -76,8 +75,6 @@ proxy-groups:
   - p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other
   - p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other
   - p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
   - p_All_All_HK_HK_CN_CN
   - p_All_All_HK_HK_CN_CN
   - p_All_All_SG_SG
@@ -222,9 +219,8 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id008
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
+  - p_All_All_Other_Other
+  - p_All_All_Other_Other
   - p_All_Other
   - p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other
   - p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other
@@ -232,8 +228,6 @@ proxy-groups:
   - p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other
   - p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other
   - p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   use: *id002
@@ -256,11 +250,11 @@ proxy-groups:
   type: select
   use: *id008
 proxy-providers:
-  p_All_All_All_Other_Other_Other:
+  p_All_All_Other_Other:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_Other_Other_Other.yaml
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_Other_Other.yaml
     interval: 180
-    path: trials_providers/p_All_All_All_Other_Other_Other.yaml
+    path: trials_providers/p_All_All_Other_Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
@@ -369,15 +363,6 @@ proxy-providers:
     url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other.yaml
     interval: 180
     path: trials_providers/p_All_All_All_All_All_All_Other_Other_Other_Other_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_Other_Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
@@ -520,19 +505,6 @@ rules:
 - DOMAIN,rewards.hypixel.net,🛩️ ‍墙内
 - DOMAIN-SUFFIX,koodomobile.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,koodomobile.ca,🛩️ ‍墙内
-- DOMAIN-SUFFIX,synology.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DiskStation.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,i234.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,myDS.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSCloud.biz,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSCloud.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSCloud.mobi,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSmyNAS.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSmyNAS.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSmyNAS.org,🛩️ ‍墙内
-- DOMAIN-SUFFIX,FamilyDS.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,FamilyDS.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,FamilyDS.org,🛩️ ‍墙内
 - DOMAIN-SUFFIX,sigmob.cn,💩 ‍广告
 - DOMAIN,open.e.kuaishou.com,💩 ‍广告
 - DOMAIN,open.e.kuaishou.cn,💩 ‍广告
@@ -2221,7 +2193,6 @@ rules:
 - DOMAIN-KEYWORD,claude,🤖 ‍AI
 - DOMAIN-KEYWORD,openai,🤖 ‍AI
 - DOMAIN,ai.google.dev,🤖 ‍AI
-- DOMAIN,aistudio.google.com,🤖 ‍AI
 - DOMAIN,api.githubcopilot.com,🤖 ‍AI
 - DOMAIN,api.groq.com,🤖 ‍AI
 - DOMAIN,api.together.xyz,🤖 ‍AI
@@ -8108,7 +8079,6 @@ rules:
 - DOMAIN-SUFFIX,ucweb.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,ykimg.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,youku.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,qwen.ai,🛩️ ‍墙内
 - DOMAIN-SUFFIX,baidu.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,baidubcr.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,bcebos.com,🛩️ ‍墙内
