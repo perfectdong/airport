@@ -1,12 +1,12 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 65bb31ef-9ecf-3a43-ac7f-5efd412e8534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 65bb31ef-9ecf-3a43-ac7f-5efd412e8534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 65bb31ef-9ecf-3a43-ac7f-5efd412e8534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 65bb31ef-9ecf-3a43-ac7f-5efd412e8534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: dbef03c0-0c79-42ac-b8b6-f280635c1000, udp: true}
-- &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: dbef03c0-0c79-42ac-b8b6-f280635c1000, udp: true}
+- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 068b36de-dc4b-320b-bea6-d664cc6564cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 068b36de-dc4b-320b-bea6-d664cc6564cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 068b36de-dc4b-320b-bea6-d664cc6564cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 068b36de-dc4b-320b-bea6-d664cc6564cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: c4d4a276-13c5-43d5-8ca0-c8da3a2040d4, udp: true}
+- &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: c4d4a276-13c5-43d5-8ca0-c8da3a2040d4, udp: true}
 - *id001
 - *id002
 - {name: 🇯🇵 日本5G - 快云加速, server: 35.77.85.111, port: 15697, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
@@ -14,14 +14,9 @@ proxies:
 - {name: 🇯🇵 日本2 - 快云加速, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - *id001
 - *id002
-- {name: 🇯🇵 日本NTT一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18817, type: vmess, uuid: 8d84e718-7203-3f31-bbed-eb063fb6e3e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇯🇵 日本NTT一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18817, type: vmess, uuid: 8d84e718-7203-3f31-bbed-eb063fb6e3e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18813, type: vmess, uuid: 8d84e718-7203-3f31-bbed-eb063fb6e3e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇯🇵 日本①一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18813, type: vmess, uuid: 8d84e718-7203-3f31-bbed-eb063fb6e3e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18806, type: vmess, uuid: 8d84e718-7203-3f31-bbed-eb063fb6e3e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇯🇵 日本②东京一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18806, type: vmess, uuid: 8d84e718-7203-3f31-bbed-eb063fb6e3e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18812, type: vmess, uuid: 8d84e718-7203-3f31-bbed-eb063fb6e3e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇯🇵 日本③大阪一优化② - tuboshu.io|土拨鼠.co, server: lt.xdyqlek4lrhs.com, port: 18812, type: vmess, uuid: 8d84e718-7203-3f31-bbed-eb063fb6e3e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lt.xdyqlek4lrhs.com}}, udp: true}
 - *id001
 - *id002
 - {name: 🇯🇵 ss(广移)日本1 - 雷达, server: gy1.ldldfwq.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 65caeb4a-60a8-4377-9150-c45d0a344321, udp: true}
@@ -36,6 +31,6 @@ proxies:
 - *id003
 - *id004
 - *id005
-- {name: 🇯🇵 Japan00 日本 - EasierLife, server: jp1g.easylink1.com, port: 21315, type: vmess, uuid: cc2acc34-01f9-3b59-a81a-91df1d9bd4b1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1g.easylink1.com}}, udp: true}
+- {name: 🇯🇵 Japan00 日本 - EasierLife, server: jp1g.easylink1.com, port: 21315, type: vmess, uuid: ebdff080-1afe-31b0-890a-f0ddb7178bba, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1g.easylink1.com}}, udp: true}
 - *id001
 - *id002
