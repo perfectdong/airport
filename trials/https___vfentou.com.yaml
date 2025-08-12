@@ -55,8 +55,8 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: c12315b5-386d-3ba9-9231-bc3ddcb1649d, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: c12315b5-386d-3ba9-9231-bc3ddcb1649d, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 64ae1f63-81e4-364b-a9a5-780e1cde29ad, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 64ae1f63-81e4-364b-a9a5-780e1cde29ad, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
@@ -1867,8 +1867,8 @@ rules:
 - DOMAIN-SUFFIX,client-api.arkoselabs.com,🤖 ‍AI
 - DOMAIN-SUFFIX,copilot.cloud.microsoft,🤖 ‍AI
 - DOMAIN-SUFFIX,copilot.microsoft.com,🤖 ‍AI
-- DOMAIN-SUFFIX,curosr.com,🤖 ‍AI
-- DOMAIN-SUFFIX,curosr.sh,🤖 ‍AI
+- DOMAIN-SUFFIX,cursor.com,🤖 ‍AI
+- DOMAIN-SUFFIX,cursor.sh,🤖 ‍AI
 - DOMAIN-SUFFIX,events.statsigapi.net,🤖 ‍AI
 - DOMAIN-SUFFIX,featuregates.org,🤖 ‍AI
 - DOMAIN-SUFFIX,gemini.google.com,🤖 ‍AI
