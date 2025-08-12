@@ -1,10 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 08c7b47c-85bd-3b44-80f3-5a816181bc53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 08c7b47c-85bd-3b44-80f3-5a816181bc53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 08c7b47c-85bd-3b44-80f3-5a816181bc53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 08c7b47c-85bd-3b44-80f3-5a816181bc53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 398f5b8c-999a-3744-908c-9628398ad37a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 398f5b8c-999a-3744-908c-9628398ad37a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 398f5b8c-999a-3744-908c-9628398ad37a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 398f5b8c-999a-3744-908c-9628398ad37a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id001 {name: 🇸🇬 Singapore-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 6d7415e1-f24b-4ce6-a068-610c0dc0b60b, udp: true}
 - &id002 {name: 🇸🇬 Singapore-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: 6d7415e1-f24b-4ce6-a068-610c0dc0b60b, udp: true}
 - &id003 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: 6d7415e1-f24b-4ce6-a068-610c0dc0b60b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -38,8 +38,8 @@ proxies:
 - *id007
 - *id008
 - *id009
-- {name: 🇸🇬 Singapore00 新加坡 - EasierLife, server: sp1dg.easylink1.com, port: 22222, type: vmess, uuid: ddb1801a-e7b8-31b3-b89e-26e6582f1960, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sp1dg.easylink1.com}}, udp: true}
-- {name: 🇸🇬 Singapore01 新加坡 - EasierLife, server: guang2.easylink1.com, port: 59103, type: vmess, uuid: ddb1801a-e7b8-31b3-b89e-26e6582f1960, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guang2.easylink1.com}}, udp: true}
+- {name: 🇸🇬 Singapore00 新加坡 - EasierLife, server: sp1dg.easylink1.com, port: 22222, type: vmess, uuid: 807b7ea7-2cb0-38bb-95cc-8711cc43d3ba, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sp1dg.easylink1.com}}, udp: true}
+- {name: 🇸🇬 Singapore01 新加坡 - EasierLife, server: guang2.easylink1.com, port: 59103, type: vmess, uuid: 807b7ea7-2cb0-38bb-95cc-8711cc43d3ba, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guang2.easylink1.com}}, udp: true}
 - &id010 {name: '🇸🇬 [vip①]②新加坡 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 9319e551-8f73-3c50-b43f-0450bb8d8114, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id010
 - *id001
