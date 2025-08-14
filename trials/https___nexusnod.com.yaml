@@ -9,20 +9,8 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
-  - ⚡ ‍低延迟
-  - 👆🏻 ‍指定
   - DIRECT
   - REJECT
-- name: ⚡ ‍低延迟
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
-  tolerance: 100
-  proxies: &id001
-  - 🇺🇸 USA - Nexus VPN
-- name: 👆🏻 ‍指定
-  type: select
-  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -40,12 +28,10 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - ✈️ ‍起飞
-  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - ✈️ ‍起飞
-  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -54,7 +40,7 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 🇺🇸 USA - Nexus VPN, server: usa-node.nexusvpn.app, port: 443, type: trojan, password: 56c2ad79-47b3-40eb-bb5a-5f4e50946191, sni: usa-node.nexusvpn.app, skip-cert-verify: true, udp: true}
+- {name: USA - Nexus VPN, server: usa-node.nexusvpn.app, port: 443, type: trojan, password: 56c2ad79-47b3-40eb-bb5a-5f4e50946191, sni: usa-node.nexusvpn.app, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
