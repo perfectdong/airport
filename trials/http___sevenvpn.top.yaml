@@ -40,8 +40,8 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 剩余流量：73MB - OneCat, server: access.onecat.cloud, port: 10086, type: vmess, uuid: f91ffb9b-ae7b-3b5e-92b1-639aeca4693c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 过期时间：2025-08-14 - OneCat, server: access.onecat.cloud, port: 10086, type: vmess, uuid: f91ffb9b-ae7b-3b5e-92b1-639aeca4693c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 剩余流量：81MB - Sevenvpn, server: sevenvpn.top, port: 10086, type: vmess, uuid: 3f8bb9be-97d9-3950-b347-fcc8030574b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 过期时间：2025-08-15 - Sevenvpn, server: sevenvpn.top, port: 10086, type: vmess, uuid: 3f8bb9be-97d9-3950-b347-fcc8030574b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
