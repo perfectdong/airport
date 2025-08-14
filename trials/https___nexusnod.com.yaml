@@ -15,12 +15,14 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - All
+  proxies: &id001
+  - 🇺🇸 USA - Nexus VPN
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -51,16 +53,8 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxy-providers:
-  All:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___vfentou.com/All.yaml
-    interval: 180
-    path: trials_providers/https___vfentou.com/All.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+proxies:
+- {name: 🇺🇸 USA - Nexus VPN, server: usa-node.nexusvpn.app, port: 443, type: trojan, password: 56c2ad79-47b3-40eb-bb5a-5f4e50946191, sni: usa-node.nexusvpn.app, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
