@@ -40,8 +40,8 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 剩余流量：33MB - OneCat, server: access.onecat.cloud, port: 10086, type: vmess, uuid: 7a1bdaae-e25c-312a-98c3-17b21f2a6342, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 过期时间：2025-08-14 - OneCat, server: access.onecat.cloud, port: 10086, type: vmess, uuid: 7a1bdaae-e25c-312a-98c3-17b21f2a6342, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 剩余流量：50MB - OneCat, server: access.onecat.cloud, port: 10086, type: vmess, uuid: fd4a2660-e19c-3f50-a5d1-f5c5b766a8a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 过期时间：2025-08-14 - OneCat, server: access.onecat.cloud, port: 10086, type: vmess, uuid: fd4a2660-e19c-3f50-a5d1-f5c5b766a8a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
