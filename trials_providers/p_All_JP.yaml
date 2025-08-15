@@ -1,17 +1,17 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 532c6f2b-2eed-37b9-87ed-2684498114dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 532c6f2b-2eed-37b9-87ed-2684498114dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 532c6f2b-2eed-37b9-87ed-2684498114dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 532c6f2b-2eed-37b9-87ed-2684498114dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: aeb61cd1-327a-3fda-84be-682a4ce30009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: aeb61cd1-327a-3fda-84be-682a4ce30009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: aeb61cd1-327a-3fda-84be-682a4ce30009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: aeb61cd1-327a-3fda-84be-682a4ce30009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本办公VPN-5G - 快云加速, server: 35.77.85.111, port: 15697, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇯🇵 日本边缘节点-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇯🇵 日本边缘节点-02 - 快云加速, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18813, type: vmess, uuid: 452e5ecc-165b-3298-8941-9e250b3eead2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18806, type: vmess, uuid: 452e5ecc-165b-3298-8941-9e250b3eead2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18812, type: vmess, uuid: 452e5ecc-165b-3298-8941-9e250b3eead2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 8b542906-5586-4c17-be11-3b5654611a9d, udp: true}
-- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 8b542906-5586-4c17-be11-3b5654611a9d, udp: true}
-- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 8b542906-5586-4c17-be11-3b5654611a9d, udp: true}
-- {name: 🇯🇵 Japan00 日本 - EasierLife, server: jp1g.easylink1.com, port: 21315, type: vmess, uuid: 41cb76ce-5e11-3af1-a879-32249557ce94, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1g.easylink1.com}}, udp: true}
+- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: b1c363b3-7c46-441f-bcc9-2f0dbabd19c1, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: b1c363b3-7c46-441f-bcc9-2f0dbabd19c1, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: b1c363b3-7c46-441f-bcc9-2f0dbabd19c1, udp: true}
+- {name: 🇯🇵 Japan00 日本 - EasierLife, server: jp1g.easylink1.com, port: 21315, type: vmess, uuid: 35dfb0c2-5b90-3721-a564-2abc7ff600d6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1g.easylink1.com}}, udp: true}
