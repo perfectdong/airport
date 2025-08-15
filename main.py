@@ -14,9 +14,19 @@ from tenacity import retry, stop_after_attempt, wait_fixed, retry_if_exception_t
 # 配置日志
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# 定义聚合URLs的来源
+# 定义聚合URLs的来源 - IPTV频道聚合源
 AGGREGATOR_URLS = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/README.md",
+    "https://iptv-org.github.io/iptv/index.m3u",
+    "https://iptv-org.github.io/iptv/countries/cn.m3u",
+    "https://iptv-org.github.io/iptv/countries/hk.m3u",
+    "https://iptv-org.github.io/iptv/countries/tw.m3u",
+    "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "https://iptv-org.github.io/iptv/countries/jp.m3u",
+    "https://iptv-org.github.io/iptv/countries/kr.m3u",
+    "https://iptv-org.github.io/iptv/countries/gb.m3u",
+    "https://iptv-org.github.io/iptv/countries/de.m3u",
+    "https://iptv-org.github.io/iptv/countries/fr.m3u",
 ]
 
 # 用于匹配包含 m3u/m3u8/txt 扩展名的URL
@@ -313,6 +323,135 @@ def fetch_aggregator_url_with_retry(agg_url, timeout=20):
     response.raise_for_status()
     return response.text
 
+def merge_iptv_files(local_channels_directory):
+    """Merges all local channel files into iptv_list.txt."""
+    final_output_lines = []
+    
+    now = datetime.now()
+    update_time_line = [
+        f"更新时间,#genre#\n",
+        f"{now.strftime('%Y-%m-%d')},url\n",
+        f"{now.strftime('%H:%M:%S')},url\n"
+    ]
+    final_output_lines.extend(update_time_line)
+
+    ordered_categories = ["央视频道", "卫视频道", "湖南频道", "港台频道"]
+    
+    all_iptv_files_in_dir = [f for f in os.listdir(local_channels_directory) if f.endswith('_iptv.txt')]
+    
+    files_to_merge_paths = []
+    processed_files = set()
+
+    for category in ordered_categories:
+        file_name = f"{category}_iptv.txt"
+        if file_name in all_iptv_files_in_dir and file_name not in processed_files:
+            files_to_merge_paths.append(os.path.join(local_channels_directory, file_name))
+            processed_files.add(file_name)
+    
+    for file_name in sorted(all_iptv_files_in_dir):
+        if file_name not in processed_files:
+            files_to_merge_paths.append(os.path.join(local_channels_directory, file_name))
+            processed_files.add(file_name)
+
+    for file_path in files_to_merge_paths:
+        with open(file_path, "r", encoding="utf-8") as file:
+            lines = file.readlines()
+            if not lines:
+                continue
+
+            header = lines[0].strip()
+            if '#genre#' in header:
+                final_output_lines.append(header + '\n')
+                
+                grouped_channels_in_category = {}
+                for line_content in lines[1:]:
+                    line_content = line_content.strip()
+                    if line_content:
+                        channel_name = line_content.split(',', 1)[0].strip()
+                        if channel_name not in grouped_channels_in_category:
+                            grouped_channels_in_category[channel_name] = []
+                        grouped_channels_in_category[channel_name].append(line_content)
+                
+                for channel_name in grouped_channels_in_category:
+                    # Limit each channel to a maximum of 200 URLs to prevent excessively large files
+                    for ch_line in grouped_channels_in_category[channel_name][:200]:
+                        final_output_lines.append(ch_line + '\n')
+            else:
+                logging.warning(f"File {file_path} does not start with a category header. Skipping.")
+
+    iptv_list_file_path = "iptv_list.txt"
+    with open(iptv_list_file_path, "w", encoding="utf-8") as iptv_list_file:
+        iptv_list_file.writelines(final_output_lines)
+
+    try:
+        # Delete temporary files
+        if os.path.exists('iptv.txt'):
+            os.remove('iptv.txt')
+            logging.info(f"Temporary file iptv.txt deleted.")
+        if os.path.exists('iptv_speed.txt'):
+            os.remove('iptv_speed.txt')
+            logging.info(f"Temporary file iptv_speed.txt deleted.")
+    except OSError as e:
+        logging.warning(f"Error deleting temporary files: {e}")
+
+    logging.info(f"\nAll regional channel list files merged. Output saved to: {iptv_list_file_path}")
+
+
+def clear_txt_files(directory):
+    """清理目录中的所有TXT文件"""
+    for file in os.listdir(directory):
+        if file.endswith('.txt'):
+            os.remove(os.path.join(directory, file))
+
+
+def sort_cctv_channels(channels):
+    """对CCTV频道进行数字排序"""
+    def extract_number(channel):
+        import re
+        match = re.search(r'CCTV-?(\d+)', channel, re.IGNORECASE)
+        if match:
+            return int(match.group(1))
+        return 999  # 非数字频道排在最后
+    
+    return sorted(channels, key=extract_number)
+
+
+def write_list(file_path, results):
+    """将结果写入文件"""
+    with open(file_path, 'w', encoding='utf-8') as f:
+        for elapsed_time, result in results:
+            f.write(result + '\n')
+
+
+def process_urls_multithreaded(urls):
+    """多线程处理URL列表"""
+    results = []
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        future_to_url = {executor.submit(check_url_speed, url): url for url in urls}
+        for future in as_completed(future_to_url):
+            url = future_to_url[future]
+            try:
+                result = future.result()
+                if result:
+                    results.append(result)
+            except Exception as exc:
+                logging.error(f"处理URL {url} 时产生异常: {exc}")
+    return results
+
+
+def check_url_speed(url):
+    """检查URL的响应速度"""
+    try:
+        start_time = time.time()
+        response = requests.head(url.split(',', 1)[1], timeout=5)
+        if response.status_code == 200:
+            elapsed_time = (time.time() - start_time) * 1000
+            return elapsed_time, url
+    except:
+        pass
+    return None
+
+
 def auto_discover_and_update_urls_file(config_urls_path, aggregator_urls_sources):
     logging.info("开始自动发现并更新 config/urls.txt 中的URLs...")
     discovered_urls = set()
@@ -376,7 +515,7 @@ def auto_discover_and_update_urls_file(config_urls_path, aggregator_urls_sources
             logging.debug(f"验证URL内容时发生未知错误 {url}: {e}")
             return None
 
-    with ThreadPoolExecutor(max_workers=min(20, len(discovered_urls))) as executor:
+    with ThreadPoolExecutor(max_workers=min(20, max(1, len(discovered_urls)))) as executor:
         futures = [executor.submit(verify_single_url_content, url) for url in discovered_urls]
         for future in as_completed(futures):
             valid_url = future.result()
