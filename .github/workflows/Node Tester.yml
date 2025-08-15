@@ -1,4 +1,4 @@
-name: Node Tester # 工作流的名称，在 GitHub Actions 页面会显示
+name: IPTV Channel Aggregator # 工作流的名称，在 GitHub Actions 页面会显示
 
 on:
   workflow_dispatch: # 允许在 GitHub Actions 界面手动触发此工作流
@@ -9,7 +9,7 @@ on:
                         # cron 表达式的格式：分钟 小时 日 月 星期 (都用UTC时间)
 
 jobs:
-  test-nodes:
+  aggregate-iptv-channels:
     runs-on: ubuntu-latest # 指定工作流运行的操作系统环境，这里使用最新的 Ubuntu 虚拟机
 
     steps:
@@ -33,7 +33,7 @@ jobs:
                             # 如果 `requirements.txt` 在仓库根目录，用 `./`
                             # 如果在子目录（例如 `my-app/`），请改为 `./my-app/`
 
-    - name: Run Node Tests # 步骤5：运行你的节点测试脚本
+    - name: Run IPTV Channel Aggregator # 步骤5：运行IPTV频道聚合脚本
       run: python main.py
       working-directory: ./ # <-- **重要：** 确保这个路径是 `main.py` 所在的目录
                             # 如果 `main.py` 在仓库根目录，用 `./`
@@ -46,7 +46,9 @@ jobs:
         git config user.name "github-actions[bot]" # 配置 Git 用户名，使用 GitHub 提供的机器人用户
         git config user.email "github-actions[bot]@users.noreply.github.com" # 配置 Git 邮箱
         # 添加测试结果文件到 Git 暂存区
-        git add iptv.txt iptv_speed.txt unmatched_channels.txt || echo "No files to add"
+        git add iptv.txt iptv_speed.txt unmatched_channels.txt iptv_list.txt || echo "No files to add"
+        # 添加地方频道目录中的所有文件
+        git add 地方频道/*.txt || echo "No channel files to add"
         # 提交更改。`|| echo "No changes to commit"` 是为了防止在没有文件更改时提交失败
         git commit -m "Update IPTV test results [skip ci]" || echo "No changes to commit"
         git push # 推送更改到远程仓库
