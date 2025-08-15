@@ -18,38 +18,37 @@ jobs:
 
     - name: List files for debugging # 步骤2 (可选，用于调试)：列出仓库中的所有文件和目录
       # 如果你遇到文件找不到的问题（例如 `ENOENT` 错误），这个步骤可以帮助你确认文件结构。
-      # 确认 `package.json` 和 `test_nodes.js` 是否在预期路径。
+      # 确认 `requirements.txt` 和 `main.py` 是否在预期路径。
       run: ls -R
 
-    - name: Set up Node.js # 步骤3：设置 Node.js 运行环境
-      uses: actions/setup-node@v4 # 使用官方的 setup-node action
+    - name: Set up Python # 步骤3：设置 Python 运行环境
+      uses: actions/setup-python@v4 # 使用官方的 setup-python action
       with:
-        node-version: '20' # 指定使用的 Node.js 版本，建议使用 LTS 版本
+        python-version: '3.11' # 指定使用的 Python 版本
 
-    - name: Install dependencies # 步骤4：安装 JavaScript 依赖（例如 js-yaml）
-      # npm 默认会查找当前目录下的 package.json 文件
-      run: npm install
-      working-directory: ./ # <-- **重要：** 确保这个路径是 `package.json` 所在的目录
-                            # 如果 `package.json` 在仓库根目录，用 `./`
+    - name: Install dependencies # 步骤4：安装 Python 依赖
+      # pip 默认会查找当前目录下的 requirements.txt 文件
+      run: pip install -r requirements.txt
+      working-directory: ./ # <-- **重要：** 确保这个路径是 `requirements.txt` 所在的目录
+                            # 如果 `requirements.txt` 在仓库根目录，用 `./`
                             # 如果在子目录（例如 `my-app/`），请改为 `./my-app/`
 
     - name: Run Node Tests # 步骤5：运行你的节点测试脚本
-      run: node test_nodes.js
-      working-directory: ./ # <-- **重要：** 确保这个路径是 `test_nodes.js` 所在的目录
-                            # 如果 `test_nodes.js` 在仓库根目录，用 `./`
+      run: python main.py
+      working-directory: ./ # <-- **重要：** 确保这个路径是 `main.py` 所在的目录
+                            # 如果 `main.py` 在仓库根目录，用 `./`
                             # 如果在子目录（例如 `my-app/`），请改为 `./my-app/`
 
     - name: Commit test results # 步骤6：将测试结果文件提交回仓库
-      # 这段脚本将配置 Git 用户信息，添加并提交 `data/521.yaml` 文件，然后推送到远程仓库。
+      # 这段脚本将配置 Git 用户信息，添加并提交测试结果文件，然后推送到远程仓库。
       # `[skip ci]` 标签会避免本次提交再次触发这个工作流，防止无限循环。
       run: |
         git config user.name "github-actions[bot]" # 配置 Git 用户名，使用 GitHub 提供的机器人用户
         git config user.email "github-actions[bot]@users.noreply.github.com" # 配置 Git 邮箱
-        # 添加 data/521.yaml 文件到 Git 暂存区
-        # 确保 `data/521.yaml` 相对于仓库的根目录是正确的
-        git add data/521.yaml
+        # 添加测试结果文件到 Git 暂存区
+        git add iptv.txt iptv_speed.txt unmatched_channels.txt || echo "No files to add"
         # 提交更改。`|| echo "No changes to commit"` 是为了防止在没有文件更改时提交失败
-        git commit -m "Update node test results [skip ci]" || echo "No changes to commit"
+        git commit -m "Update IPTV test results [skip ci]" || echo "No changes to commit"
         git push # 推送更改到远程仓库
       env:
-        GITHUB_TOKEN: ${{ secrets.BOT }} # GitHub 自动提供的令牌，用于认证 Git 操作
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub 自动提供的令牌，用于认证 Git 操作 
