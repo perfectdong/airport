@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: f30882be-8b89-3454-bf8b-ca654eabbfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 532c6f2b-2eed-37b9-87ed-2684498114dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾②一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18850, type: vmess, uuid: 452e5ecc-165b-3298-8941-9e250b3eead2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18856, type: vmess, uuid: 452e5ecc-165b-3298-8941-9e250b3eead2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 8b542906-5586-4c17-be11-3b5654611a9d, udp: true}
