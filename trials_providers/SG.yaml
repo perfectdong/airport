@@ -1,31 +1,28 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 720d6aaa-01fe-3925-9e5b-d3ef430cb43e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 720d6aaa-01fe-3925-9e5b-d3ef430cb43e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 720d6aaa-01fe-3925-9e5b-d3ef430cb43e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 720d6aaa-01fe-3925-9e5b-d3ef430cb43e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id001 {name: 🇸🇬 Singapore-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 5ffead21-2f8f-4ca0-8994-89e6b962c16c, udp: true}
-- &id002 {name: 🇸🇬 Singapore-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: 5ffead21-2f8f-4ca0-8994-89e6b962c16c, udp: true}
-- &id003 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: 5ffead21-2f8f-4ca0-8994-89e6b962c16c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: e0c59c81-3493-3c77-9827-e24d75db3fba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: e0c59c81-3493-3c77-9827-e24d75db3fba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: e0c59c81-3493-3c77-9827-e24d75db3fba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: e0c59c81-3493-3c77-9827-e24d75db3fba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 新加坡核心节点-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇸🇬 新加坡边缘节点-02 - 快云加速, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇸🇬 新加坡①一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18810, type: vmess, uuid: d70071d0-ed4b-3acf-a010-a9109619bde7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇸🇬 新加坡②一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18829, type: vmess, uuid: d70071d0-ed4b-3acf-a010-a9109619bde7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
+- &id001 {name: 🇸🇬 Singapore-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 3b8943a9-71d6-4ce5-9ea9-a30615b26f35, udp: true}
+- &id002 {name: 🇸🇬 Singapore-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: 3b8943a9-71d6-4ce5-9ea9-a30615b26f35, udp: true}
+- &id003 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: 3b8943a9-71d6-4ce5-9ea9-a30615b26f35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - *id001
 - *id002
 - *id003
-- *id001
-- *id002
-- *id003
-- {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 931b05ef-c28d-42a4-929b-7b6cecd9e681, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 931b05ef-c28d-42a4-929b-7b6cecd9e681, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 931b05ef-c28d-42a4-929b-7b6cecd9e681, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 931b05ef-c28d-42a4-929b-7b6cecd9e681, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 931b05ef-c28d-42a4-929b-7b6cecd9e681, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 931b05ef-c28d-42a4-929b-7b6cecd9e681, udp: true}
-- {name: 🇸🇬 Singapore00 新加坡 - EasierLife, server: sp1dg.easylink1.com, port: 22222, type: vmess, uuid: 4f1e5bf1-fa76-3ef6-8cbd-04b587df15be, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sp1dg.easylink1.com}}, udp: true}
-- {name: 🇸🇬 Singapore01 新加坡 - EasierLife, server: guang2.easylink1.com, port: 59103, type: vmess, uuid: 4f1e5bf1-fa76-3ef6-8cbd-04b587df15be, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guang2.easylink1.com}}, udp: true}
+- {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4ade6103-6722-4a71-94c4-1054f8f1e9a1, udp: true}
+- {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4ade6103-6722-4a71-94c4-1054f8f1e9a1, udp: true}
+- {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4ade6103-6722-4a71-94c4-1054f8f1e9a1, udp: true}
+- {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4ade6103-6722-4a71-94c4-1054f8f1e9a1, udp: true}
+- {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4ade6103-6722-4a71-94c4-1054f8f1e9a1, udp: true}
+- {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连一元公益机场, server: slsl.slianvpn.top, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 4ade6103-6722-4a71-94c4-1054f8f1e9a1, udp: true}
+- {name: 🇸🇬 Singapore00 新加坡 - EasierLife, server: sp1dg.easylink1.com, port: 22222, type: vmess, uuid: f89d7c74-b4cd-3a63-a7a9-c29d853590e8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sp1dg.easylink1.com}}, udp: true}
+- {name: 🇸🇬 Singapore01 新加坡 - EasierLife, server: guang2.easylink1.com, port: 59103, type: vmess, uuid: f89d7c74-b4cd-3a63-a7a9-c29d853590e8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guang2.easylink1.com}}, udp: true}
 - &id004 {name: '🇸🇬 [vip①]②新加坡 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 108bcb50-98fd-3f6e-8d3d-e87794a8cfb7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id004
 - *id001
