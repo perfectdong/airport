@@ -12,15 +12,11 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
@@ -29,33 +25,16 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇭🇰 香港 -1  x  1Gbps - 火星云
-  - 🇭🇰 香港 -2 x 1Gbps - 火星云
-  - 🇭🇰 香港 -4 x 1Gbps - 火星云
-  - 🇭🇰 香港 -5 x 1Gbps - 火星云
-  - 🇭🇰 香港 -6 x 1Gbps - 火星云
-  - 🇹🇼 台湾 - 1 x  1Gbps - 火星云
-  - 🇸🇬 新加坡 - 1 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 2 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 3 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 4 x 1Gbps - 火星云
-  - 🇯🇵 日本 -1 x 1Gbps - 火星云
-  - 🇯🇵 日本 - 2  x  1Gbps - 火星云
-  - 🇯🇵 日本 - 3  x  1Gbps - 火星云
-  - 🇯🇵 日本 - 4  x  1Gbps  - 火星云
-  - 🇺🇸 美国 - 1 x 1Gbps - 火星云
-  - 🇺🇸 美国 - 3 x 1Gbps - 火星云
-  - 🇺🇸 美国 - 4 x 1Gbps - 火星云
-  - 🇫🇷 法国 - 1 x 1Gbps - 火星云
-  - 🇫🇷 法国 - 2  x1Gbps - 火星云
-  - 🇬🇧 英国 - 2 x 500m - 火星云
+  use: &id001
+  - HK
+  - SG
+  - JP
+  - US
+  - Other
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -73,24 +52,18 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
@@ -104,114 +77,90 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id002
-  - 🇭🇰 香港 -1  x  1Gbps - 火星云
-  - 🇭🇰 香港 -2 x 1Gbps - 火星云
-  - 🇭🇰 香港 -4 x 1Gbps - 火星云
-  - 🇭🇰 香港 -5 x 1Gbps - 火星云
-  - 🇭🇰 香港 -6 x 1Gbps - 火星云
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾 - 1 x  1Gbps - 火星云
-- name: 🇨🇳 ‍中国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id004
-  - 🇭🇰 香港 -1  x  1Gbps - 火星云
-  - 🇭🇰 香港 -2 x 1Gbps - 火星云
-  - 🇭🇰 香港 -4 x 1Gbps - 火星云
-  - 🇭🇰 香港 -5 x 1Gbps - 火星云
-  - 🇭🇰 香港 -6 x 1Gbps - 火星云
-  - 🇹🇼 台湾 - 1 x  1Gbps - 火星云
+  use: &id002
+  - HK
 - name: 🇸🇬 ‍新加坡
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id005
-  - 🇸🇬 新加坡 - 1 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 2 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 3 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 4 x 1Gbps - 火星云
+  use: &id003
+  - SG
 - name: 🇯🇵 ‍日本
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id006
-  - 🇯🇵 日本 -1 x 1Gbps - 火星云
-  - 🇯🇵 日本 - 2  x  1Gbps - 火星云
-  - 🇯🇵 日本 - 3  x  1Gbps - 火星云
-  - 🇯🇵 日本 - 4  x  1Gbps  - 火星云
+  use: &id004
+  - JP
 - name: 🇺🇸 ‍美国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇸 美国 - 1 x 1Gbps - 火星云
-  - 🇺🇸 美国 - 3 x 1Gbps - 火星云
-  - 🇺🇸 美国 - 4 x 1Gbps - 火星云
+  use: &id005
+  - US
 - name: 🎏 ‍其他
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id008
-  - 🇫🇷 法国 - 1 x 1Gbps - 火星云
-  - 🇫🇷 法国 - 2  x1Gbps - 火星云
-  - 🇬🇧 英国 - 2 x 500m - 火星云
+  use: &id006
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  proxies: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  proxies: *id003
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  proxies: *id004
+  use: *id002
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  proxies: *id005
+  use: *id003
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id006
+  use: *id004
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
+  use: *id005
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id008
-proxies:
-- {name: 🇭🇰 香港 -1  x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -2 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -5 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -6 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 1 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 24889, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 3 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  use: *id006
+proxy-providers:
+  HK:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___kuaiyun66.cn/HK.yaml
+    interval: 180
+    path: trials_providers/https___kuaiyun66.cn/HK.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  SG:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___kuaiyun66.cn/SG.yaml
+    interval: 180
+    path: trials_providers/https___kuaiyun66.cn/SG.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  JP:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___kuaiyun66.cn/JP.yaml
+    interval: 180
+    path: trials_providers/https___kuaiyun66.cn/JP.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  US:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___kuaiyun66.cn/US.yaml
+    interval: 180
+    path: trials_providers/https___kuaiyun66.cn/US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  Other:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___kuaiyun66.cn/Other.yaml
+    interval: 180
+    path: trials_providers/https___kuaiyun66.cn/Other.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

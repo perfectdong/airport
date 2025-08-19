@@ -12,15 +12,11 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
@@ -33,26 +29,20 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰 香港 -1  x  1Gbps - 火星云
-  - 🇭🇰 香港 -2 x 1Gbps - 火星云
-  - 🇭🇰 香港 -4 x 1Gbps - 火星云
-  - 🇭🇰 香港 -5 x 1Gbps - 火星云
-  - 🇭🇰 香港 -6 x 1Gbps - 火星云
-  - 🇹🇼 台湾 - 1 x  1Gbps - 火星云
-  - 🇸🇬 新加坡 - 1 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 2 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 3 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 4 x 1Gbps - 火星云
-  - 🇯🇵 日本 -1 x 1Gbps - 火星云
-  - 🇯🇵 日本 - 2  x  1Gbps - 火星云
-  - 🇯🇵 日本 - 3  x  1Gbps - 火星云
-  - 🇯🇵 日本 - 4  x  1Gbps  - 火星云
-  - 🇺🇸 美国 - 1 x 1Gbps - 火星云
-  - 🇺🇸 美国 - 3 x 1Gbps - 火星云
-  - 🇺🇸 美国 - 4 x 1Gbps - 火星云
-  - 🇫🇷 法国 - 1 x 1Gbps - 火星云
-  - 🇫🇷 法国 - 2  x1Gbps - 火星云
-  - 🇬🇧 英国 - 2 x 500m - 火星云
+  - 🇭🇰 香港网关-01 - 快云加速
+  - 🇭🇰 香港网关-02 - 快云加速
+  - 🇸🇬 新加坡核心节点-01 - 快云加速
+  - 🇸🇬 新加坡边缘节点-02 - 快云加速
+  - 🇯🇵 日本办公VPN-5G - 快云加速
+  - 🇯🇵 日本边缘节点-01 - 快云加速
+  - 🇯🇵 日本边缘节点-02 - 快云加速
+  - 🇺🇸 美国核心节点-01 - 快云加速
+  - ℹ️ 官网:kuaiyun666.xyz - 快云加速
+  - ℹ️ 客服qq:1586932845 - 快云加速
+  - ℹ️ 节点超时请更新订阅 - 快云加速
+  - 🇰🇷 韩国核心节点-01 - 快云加速
+  - 🇹🇭 泰国核心节点-01 - 快云加速
+  - 🇮🇩 印度尼西亚边缘节点-01 - 快云加速
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -73,24 +63,18 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
@@ -108,110 +92,74 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇭🇰 香港 -1  x  1Gbps - 火星云
-  - 🇭🇰 香港 -2 x 1Gbps - 火星云
-  - 🇭🇰 香港 -4 x 1Gbps - 火星云
-  - 🇭🇰 香港 -5 x 1Gbps - 火星云
-  - 🇭🇰 香港 -6 x 1Gbps - 火星云
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾 - 1 x  1Gbps - 火星云
-- name: 🇨🇳 ‍中国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id004
-  - 🇭🇰 香港 -1  x  1Gbps - 火星云
-  - 🇭🇰 香港 -2 x 1Gbps - 火星云
-  - 🇭🇰 香港 -4 x 1Gbps - 火星云
-  - 🇭🇰 香港 -5 x 1Gbps - 火星云
-  - 🇭🇰 香港 -6 x 1Gbps - 火星云
-  - 🇹🇼 台湾 - 1 x  1Gbps - 火星云
+  - 🇭🇰 香港网关-01 - 快云加速
+  - 🇭🇰 香港网关-02 - 快云加速
 - name: 🇸🇬 ‍新加坡
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id005
-  - 🇸🇬 新加坡 - 1 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 2 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 3 x 1Gbps - 火星云
-  - 🇸🇬 新加坡 - 4 x 1Gbps - 火星云
+  proxies: &id003
+  - 🇸🇬 新加坡核心节点-01 - 快云加速
+  - 🇸🇬 新加坡边缘节点-02 - 快云加速
 - name: 🇯🇵 ‍日本
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id006
-  - 🇯🇵 日本 -1 x 1Gbps - 火星云
-  - 🇯🇵 日本 - 2  x  1Gbps - 火星云
-  - 🇯🇵 日本 - 3  x  1Gbps - 火星云
-  - 🇯🇵 日本 - 4  x  1Gbps  - 火星云
+  proxies: &id004
+  - 🇯🇵 日本办公VPN-5G - 快云加速
+  - 🇯🇵 日本边缘节点-01 - 快云加速
+  - 🇯🇵 日本边缘节点-02 - 快云加速
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇸 美国 - 1 x 1Gbps - 火星云
-  - 🇺🇸 美国 - 3 x 1Gbps - 火星云
-  - 🇺🇸 美国 - 4 x 1Gbps - 火星云
+  proxies: &id005
+  - 🇺🇸 美国核心节点-01 - 快云加速
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 30
   tolerance: 100
-  proxies: &id008
-  - 🇫🇷 法国 - 1 x 1Gbps - 火星云
-  - 🇫🇷 法国 - 2  x1Gbps - 火星云
-  - 🇬🇧 英国 - 2 x 500m - 火星云
+  proxies: &id006
+  - ℹ️ 官网:kuaiyun666.xyz - 快云加速
+  - ℹ️ 客服qq:1586932845 - 快云加速
+  - ℹ️ 节点超时请更新订阅 - 快云加速
+  - 🇰🇷 韩国核心节点-01 - 快云加速
+  - 🇹🇭 泰国核心节点-01 - 快云加速
+  - 🇮🇩 印度尼西亚边缘节点-01 - 快云加速
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  proxies: *id003
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  proxies: *id004
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  proxies: *id005
+  proxies: *id003
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id006
+  proxies: *id004
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
+  proxies: *id005
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id008
+  proxies: *id006
 proxies:
-- {name: 🇭🇰 香港 -1  x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -2 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -5 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -6 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾 - 1 x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 1 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 24889, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 3 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 - 4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 17800, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: 7c3408fb-e35b-3f83-8da8-12e3b7cf0bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 官网:kuaiyun666.xyz - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: ℹ️ 客服qq:1586932845 - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: ℹ️ 节点超时请更新订阅 - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇯🇵 日本办公VPN-5G - 快云加速, server: 35.77.85.111, port: 15697, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇭🇰 香港网关-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇭🇰 香港网关-02 - 快云加速, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇯🇵 日本边缘节点-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇯🇵 日本边缘节点-02 - 快云加速, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇸🇬 新加坡核心节点-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇺🇸 美国核心节点-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇰🇷 韩国核心节点-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇹🇭 泰国核心节点-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇮🇩 印度尼西亚边缘节点-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇸🇬 新加坡边缘节点-02 - 快云加速, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
