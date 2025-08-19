@@ -1,10 +1,12 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dfb438d8-4207-47db-a15b-1035df860fea, udp: true}
-- {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dfb438d8-4207-47db-a15b-1035df860fea, udp: true}
-- {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dfb438d8-4207-47db-a15b-1035df860fea, udp: true}
-- {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dfb438d8-4207-47db-a15b-1035df860fea, udp: true}
-- {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dfb438d8-4207-47db-a15b-1035df860fea, udp: true}
-- {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dfb438d8-4207-47db-a15b-1035df860fea, udp: true}
+- {name: 🇭🇰 ss(广移)香港1 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 4ea173fc-40aa-49f0-8615-359807f2d0e2, udp: true}
+- {name: 🇭🇰 ss(广移)香港2 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 4ea173fc-40aa-49f0-8615-359807f2d0e2, udp: true}
+- {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 748c77e9-e87c-459e-9ff8-3f73865795ba, udp: true}
+- {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 748c77e9-e87c-459e-9ff8-3f73865795ba, udp: true}
+- {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 748c77e9-e87c-459e-9ff8-3f73865795ba, udp: true}
+- {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 748c77e9-e87c-459e-9ff8-3f73865795ba, udp: true}
+- {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 748c77e9-e87c-459e-9ff8-3f73865795ba, udp: true}
+- {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 748c77e9-e87c-459e-9ff8-3f73865795ba, udp: true}
 - {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 6bfabb74-df05-3b80-805a-9209143302e5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
