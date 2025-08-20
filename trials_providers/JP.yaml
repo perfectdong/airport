@@ -1,10 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 802191dd-00e9-3ac0-8207-b2c591c2d24f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: 802191dd-00e9-3ac0-8207-b2c591c2d24f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 802191dd-00e9-3ac0-8207-b2c591c2d24f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: 802191dd-00e9-3ac0-8207-b2c591c2d24f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 -1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: b51cb1b1-5cef-3807-a10b-47855b547359, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 2  x  1Gbps - 火星云, server: jscm.concubine.top, port: 26543, type: vmess, uuid: b51cb1b1-5cef-3807-a10b-47855b547359, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 3  x  1Gbps - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: b51cb1b1-5cef-3807-a10b-47855b547359, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 - 4  x  1Gbps  - 火星云, server: jsxzcm.concubine.top, port: 62087, type: vmess, uuid: b51cb1b1-5cef-3807-a10b-47855b547359, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: 597a0b07-4829-4127-9fff-d735c651482d, udp: true}
 - &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 597a0b07-4829-4127-9fff-d735c651482d, udp: true}
 - {name: 🇯🇵 日本办公VPN-5G - 快云加速, server: 35.77.85.111, port: 15690, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
