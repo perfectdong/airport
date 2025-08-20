@@ -1,10 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 768b9413-9341-380f-a399-9bcaa58a3970, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: ad9a0f97-f056-3d0f-8de3-1a444e2477ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: ad9a0f97-f056-3d0f-8de3-1a444e2477ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: ad9a0f97-f056-3d0f-8de3-1a444e2477ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 37de44dd-9197-37ef-b496-be111a432f51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: 🇫🇷 FR-Paris - 脉冲云, server: gyjd.yy9866.com, port: 16947, type: ss, cipher: chacha20-ietf-poly1305, password: 597a0b07-4829-4127-9fff-d735c651482d, udp: true}
 - &id003 {name: 🇲🇾 MY-Malaysia-PQ - 脉冲云, server: gyjd.yy9866.com, port: 37681, type: ss, cipher: chacha20-ietf-poly1305, password: 597a0b07-4829-4127-9fff-d735c651482d, udp: true}
 - &id004 {name: 🇦🇺 AU-Sydney - 脉冲云, server: gyjd.yy9866.com, port: 39263, type: ss, cipher: chacha20-ietf-poly1305, password: 597a0b07-4829-4127-9fff-d735c651482d, udp: true}
@@ -16,8 +13,8 @@ proxies:
 - &id010 {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: 597a0b07-4829-4127-9fff-d735c651482d, udp: true}
 - &id011 {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: 597a0b07-4829-4127-9fff-d735c651482d, udp: true}
 - &id012 {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: 597a0b07-4829-4127-9fff-d735c651482d, udp: true}
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 37b49949-ef3c-3443-ad0f-06568be3ffbb, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 37b49949-ef3c-3443-ad0f-06568be3ffbb, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: b08aefa7-2f0c-361f-9216-e4628d0b2060, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: b08aefa7-2f0c-361f-9216-e4628d0b2060, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 - *id001
 - &id013 {name: ℹ️ 无法连接请到官网导入订阅更新 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: a3ff30d0-044e-4048-8c72-a569e53dfffb, udp: true}
 - &id014 {name: ℹ️ 试用1小时 请到官网新购套餐 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: a3ff30d0-044e-4048-8c72-a569e53dfffb, udp: true}
