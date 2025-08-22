@@ -13,8 +13,8 @@ proxies:
 - &id010 {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: 41c1539f-a5ea-48db-9670-458bd41fbf5b, udp: true}
 - &id011 {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: 41c1539f-a5ea-48db-9670-458bd41fbf5b, udp: true}
 - &id012 {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: 41c1539f-a5ea-48db-9670-458bd41fbf5b, udp: true}
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 47a98577-68cd-332c-838e-1982904bdf5d, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 47a98577-68cd-332c-838e-1982904bdf5d, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: bba72b78-1106-3b79-940c-75fd5527cb13, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: bba72b78-1106-3b79-940c-75fd5527cb13, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 - {name: 🇩🇪 德国 - CloudSurf, server: 154.19.242.140, port: 10005, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇳🇱 荷兰 - CloudSurf, server: 154.19.242.140, port: 10006, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇹🇭 泰国 - CloudSurf, server: 154.19.242.140, port: 10007, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
@@ -167,26 +167,6 @@ proxies:
 - *id056
 - *id057
 - *id058
-- *id013
-- *id014
-- *id015
-- *id016
-- *id017
-- *id018
-- *id019
-- *id020
-- *id021
-- *id022
-- *id023
-- *id024
-- *id025
-- *id026
-- *id027
-- *id028
-- *id029
-- *id030
-- *id031
-- *id032
 - &id059 {name: ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network, server: 3.mamamajd.site, port: 50003, type: vmess, uuid: 23b143c4-3a7a-3093-87c4-3ab2d3983e3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id060 {name: '🇮🇳 [vip①]印度1 - MG Network', server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 23b143c4-3a7a-3093-87c4-3ab2d3983e3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id061 {name: '🇩🇪 [vip①]德国1 - MG Network', server: 16.mamamajd.site, port: 23616, type: vmess, uuid: 23b143c4-3a7a-3093-87c4-3ab2d3983e3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
