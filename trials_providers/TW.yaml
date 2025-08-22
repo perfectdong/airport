@@ -34,6 +34,6 @@ proxies:
 - *id002
 - *id003
 - *id004
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 32cf6dab-db80-4023-82b2-358ee2dcee25, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 32cf6dab-db80-4023-82b2-358ee2dcee25, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 32cf6dab-db80-4023-82b2-358ee2dcee25, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: e141769f-ae36-4320-b031-e16fb67ddd8a, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: e141769f-ae36-4320-b031-e16fb67ddd8a, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: e141769f-ae36-4320-b031-e16fb67ddd8a, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
