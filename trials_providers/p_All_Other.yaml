@@ -1,13 +1,33 @@
 %YAML 1.1
 ---
 proxies:
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 9b7c7efb-665b-3e24-b1aa-329dae3a602d, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 9b7c7efb-665b-3e24-b1aa-329dae3a602d, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: ed756bd6-1823-33ca-952e-6fc3973742d4, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: ed756bd6-1823-33ca-952e-6fc3973742d4, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 - {name: 🇩🇪 德国 - CloudSurf, server: 154.19.242.140, port: 10005, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇳🇱 荷兰 - CloudSurf, server: 154.19.242.140, port: 10006, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇹🇭 泰国 - CloudSurf, server: 154.19.242.140, port: 10007, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇰🇷 韩国 - CloudSurf, server: 154.19.242.140, port: 10008, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: tor_试用 - CloudSurf, server: 154.19.242.140, port: 10009, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
+- {name: Guangzhou - CC云, server: 113.44.143.232, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Hangzhou - CC云, server: 47.103.164.81, port: 30041, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Hangzhou1 - CC云, server: 101.201.173.100, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Hangzhou2 - CC云, server: 101.201.173.100, port: 7893, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Wenzhou - CC云, server: 183.130.204.156, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Beijing - CC云, server: 43.247.185.77, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Shanghai - CC云, server: 106.14.122.127, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Beijing1 - CC云, server: 117.72.158.37, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Hangzhou3 - CC云, server: 47.107.76.44, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Baotou - CC云, server: 1.31.5.22, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Hangzhou4 - CC云, server: 121.43.117.132, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 防失联(备用/勿滥用) - CC云, server: 124.126.186.145, port: 7893, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Guangzhou_2 - CC云, server: 183.6.97.207, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Beijing_2 - CC云, server: 180.184.97.109, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Zibo - CC云, server: 140.255.148.154, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Wenzhou_2 - CC云, server: 183.130.204.156, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Beijing_3 - CC云, server: 114.254.20.140, port: 7081, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Shanghai_2 - CC云, server: 223.166.34.190, port: 5004, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Shanghai_3 - CC云, server: 223.166.84.188, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: INFO_SHOWS - CC云, server: localhost, port: 7891, type: socks5, username: d50ba3a0-10c0-4f87-9c54-936cdae42558, password: d50ba3a0-10c0-4f87-9c54-936cdae42558, skip-cert-verify: true, udp: true}
 - {name: ℹ️ 官网:kuaiyun666.xyz - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: ℹ️ 客服qq:1586932845 - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: ℹ️ 节点超时请更新订阅 - 快云加速, server: ddns.kuaiyun1.cn, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}

@@ -1,0 +1,42 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 Hong Kong - CC云, server: 117.72.126.34, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 Hong Kong1 - CC云, server: 1.193.3.26, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 Singapore - CC云, server: 144.255.16.35, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 Singapore1 - CC云, server: 27.189.109.213, port: 7990, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 Taiwan - CC云, server: 112.84.148.162, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Guangzhou - CC云, server: 113.44.143.232, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 Hong Kong2 - CC云, server: 47.105.37.46, port: 17191, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Hangzhou - CC云, server: 47.103.164.81, port: 30041, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 Hong Kong3 - CC云, server: 125.73.112.73, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 Hong Kong4 - CC云, server: 111.196.187.16, port: 17891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 China - CC云, server: 180.184.97.109, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Hangzhou1 - CC云, server: 101.201.173.100, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Hangzhou2 - CC云, server: 101.201.173.100, port: 7893, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Wenzhou - CC云, server: 183.130.204.156, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Beijing - CC云, server: 43.247.185.77, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan - CC云, server: 120.133.63.253, port: 7893, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan1 - CC云, server: 125.122.29.120, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan2 - CC云, server: 114.254.20.140, port: 7081, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 Singapore2 - CC云, server: 60.205.189.192, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Shanghai - CC云, server: 106.14.122.127, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Beijing1 - CC云, server: 117.72.158.37, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan3 - CC云, server: 27.215.99.52, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 China1 - CC云, server: 106.120.39.191, port: 7893, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 China2 - CC云, server: 139.226.33.194, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 Hong Kong5 - CC云, server: 110.42.63.8, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Hangzhou3 - CC云, server: 47.107.76.44, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 China3 - CC云, server: 47.111.150.143, port: 10800, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 Hong Kong6 - CC云, server: 124.70.147.7, port: 32082, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Baotou - CC云, server: 1.31.5.22, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Hangzhou4 - CC云, server: 121.43.117.132, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 防失联(备用/勿滥用) - CC云, server: 124.126.186.145, port: 7893, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Guangzhou_2 - CC云, server: 183.6.97.207, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Beijing_2 - CC云, server: 180.184.97.109, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Zibo - CC云, server: 140.255.148.154, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Wenzhou_2 - CC云, server: 183.130.204.156, port: 7891, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Beijing_3 - CC云, server: 114.254.20.140, port: 7081, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Shanghai_2 - CC云, server: 223.166.34.190, port: 5004, type: socks5, skip-cert-verify: true, udp: true}
+- {name: Shanghai_3 - CC云, server: 223.166.84.188, port: 7890, type: socks5, skip-cert-verify: true, udp: true}
+- {name: INFO_SHOWS - CC云, server: localhost, port: 7891, type: socks5, username: d50ba3a0-10c0-4f87-9c54-936cdae42558, password: d50ba3a0-10c0-4f87-9c54-936cdae42558, skip-cert-verify: true, udp: true}
