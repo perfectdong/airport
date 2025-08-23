@@ -1,0 +1,7 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇹🇼 ss(广移)台湾1 - 雷达, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 4e62f3f5-c1ab-4501-97be-9e88b2c5eace, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2 - 雷达, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 4e62f3f5-c1ab-4501-97be-9e88b2c5eace, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2-1 - 雷达, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 4e62f3f5-c1ab-4501-97be-9e88b2c5eace, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2-2 - 雷达, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 4e62f3f5-c1ab-4501-97be-9e88b2c5eace, udp: true}
