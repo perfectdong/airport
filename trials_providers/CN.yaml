@@ -76,6 +76,12 @@ proxies:
 - *id024
 - *id025
 - *id026
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
 - &id027 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 23b143c4-3a7a-3093-87c4-3ab2d3983e3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id028 {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 23b143c4-3a7a-3093-87c4-3ab2d3983e3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id027
@@ -86,10 +92,10 @@ proxies:
 - *id012
 - *id013
 - *id014
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 63e21c4c-ac14-4fc6-99f1-dd7717ddf52f, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 63e21c4c-ac14-4fc6-99f1-dd7717ddf52f, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 63e21c4c-ac14-4fc6-99f1-dd7717ddf52f, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 63e21c4c-ac14-4fc6-99f1-dd7717ddf52f, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 10fbcb1b-e29c-48d2-819b-cb0ffcc06f49, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 10fbcb1b-e29c-48d2-819b-cb0ffcc06f49, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 10fbcb1b-e29c-48d2-819b-cb0ffcc06f49, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 10fbcb1b-e29c-48d2-819b-cb0ffcc06f49, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003
