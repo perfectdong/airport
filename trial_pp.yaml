@@ -59,15 +59,15 @@ proxy-groups:
   - p_All_All_All_All_Other_Other_Other_Other
   - p_All_All_All_All_Other_Other_Other_Other
   - p_All_Other
-  - p_All_US
-  - p_All_HK_CN
-  - p_All_TW_CN
   - p_All_JP
+  - p_All_HK_CN
   - p_All_SG
+  - p_All_US
   - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_TW_CN
   - p_All_All_Other_Other
   - p_All_All_Other_Other
   - p_All_All_HK_HK_CN_CN
@@ -145,11 +145,11 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id003
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_TW_CN
-  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
-  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
-  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
-  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_All_TW_TW_CN_CN
   - p_All_All_TW_TW_CN_CN
 - name: 🇨🇳 ‍中国
@@ -165,11 +165,11 @@ proxy-groups:
   - p_All_All_All_All_CN_CN_CN_CN
   - p_All_All_All_All_CN_CN_CN_CN
   - p_All_HK_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_TW_CN
-  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
-  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
-  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
-  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_All_HK_HK_CN_CN
   - p_All_All_HK_HK_CN_CN
   - p_All_All_TW_TW_CN_CN
@@ -316,11 +316,11 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_US:
+  p_All_JP:
     type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_US.yaml
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_JP.yaml
     interval: 180
-    path: trials_providers/p_All_US.yaml
+    path: trials_providers/p_All_JP.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
@@ -334,24 +334,6 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_TW_CN:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_TW_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_TW_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_JP:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
   p_All_SG:
     type: http
     url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_SG.yaml
@@ -361,11 +343,29 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
+  p_All_US:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_US.yaml
+    interval: 180
+    path: trials_providers/p_All_US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN:
     type: http
     url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN.yaml
     interval: 180
     path: trials_providers/p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_TW_CN:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_TW_CN.yaml
+    interval: 180
+    path: trials_providers/p_All_TW_CN.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
