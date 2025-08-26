@@ -18,8 +18,8 @@ proxies:
 - *id004
 - *id005
 - *id006
-- {name: 🇭🇰 ss(广移)香港1 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 6969a5ed-e6a2-4c78-bfaa-1190ec58acb4, udp: true}
-- {name: 🇭🇰 ss(广移)香港2 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 6969a5ed-e6a2-4c78-bfaa-1190ec58acb4, udp: true}
+- &id014 {name: 🇭🇰 ss(广移)香港1 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4a0bfd-4a3e-49cc-a405-3942eff8eac6, udp: true}
+- &id015 {name: 🇭🇰 ss(广移)香港2 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4a0bfd-4a3e-49cc-a405-3942eff8eac6, udp: true}
 - {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: c4d9c89c-3b8a-4b51-8dde-c302bea557ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: c4d9c89c-3b8a-4b51-8dde-c302bea557ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: c4d9c89c-3b8a-4b51-8dde-c302bea557ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -45,7 +45,10 @@ proxies:
 - *id010
 - *id011
 - *id012
-- {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: e7a3c8d7-296a-3025-9f35-9a978483576f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id013 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: b763e1b0-16c0-37ca-997e-d1e1a2a412ac, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- *id013
+- *id014
+- *id015
 - *id001
 - *id002
 - *id003
