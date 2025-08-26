@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: ba1adb7f-3b93-32c1-a863-3a3eaf318a50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 4c9365d0-cf2d-3449-ac20-2e5f85f6823c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: 🇭🇰 HK1-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: ee8b495c-050f-42fe-b412-4c8228701fa1, udp: true}
 - &id003 {name: 🇭🇰 HK2-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: ee8b495c-050f-42fe-b412-4c8228701fa1, udp: true}
 - &id004 {name: 🇭🇰 HK1-PQ(官网:mccc.yy9866.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: ee8b495c-050f-42fe-b412-4c8228701fa1, udp: true}
@@ -29,8 +29,8 @@ proxies:
 - &id026 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: ee8b495c-050f-42fe-b412-4c8228701fa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - &id027 {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: ee8b495c-050f-42fe-b412-4c8228701fa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - &id028 {name: 🇬🇧 OR英国-新疆国外节点 - 脉冲云, server: 79.72.95.9, port: 18419, type: vmess, uuid: ee8b495c-050f-42fe-b412-4c8228701fa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 0ee108f4-93fa-3db1-a54c-07bc15e6dd56, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 0ee108f4-93fa-3db1-a54c-07bc15e6dd56, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 54f13bdf-54e4-32c6-b666-fee2236301e5, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 54f13bdf-54e4-32c6-b666-fee2236301e5, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 - {name: '🇺🇸 美国_更新订阅_邮箱: vanify@proton.me - CloudSurf', server: 154.19.242.140, port: 10000, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇭🇰 香港 - CloudSurf, server: 154.19.242.140, port: 10001, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇹🇼 台湾 - CloudSurf, server: 154.19.242.140, port: 10002, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
@@ -111,13 +111,13 @@ proxies:
 - *id026
 - *id027
 - *id028
-- {name: 🇺🇲 美国|【dabai.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s1.db-link02.top, port: 2095, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.67.123, headers: {Host: 100-224-12-206.s1.db-link02.top}}, udp: true}
-- {name: 🇺🇲 美国|【db01.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s5.db-link01.top, port: 2086, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.108.81, headers: {Host: 100-15-26-166.s5.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享 - 大白, server: s5.db-link01.top, port: 2095, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.24.176, headers: {Host: 100-119-130-46.s5.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|【使用前请更新订阅】每日会变更节点密码|GPT+流媒体|共享 - 大白, server: s5.cn-db.top, port: 8080, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.151.82, headers: {Host: 100-223-133-10.s5.cn-db.top}}, udp: true}
-- {name: 🇺🇲 美国|【注册免费领1TB流量】前往-注册|共享 - 大白, server: s2.db-link02.top, port: 2052, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.242.210, headers: {Host: 100-55-247-5.s2.db-link02.top}}, udp: true}
-- {name: '🇺🇲 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享 - 大白', server: s3.db-link01.top, port: 8080, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.113.21, headers: {Host: 100-252-31-97.s3.db-link01.top}}, udp: true}
-- {name: 🇺🇲 美国|最低35%-aff招募进行中|共享 - 大白, server: s1.db-link02.top, port: 2086, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.160.174, headers: {Host: 100-30-108-81.s1.db-link02.top}}, udp: true}
+- {name: 🇺🇲 美国|【dabai.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s4.db-link01.top, port: 2095, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.186.182, headers: {Host: 100-112-198-176.s4.db-link01.top}}, udp: true}
+- {name: 🇺🇲 美国|【db01.in】<<前往官网|GPT+流媒体|共享 - 大白, server: s2.db-link01.top, port: 2086, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.28.164, headers: {Host: 100-163-79-229.s2.db-link01.top}}, udp: true}
+- {name: 🇺🇲 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享 - 大白, server: s5.db-link01.top, port: 2086, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.153.2, headers: {Host: 100-199-173-22.s5.db-link01.top}}, udp: true}
+- {name: 🇺🇲 美国|【使用前请更新订阅】每日会变更节点密码|GPT+流媒体|共享 - 大白, server: s5.cn-db.top, port: 2052, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.102.153, headers: {Host: 100-14-246-148.s5.cn-db.top}}, udp: true}
+- {name: 🇺🇲 美国|【注册免费领1TB流量】前往-注册|共享 - 大白, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.152.234, headers: {Host: 100-142-161-235.s1.db-link02.top}}, udp: true}
+- {name: '🇺🇲 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享 - 大白', server: s4.db-link02.top, port: 2086, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.66.96, headers: {Host: 100-155-7-109.s4.db-link02.top}}, udp: true}
+- {name: 🇺🇲 美国|最低35%-aff招募进行中|共享 - 大白, server: s2.db-link01.top, port: 2082, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.7.149, headers: {Host: 100-22-7-248.s2.db-link01.top}}, udp: true}
 - &id091 {name: ℹ️ 无法连接请到官网导入订阅更新 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 043b5a60-e75e-472a-98b8-4f2fbecd018f, udp: true}
 - &id092 {name: ℹ️ 试用1小时 请到官网新购套餐 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 043b5a60-e75e-472a-98b8-4f2fbecd018f, udp: true}
 - &id093 {name: 🇭🇰 ss(广移)香港1 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 043b5a60-e75e-472a-98b8-4f2fbecd018f, udp: true}
@@ -373,11 +373,11 @@ proxies:
 - *id124
 - *id125
 - *id126
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 72c6bffe-ce49-4e04-a83a-28e21d9339ff, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 72c6bffe-ce49-4e04-a83a-28e21d9339ff, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 72c6bffe-ce49-4e04-a83a-28e21d9339ff, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 72c6bffe-ce49-4e04-a83a-28e21d9339ff, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 72c6bffe-ce49-4e04-a83a-28e21d9339ff, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 1ba43aa9-892d-4ecc-9ec7-a98ff1fb7d29, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 1ba43aa9-892d-4ecc-9ec7-a98ff1fb7d29, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 1ba43aa9-892d-4ecc-9ec7-a98ff1fb7d29, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 1ba43aa9-892d-4ecc-9ec7-a98ff1fb7d29, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 1ba43aa9-892d-4ecc-9ec7-a98ff1fb7d29, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 - *id002
 - *id003
 - *id004
