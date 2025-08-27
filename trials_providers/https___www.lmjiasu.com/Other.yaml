@@ -1,0 +1,6 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇬🇧 英国-伦敦-A - 蓝猫加速, server: s6.lmjiasu.xyz, port: 11006, type: ss, cipher: chacha20-ietf-poly1305, password: a921082c-6c63-4686-847b-8f5e18b37eb2, udp: true}
+- {name: 🇬🇧 英国-伦敦-B - 蓝猫加速, server: v6.lmjiasu.xyz, port: 12006, type: vmess, uuid: a921082c-6c63-4686-847b-8f5e18b37eb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v6.lmjiasu.xyz, network: ws, ws-opts: {path: /lmjiasu, headers: {Host: www.bing.com}}, udp: true}
+- {name: 🇬🇧 英国-伦敦-C - 蓝猫加速, server: t6.lmjiasu.xyz, port: 13006, type: trojan, password: a921082c-6c63-4686-847b-8f5e18b37eb2, sni: t6.lmjiasu.xyz, skip-cert-verify: true, udp: true}

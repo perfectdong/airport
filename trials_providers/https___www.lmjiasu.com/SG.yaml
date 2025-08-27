@@ -1,0 +1,6 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇸🇬 新加坡-高速-A - 蓝猫加速, server: s3.lmjiasu.xyz, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: a921082c-6c63-4686-847b-8f5e18b37eb2, udp: true}
+- {name: 🇸🇬 新加坡-高速-B - 蓝猫加速, server: v3.lmjiasu.xyz, port: 12003, type: vmess, uuid: a921082c-6c63-4686-847b-8f5e18b37eb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v3.lmjiasu.xyz, network: ws, ws-opts: {path: /lmjiasu, headers: {Host: www.bing.com}}, udp: true}
+- {name: 🇸🇬 新加坡-高速-C - 蓝猫加速, server: t3.lmjiasu.xyz, port: 13003, type: trojan, password: a921082c-6c63-4686-847b-8f5e18b37eb2, sni: t3.lmjiasu.xyz, skip-cert-verify: true, udp: true}
