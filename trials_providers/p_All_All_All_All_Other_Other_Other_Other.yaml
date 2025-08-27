@@ -13,4 +13,3 @@ proxies:
 - {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: b184c572-3f14-4918-8f62-6284e92be76b, udp: true}
 - {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: b184c572-3f14-4918-8f62-6284e92be76b, udp: true}
 - {name: 🇬🇧 OR英国-新疆国外节点 - 脉冲云, server: 79.72.95.9, port: 18419, type: vmess, uuid: b184c572-3f14-4918-8f62-6284e92be76b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: f93fd709-3b38-3516-9eee-cfbc1c5eac79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
