@@ -1,11 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港 -1  x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 85e59a53-9bfa-32d6-800f-983d3cbaec0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -2 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 85e59a53-9bfa-32d6-800f-983d3cbaec0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 85e59a53-9bfa-32d6-800f-983d3cbaec0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -5 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 85e59a53-9bfa-32d6-800f-983d3cbaec0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -6 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 85e59a53-9bfa-32d6-800f-983d3cbaec0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -1  x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 508fc649-8c65-3592-a933-5827ebd3b8e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -2 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 508fc649-8c65-3592-a933-5827ebd3b8e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 508fc649-8c65-3592-a933-5827ebd3b8e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -5 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 508fc649-8c65-3592-a933-5827ebd3b8e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -6 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 508fc649-8c65-3592-a933-5827ebd3b8e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港 - CloudSurf, server: 154.19.242.140, port: 10001, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇭🇰 香港网关-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇭🇰 香港网关-02 - 快云加速, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
@@ -18,13 +18,3 @@ proxies:
 - {name: 🇭🇰 香港-v4|02 - 悦云, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: ce8f222b-14bb-4005-9368-1ccadda99c23, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港03 - 悦云, server: hytro.91ai.de, port: 10022, type: trojan, password: ce8f222b-14bb-4005-9368-1ccadda99c23, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-线路1 - 神盾, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 6827e3cc-2061-4e0d-b49d-711b65f01f36, udp: true}
-- {name: 🇭🇰 香港-高速-B - 蓝猫加速, server: v1.lmjiasu.xyz, port: 12001, type: vmess, uuid: a921082c-6c63-4686-847b-8f5e18b37eb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v1.lmjiasu.xyz, network: ws, ws-opts: {path: /lmjiasu, headers: {Host: www.bing.com}}, udp: true}
-- {name: 🇭🇰 香港-高速-C - 蓝猫加速, server: t1.lmjiasu.xyz, port: 13001, type: trojan, password: a921082c-6c63-4686-847b-8f5e18b37eb2, sni: t1.lmjiasu.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-高速-D - 蓝猫加速, server: s2.lmjiasu.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: a921082c-6c63-4686-847b-8f5e18b37eb2, udp: true}
-- {name: 🇭🇰 香港-高速-E - 蓝猫加速, server: v2.lmjiasu.xyz, port: 12002, type: vmess, uuid: a921082c-6c63-4686-847b-8f5e18b37eb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2.lmjiasu.xyz, network: ws, ws-opts: {path: /lmjiasu, headers: {Host: www.bing.com}}, udp: true}
-- {name: 🇭🇰 香港-高速-F - 蓝猫加速, server: t2.lmjiasu.xyz, port: 13002, type: trojan, password: a921082c-6c63-4686-847b-8f5e18b37eb2, sni: t2.lmjiasu.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-高速-A - 蓝猫加速, server: s1.lmjiasu.xyz, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: a921082c-6c63-4686-847b-8f5e18b37eb2, udp: true}
-- {name: 🇭🇰 香港-高速-免流-A - 蓝猫加速, server: 103.85.72.152, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: a921082c-6c63-4686-847b-8f5e18b37eb2, udp: true}
-- {name: 🇭🇰 香港-高速-免流-D - 蓝猫加速, server: s7.lmjiasu.xyz, port: 11000, type: ss, cipher: chacha20-ietf-poly1305, password: a921082c-6c63-4686-847b-8f5e18b37eb2, udp: true}
-- {name: 🇭🇰 香港-高速-免流-F - 蓝猫加速, server: t7.lmjiasu.xyz, port: 13000, type: trojan, password: a921082c-6c63-4686-847b-8f5e18b37eb2, sni: t7.lmjiasu.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-高速-免流-E - 蓝猫加速, server: v7.lmjiasu.xyz, port: 12000, type: vmess, uuid: a921082c-6c63-4686-847b-8f5e18b37eb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v7.lmjiasu.xyz, network: ws, ws-opts: {path: /lmjiasu, headers: {Host: www.bing.com}}, udp: true}

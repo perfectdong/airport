@@ -1,11 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 85e59a53-9bfa-32d6-800f-983d3cbaec0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 85e59a53-9bfa-32d6-800f-983d3cbaec0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: 85e59a53-9bfa-32d6-800f-983d3cbaec0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 7c67c687-12b6-3b48-a5c3-19da4b2c6d67, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 7c67c687-12b6-3b48-a5c3-19da4b2c6d67, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 1 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 508fc649-8c65-3592-a933-5827ebd3b8e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - 2  x1Gbps - 火星云, server: cu1.guguyun.xyz, port: 50649, type: vmess, uuid: 508fc649-8c65-3592-a933-5827ebd3b8e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 英国 - 2 x 500m - 火星云, server: cu1.guguyun.xyz, port: 47586, type: vmess, uuid: 508fc649-8c65-3592-a933-5827ebd3b8e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: f675cea9-941b-3020-950e-81c38916af42, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: f675cea9-941b-3020-950e-81c38916af42, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 - {name: 🇩🇪 德国 - CloudSurf, server: 154.19.242.140, port: 10005, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇳🇱 荷兰 - CloudSurf, server: 154.19.242.140, port: 10006, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇹🇭 泰国 - CloudSurf, server: 154.19.242.140, port: 10007, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
@@ -42,6 +42,3 @@ proxies:
 - {name: 🇳🇱 【荷兰05】*0.5倍率 - 悦云, server: nara.189.ovh, port: 10027, type: trojan, password: ce8f222b-14bb-4005-9368-1ccadda99c23, sni: nara.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇩🇪 【德国06】*0.5倍率 - 悦云, server: netcp4.616626.xyz, port: 10027, type: trojan, password: ce8f222b-14bb-4005-9368-1ccadda99c23, sni: netcp4.616626.xyz, skip-cert-verify: true, udp: true}
 - {name: 🇮🇪 爱尔兰-都柏林 - 神盾, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 6827e3cc-2061-4e0d-b49d-711b65f01f36, udp: true}
-- {name: 🇬🇧 英国-伦敦-A - 蓝猫加速, server: s6.lmjiasu.xyz, port: 11006, type: ss, cipher: chacha20-ietf-poly1305, password: a921082c-6c63-4686-847b-8f5e18b37eb2, udp: true}
-- {name: 🇬🇧 英国-伦敦-B - 蓝猫加速, server: v6.lmjiasu.xyz, port: 12006, type: vmess, uuid: a921082c-6c63-4686-847b-8f5e18b37eb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v6.lmjiasu.xyz, network: ws, ws-opts: {path: /lmjiasu, headers: {Host: www.bing.com}}, udp: true}
-- {name: 🇬🇧 英国-伦敦-C - 蓝猫加速, server: t6.lmjiasu.xyz, port: 13006, type: trojan, password: a921082c-6c63-4686-847b-8f5e18b37eb2, sni: t6.lmjiasu.xyz, skip-cert-verify: true, udp: true}
