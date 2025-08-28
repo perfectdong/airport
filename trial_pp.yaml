@@ -73,9 +73,6 @@ proxy-groups:
   - p_All_All_TW_TW_CN_CN
   - p_All_All_US_US
   - p_All_All_US_US
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
   - p_All_CN
 - name: 👆🏻 ‍指定
   type: select
@@ -207,9 +204,6 @@ proxy-groups:
   - p_All_All_All_All_Other_Other_Other_Other
   - p_All_All_Other_Other
   - p_All_All_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   use: *id002
@@ -390,15 +384,6 @@ proxy-providers:
     url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_US_US.yaml
     interval: 180
     path: trials_providers/p_All_All_US_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_Other_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_Other_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_Other_Other_Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
