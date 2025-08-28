@@ -12,13 +12,11 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
-  - 🇨🇳 ‍中国
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
@@ -31,33 +29,52 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰 HK1-SJY(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK2-SJY(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK1-PQ(官网:mccc.yy9866.com) - 脉冲云
-  - 🇭🇰 HK2-PQ(官网:mccc.yy9866.com) - 脉冲云
-  - 🇭🇰 AK香港-新疆国外节点 - 脉冲云
-  - 🇭🇰 WAP香港-新疆国外节点 - 脉冲云
-  - 🇸🇬 Singapore-01-st - 脉冲云
-  - 🇸🇬 Singapore-02-wap - 脉冲云
-  - 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云
-  - 🇯🇵 JP-Tokyo-01 - 脉冲云
-  - 🇯🇵 JP-Tokyo-wap-02 - 脉冲云
-  - 🇺🇸 US-Los Angeles-01 - 脉冲云
-  - 🇺🇸 US-Los Angeles-02-wap - 脉冲云
-  - 🇫🇷 FR-Paris - 脉冲云
-  - 🇲🇾 MY-Malaysia-PQ - 脉冲云
-  - 🇦🇺 AU-Sydney - 脉冲云
-  - 🇳🇱 NL-Amsterdam - 脉冲云
-  - 🇨🇦 CA-Toronto - 脉冲云
-  - 🇬🇧 GB-London - 脉冲云
-  - 🇪🇸 ES-Madrid - 脉冲云
-  - 🇮🇹 IT-Milan - 脉冲云
-  - 🇦🇹 AT-Vienna - 脉冲云
-  - 🇩🇪 DE-Nuremberg - 脉冲云
-  - 🇰🇷 KR-Seoul - 脉冲云
-  - 🇬🇧 OR英国-新疆国外节点 - 脉冲云
-  - 🇨🇳 CN-TaiBei-01 - 脉冲云
-  - 🇨🇳 CN-TaiBei-02-wap - 脉冲云
+  - 🇭🇰 [ss]联通线路-香港-02 - 机场
+  - 🇭🇰 [ss]联通线路-香港-01 - 机场
+  - 🇭🇰 [ss]直连-香港-01 - 机场
+  - 🇭🇰 [ss]直连-香港-02 - 机场
+  - 🇸🇬 [ss]联通线路-新加坡-02 - 机场
+  - 🇸🇬 [ss]直连-新加坡-02 - 机场
+  - 🇯🇵 [ss]联通线路-日本 - 机场
+  - 🇯🇵 [ss]直连-日本 - 机场
+  - 🇺🇸 [ss]联通线路-美国 - 机场
+  - 🇺🇸 [ss]直连-美国 - 机场
+  - 🇹🇭 [ss]联通线路-泰国 - 机场
+  - 🇲🇾 [ss]联通线路-马来西亚 - 机场
+  - 🇻🇳 [ss]联通线路-越南 - 机场
+  - 🇮🇹 [ss]联通线路-意大利 - 机场
+  - 🇮🇩 [ss]联通线路-印度尼西亚 - 机场
+  - 🇷🇺 [ss]联通线路-俄罗斯 - 机场
+  - 🇩🇪 [ss]联通线路-德国 - 机场
+  - 🇫🇷 [ss]联通线路-法国 - 机场
+  - 🇫🇮 [ss]联通线路-芬兰 - 机场
+  - 🇰🇿 [ss]联通线路-哈萨克斯坦 - 机场
+  - 🇰🇷 [ss]联通线路-韩国 - 机场
+  - 🇳🇱 [ss]联通线路-荷兰 - 机场
+  - 🇷🇴 [ss]联通线路-罗马尼亚 - 机场
+  - 🇵🇹 [ss]联通线路-葡萄牙 - 机场
+  - '[ss]联通线路-阿拉伯联合酋长国 - 机场'
+  - 🇸🇪 [ss]联通线路-瑞典 - 机场
+  - 🇹🇷 [ss]联通线路-土耳其 - 机场
+  - 🇪🇸 [ss]联通线路-西班牙 - 机场
+  - '[ss]直连-阿拉伯联合酋长国 - 机场'
+  - 🇩🇪 [ss]直连-德国 - 机场
+  - 🇷🇺 [ss]直连-俄罗斯 - 机场
+  - 🇫🇷 [ss]直连-法国 - 机场
+  - 🇫🇮 [ss]直连-芬兰 - 机场
+  - 🇰🇿 [ss]直连-哈萨克斯坦 - 机场
+  - 🇰🇷 [ss]直连-韩国 - 机场
+  - 🇳🇱 [ss]直连-荷兰 - 机场
+  - 🇷🇴 [ss]直连-罗马尼亚 - 机场
+  - 🇲🇾 [ss]直连-马来西亚 - 机场
+  - 🇵🇹 [ss]直连-葡萄牙 - 机场
+  - 🇸🇪 [ss]直连-瑞典 - 机场
+  - 🇹🇭 [ss]直连-泰国 - 机场
+  - 🇹🇷 [ss]直连-土耳其 - 机场
+  - 🇪🇸 [ss]直连-西班牙 - 机场
+  - 🇮🇹 [ss]直连-意大利 - 机场
+  - 🇮🇩 [ss]直连-印度尼西亚 - 机场
+  - 🇻🇳 [ss]直连-越南 - 机场
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -78,10 +95,8 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - 🇭🇰 ‍香港
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
@@ -109,115 +124,138 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇭🇰 HK1-SJY(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK2-SJY(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK1-PQ(官网:mccc.yy9866.com) - 脉冲云
-  - 🇭🇰 HK2-PQ(官网:mccc.yy9866.com) - 脉冲云
-  - 🇭🇰 AK香港-新疆国外节点 - 脉冲云
-  - 🇭🇰 WAP香港-新疆国外节点 - 脉冲云
-- name: 🇨🇳 ‍中国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇭🇰 HK1-SJY(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK2-SJY(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK1-PQ(官网:mccc.yy9866.com) - 脉冲云
-  - 🇭🇰 HK2-PQ(官网:mccc.yy9866.com) - 脉冲云
-  - 🇭🇰 AK香港-新疆国外节点 - 脉冲云
-  - 🇭🇰 WAP香港-新疆国外节点 - 脉冲云
-  - 🇨🇳 CN-TaiBei-01 - 脉冲云
-  - 🇨🇳 CN-TaiBei-02-wap - 脉冲云
+  - 🇭🇰 [ss]联通线路-香港-02 - 机场
+  - 🇭🇰 [ss]联通线路-香港-01 - 机场
+  - 🇭🇰 [ss]直连-香港-01 - 机场
+  - 🇭🇰 [ss]直连-香港-02 - 机场
 - name: 🇸🇬 ‍新加坡
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id004
-  - 🇸🇬 Singapore-01-st - 脉冲云
-  - 🇸🇬 Singapore-02-wap - 脉冲云
-  - 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云
+  proxies: &id003
+  - 🇸🇬 [ss]联通线路-新加坡-02 - 机场
+  - 🇸🇬 [ss]直连-新加坡-02 - 机场
 - name: 🇯🇵 ‍日本
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id005
-  - 🇯🇵 JP-Tokyo-01 - 脉冲云
-  - 🇯🇵 JP-Tokyo-wap-02 - 脉冲云
+  proxies: &id004
+  - 🇯🇵 [ss]联通线路-日本 - 机场
+  - 🇯🇵 [ss]直连-日本 - 机场
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
-  proxies: &id006
-  - 🇺🇸 US-Los Angeles-01 - 脉冲云
-  - 🇺🇸 US-Los Angeles-02-wap - 脉冲云
+  proxies: &id005
+  - 🇺🇸 [ss]联通线路-美国 - 机场
+  - 🇺🇸 [ss]直连-美国 - 机场
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 30
   tolerance: 100
-  proxies: &id007
-  - 🇫🇷 FR-Paris - 脉冲云
-  - 🇲🇾 MY-Malaysia-PQ - 脉冲云
-  - 🇦🇺 AU-Sydney - 脉冲云
-  - 🇳🇱 NL-Amsterdam - 脉冲云
-  - 🇨🇦 CA-Toronto - 脉冲云
-  - 🇬🇧 GB-London - 脉冲云
-  - 🇪🇸 ES-Madrid - 脉冲云
-  - 🇮🇹 IT-Milan - 脉冲云
-  - 🇦🇹 AT-Vienna - 脉冲云
-  - 🇩🇪 DE-Nuremberg - 脉冲云
-  - 🇰🇷 KR-Seoul - 脉冲云
-  - 🇬🇧 OR英国-新疆国外节点 - 脉冲云
+  proxies: &id006
+  - 🇹🇭 [ss]联通线路-泰国 - 机场
+  - 🇲🇾 [ss]联通线路-马来西亚 - 机场
+  - 🇻🇳 [ss]联通线路-越南 - 机场
+  - 🇮🇹 [ss]联通线路-意大利 - 机场
+  - 🇮🇩 [ss]联通线路-印度尼西亚 - 机场
+  - 🇷🇺 [ss]联通线路-俄罗斯 - 机场
+  - 🇩🇪 [ss]联通线路-德国 - 机场
+  - 🇫🇷 [ss]联通线路-法国 - 机场
+  - 🇫🇮 [ss]联通线路-芬兰 - 机场
+  - 🇰🇿 [ss]联通线路-哈萨克斯坦 - 机场
+  - 🇰🇷 [ss]联通线路-韩国 - 机场
+  - 🇳🇱 [ss]联通线路-荷兰 - 机场
+  - 🇷🇴 [ss]联通线路-罗马尼亚 - 机场
+  - 🇵🇹 [ss]联通线路-葡萄牙 - 机场
+  - '[ss]联通线路-阿拉伯联合酋长国 - 机场'
+  - 🇸🇪 [ss]联通线路-瑞典 - 机场
+  - 🇹🇷 [ss]联通线路-土耳其 - 机场
+  - 🇪🇸 [ss]联通线路-西班牙 - 机场
+  - '[ss]直连-阿拉伯联合酋长国 - 机场'
+  - 🇩🇪 [ss]直连-德国 - 机场
+  - 🇷🇺 [ss]直连-俄罗斯 - 机场
+  - 🇫🇷 [ss]直连-法国 - 机场
+  - 🇫🇮 [ss]直连-芬兰 - 机场
+  - 🇰🇿 [ss]直连-哈萨克斯坦 - 机场
+  - 🇰🇷 [ss]直连-韩国 - 机场
+  - 🇳🇱 [ss]直连-荷兰 - 机场
+  - 🇷🇴 [ss]直连-罗马尼亚 - 机场
+  - 🇲🇾 [ss]直连-马来西亚 - 机场
+  - 🇵🇹 [ss]直连-葡萄牙 - 机场
+  - 🇸🇪 [ss]直连-瑞典 - 机场
+  - 🇹🇭 [ss]直连-泰国 - 机场
+  - 🇹🇷 [ss]直连-土耳其 - 机场
+  - 🇪🇸 [ss]直连-西班牙 - 机场
+  - 🇮🇹 [ss]直连-意大利 - 机场
+  - 🇮🇩 [ss]直连-印度尼西亚 - 机场
+  - 🇻🇳 [ss]直连-越南 - 机场
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  proxies: *id003
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  proxies: *id004
+  proxies: *id003
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id005
+  proxies: *id004
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id006
+  proxies: *id005
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id007
+  proxies: *id006
 proxies:
-- {name: 🇭🇰 HK1-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇭🇰 HK2-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇭🇰 HK1-PQ(官网:mccc.yy9866.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇭🇰 HK2-PQ(官网:mccc.yy9866.com) - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇨🇳 CN-TaiBei-01 - 脉冲云, server: gyjd.yy9866.com, port: 21525, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇨🇳 CN-TaiBei-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21589, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇸🇬 Singapore-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇸🇬 Singapore-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇺🇸 US-Los Angeles-01 - 脉冲云, server: gyjd.yy9866.com, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇺🇸 US-Los Angeles-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇫🇷 FR-Paris - 脉冲云, server: gyjd.yy9866.com, port: 16947, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇲🇾 MY-Malaysia-PQ - 脉冲云, server: gyjd.yy9866.com, port: 37681, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇦🇺 AU-Sydney - 脉冲云, server: gyjd.yy9866.com, port: 39263, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇳🇱 NL-Amsterdam - 脉冲云, server: gyjd.yy9866.com, port: 23262, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇨🇦 CA-Toronto - 脉冲云, server: gyjd.yy9866.com, port: 28322, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇬🇧 GB-London - 脉冲云, server: gyjd.yy9866.com, port: 45092, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇪🇸 ES-Madrid - 脉冲云, server: gyjd.yy9866.com, port: 34502, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇮🇹 IT-Milan - 脉冲云, server: gyjd.yy9866.com, port: 39062, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, udp: true}
-- {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 🇬🇧 OR英国-新疆国外节点 - 脉冲云, server: 79.72.95.9, port: 18419, type: vmess, uuid: 8b84cf8f-5f2b-4634-b981-320e274d9a3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: '🇭🇰 [ss]联通线路-香港-02 - 机场', server: zz002.airport.lat, port: 20841, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇭🇰 [ss]联通线路-香港-01 - 机场', server: zz002.airport.lat, port: 25389, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇸🇬 [ss]联通线路-新加坡-02 - 机场', server: zz002.airport.lat, port: 47026, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇯🇵 [ss]联通线路-日本 - 机场', server: zz002.airport.lat, port: 43123, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇹🇭 [ss]联通线路-泰国 - 机场', server: zz002.airport.lat, port: 31579, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇺🇸 [ss]联通线路-美国 - 机场', server: zz002.airport.lat, port: 26111, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇲🇾 [ss]联通线路-马来西亚 - 机场', server: zz002.airport.lat, port: 37083, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇻🇳 [ss]联通线路-越南 - 机场', server: zz002.airport.lat, port: 51196, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇮🇹 [ss]联通线路-意大利 - 机场', server: zz002.airport.lat, port: 20081, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇮🇩 [ss]联通线路-印度尼西亚 - 机场', server: zz002.airport.lat, port: 11009, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇷🇺 [ss]联通线路-俄罗斯 - 机场', server: zz002.airport.lat, port: 22524, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇩🇪 [ss]联通线路-德国 - 机场', server: zz002.airport.lat, port: 36617, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇫🇷 [ss]联通线路-法国 - 机场', server: zz002.airport.lat, port: 21160, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇫🇮 [ss]联通线路-芬兰 - 机场', server: zz002.airport.lat, port: 14037, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇰🇿 [ss]联通线路-哈萨克斯坦 - 机场', server: zz002.airport.lat, port: 34739, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇰🇷 [ss]联通线路-韩国 - 机场', server: zz002.airport.lat, port: 21140, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇳🇱 [ss]联通线路-荷兰 - 机场', server: zz002.airport.lat, port: 26491, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇷🇴 [ss]联通线路-罗马尼亚 - 机场', server: zz002.airport.lat, port: 38271, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇵🇹 [ss]联通线路-葡萄牙 - 机场', server: zz002.airport.lat, port: 22947, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '[ss]联通线路-阿拉伯联合酋长国 - 机场', server: zz002.airport.lat, port: 42699, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇸🇪 [ss]联通线路-瑞典 - 机场', server: zz002.airport.lat, port: 51492, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇹🇷 [ss]联通线路-土耳其 - 机场', server: zz002.airport.lat, port: 35695, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇪🇸 [ss]联通线路-西班牙 - 机场', server: zz002.airport.lat, port: 40913, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '[ss]直连-阿拉伯联合酋长国 - 机场', server: ae01.airport.lat, port: 20910, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇩🇪 [ss]直连-德国 - 机场', server: de01.airport.lat, port: 20200, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇷🇺 [ss]直连-俄罗斯 - 机场', server: ru01.airport.lat, port: 20580, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇫🇷 [ss]直连-法国 - 机场', server: fr01.airport.lat, port: 21160, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇫🇮 [ss]直连-芬兰 - 机场', server: fi01.airport.lat, port: 20810, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇰🇿 [ss]直连-哈萨克斯坦 - 机场', server: kz01.airport.lat, port: 20890, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇰🇷 [ss]直连-韩国 - 机场', server: kr01.airport.lat, port: 21140, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇳🇱 [ss]直连-荷兰 - 机场', server: nl01.airport.lat, port: 20740, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇷🇴 [ss]直连-罗马尼亚 - 机场', server: ro01.airport.lat, port: 20750, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇲🇾 [ss]直连-马来西亚 - 机场', server: my01.airport.lat, port: 20020, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇺🇸 [ss]直连-美国 - 机场', server: us01.airport.lat, port: 20830, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇵🇹 [ss]直连-葡萄牙 - 机场', server: pt01.airport.lat, port: 20610, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇯🇵 [ss]直连-日本 - 机场', server: jp01.airport.lat, port: 20730, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇸🇪 [ss]直连-瑞典 - 机场', server: se01.airport.lat, port: 22490, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇹🇭 [ss]直连-泰国 - 机场', server: th01.airport.lat, port: 20180, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇹🇷 [ss]直连-土耳其 - 机场', server: tr01.airport.lat, port: 20820, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇪🇸 [ss]直连-西班牙 - 机场', server: es01.airport.lat, port: 20600, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇭🇰 [ss]直连-香港-01 - 机场', server: hk1.airport.lat, port: 1000, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇭🇰 [ss]直连-香港-02 - 机场', server: hk01.airport.lat, port: 20840, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇸🇬 [ss]直连-新加坡-02 - 机场', server: sg01.airport.lat, port: 20850, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇮🇹 [ss]直连-意大利 - 机场', server: it01.airport.lat, port: 20080, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇮🇩 [ss]直连-印度尼西亚 - 机场', server: id01.airport.lat, port: 20900, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
+- {name: '🇻🇳 [ss]直连-越南 - 机场', server: vn01.airport.lat, port: 20870, type: ss, cipher: aes-128-gcm, password: bf106c56-591d-44bf-b4ce-b47b92147ab2, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
