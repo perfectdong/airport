@@ -12,11 +12,15 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
@@ -25,30 +29,17 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇭🇰 香港01A - 天际网络
-  - 🇭🇰 香港01B - 天际网络
-  - 🇸🇬 新加坡01A - 天际网络
-  - 🇸🇬 新加坡01B - 天际网络
-  - 🇯🇵 日本 - 天际网络
-  - 🇺🇸 美国01A - 天际网络
-  - 🇺🇸 美国01B - 天际网络
-  - 🇺🇸 美国02A - 天际网络
-  - 🇺🇸 美国02B - 天际网络
-  - 🇬🇧 英国 - 天际网络
-  - 🇷🇺 俄国 - 天际网络
-  - 🇩🇪 德国 - 天际网络
-  - 🇹🇭 泰国 - 天际网络
-  - 🇻🇳 越南 - 天际网络
-  - 🇳🇱 荷兰 - 天际网络
-  - 'ℹ️ 注: 建议每月更新一次订阅 - 天际网络'
-  - 稳定梯子.com - 天际网络
+  use: &id001
+  - HK
+  - TW
+  - SG
+  - JP
+  - US
+  - Other
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -66,18 +57,24 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
   - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
+  - 🇹🇼 ‍台湾
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
@@ -91,84 +88,116 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id002
-  - 🇭🇰 香港01A - 天际网络
-  - 🇭🇰 香港01B - 天际网络
+  use: &id002
+  - HK
+- name: 🇹🇼 ‍台湾
+  type: url-test
+  tolerance: 100
+  use: &id003
+  - TW
+- name: 🇨🇳 ‍中国
+  type: url-test
+  tolerance: 100
+  use: &id004
+  - HK
+  - TW
 - name: 🇸🇬 ‍新加坡
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id003
-  - 🇸🇬 新加坡01A - 天际网络
-  - 🇸🇬 新加坡01B - 天际网络
+  use: &id005
+  - SG
 - name: 🇯🇵 ‍日本
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id004
-  - 🇯🇵 日本 - 天际网络
+  use: &id006
+  - JP
 - name: 🇺🇸 ‍美国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 300
-  proxies: &id005
-  - 🇺🇸 美国01A - 天际网络
-  - 🇺🇸 美国01B - 天际网络
-  - 🇺🇸 美国02A - 天际网络
-  - 🇺🇸 美国02B - 天际网络
+  use: &id007
+  - US
 - name: 🎏 ‍其他
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id006
-  - 🇬🇧 英国 - 天际网络
-  - 🇷🇺 俄国 - 天际网络
-  - 🇩🇪 德国 - 天际网络
-  - 🇹🇭 泰国 - 天际网络
-  - 🇻🇳 越南 - 天际网络
-  - 🇳🇱 荷兰 - 天际网络
-  - 'ℹ️ 注: 建议每月更新一次订阅 - 天际网络'
-  - 稳定梯子.com - 天际网络
+  use: &id008
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  proxies: *id002
+  use: *id002
+- name: 👆🏻🇹🇼 ‍台湾
+  type: select
+  use: *id003
+- name: 👆🏻🇨🇳 ‍中国
+  type: select
+  use: *id004
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  proxies: *id003
+  use: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id004
+  use: *id006
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id005
+  use: *id007
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id006
-proxies:
-- {name: 🇺🇸 美国01A - 天际网络, server: yd.tianji6.xyz, port: 18692, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇺🇸 美国01B - 天际网络, server: lt.tianji6.xyz, port: 18692, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇺🇸 美国02A - 天际网络, server: yd.tianji6.xyz, port: 38088, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇺🇸 美国02B - 天际网络, server: lt.tianji6.xyz, port: 38088, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇭🇰 香港01A - 天际网络, server: yd.tianji6.xyz, port: 48942, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇭🇰 香港01B - 天际网络, server: lt.tianji6.xyz, port: 48945, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇸🇬 新加坡01A - 天际网络, server: yd.tianji6.xyz, port: 27529, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇸🇬 新加坡01B - 天际网络, server: lt.tianji6.xyz, port: 56789, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇬🇧 英国 - 天际网络, server: lt.tianji6.xyz, port: 20590, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇷🇺 俄国 - 天际网络, server: yy.tianji6.xyz, port: 20285, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇯🇵 日本 - 天际网络, server: yy.tianji6.xyz, port: 21740, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇩🇪 德国 - 天际网络, server: yy.tianji6.xyz, port: 12243, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇹🇭 泰国 - 天际网络, server: lt.tianji6.xyz, port: 35633, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇻🇳 越南 - 天际网络, server: lt.tianji6.xyz, port: 20303, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇳🇱 荷兰 - 天际网络, server: lt.tianji6.xyz, port: 20441, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 'ℹ️ 注: 建议每月更新一次订阅 - 天际网络', server: 001.tianji6.xyz, port: 18443, type: vmess, uuid: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 001.tianji6.xyz}}, udp: true}
-- {name: 稳定梯子.com - 天际网络, server: 最新网站查询, port: 8443, type: vmess, uuid: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 03.xiangrikuicloud.xyz, network: ws, ws-opts: {path: /MP4, headers: {Host: 03.xiangrikuicloud.xyz}}, udp: true}
+  use: *id008
+proxy-providers:
+  HK:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___ld88.nxxbbf.com/HK.yaml
+    interval: 180
+    path: trials_providers/https___ld88.nxxbbf.com/HK.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  TW:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___ld88.nxxbbf.com/TW.yaml
+    interval: 180
+    path: trials_providers/https___ld88.nxxbbf.com/TW.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  SG:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___ld88.nxxbbf.com/SG.yaml
+    interval: 180
+    path: trials_providers/https___ld88.nxxbbf.com/SG.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  JP:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___ld88.nxxbbf.com/JP.yaml
+    interval: 180
+    path: trials_providers/https___ld88.nxxbbf.com/JP.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  US:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___ld88.nxxbbf.com/US.yaml
+    interval: 180
+    path: trials_providers/https___ld88.nxxbbf.com/US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  Other:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/https___ld88.nxxbbf.com/Other.yaml
+    interval: 180
+    path: trials_providers/https___ld88.nxxbbf.com/Other.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
