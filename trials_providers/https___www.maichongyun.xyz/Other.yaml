@@ -1,15 +1,15 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇫🇷 FR-Paris - 脉冲云, server: gyjd.yy9866.com, port: 16947, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇲🇾 MY-Malaysia-PQ - 脉冲云, server: gyjd.yy9866.com, port: 37681, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇦🇺 AU-Sydney - 脉冲云, server: gyjd.yy9866.com, port: 39263, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇳🇱 NL-Amsterdam - 脉冲云, server: gyjd.yy9866.com, port: 23262, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇨🇦 CA-Toronto - 脉冲云, server: gyjd.yy9866.com, port: 28322, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇬🇧 GB-London - 脉冲云, server: gyjd.yy9866.com, port: 45092, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇪🇸 ES-Madrid - 脉冲云, server: gyjd.yy9866.com, port: 34502, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇮🇹 IT-Milan - 脉冲云, server: gyjd.yy9866.com, port: 39062, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, udp: true}
-- {name: 🇬🇧 OR英国-新疆国外节点 - 脉冲云, server: 79.72.95.9, port: 18419, type: vmess, uuid: 0bfdfc41-3417-47c4-ba7e-fde29956e9c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇫🇷 FR-Paris - 脉冲云, server: gyjd.yy9866.com, port: 16947, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇲🇾 MY-Malaysia-PQ - 脉冲云, server: gyjd.yy9866.com, port: 37681, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇦🇺 AU-Sydney - 脉冲云, server: gyjd.yy9866.com, port: 39263, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇳🇱 NL-Amsterdam - 脉冲云, server: gyjd.yy9866.com, port: 23262, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇨🇦 CA-Toronto - 脉冲云, server: gyjd.yy9866.com, port: 28322, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇬🇧 GB-London - 脉冲云, server: gyjd.yy9866.com, port: 45092, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇪🇸 ES-Madrid - 脉冲云, server: gyjd.yy9866.com, port: 34502, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇮🇹 IT-Milan - 脉冲云, server: gyjd.yy9866.com, port: 39062, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, udp: true}
+- {name: 🇬🇧 OR英国-新疆国外节点 - 脉冲云, server: 79.72.95.9, port: 18419, type: vmess, uuid: 1522631e-b7e6-4ce2-ab92-feef6c542b3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
