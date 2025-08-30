@@ -1,16 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇫🇷 FR-Paris - 脉冲云, server: gyjd.yy9866.com, port: 16947, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇲🇾 MY-Malaysia-PQ - 脉冲云, server: gyjd.yy9866.com, port: 37681, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇦🇺 AU-Sydney - 脉冲云, server: gyjd.yy9866.com, port: 39263, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇳🇱 NL-Amsterdam - 脉冲云, server: gyjd.yy9866.com, port: 23262, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇨🇦 CA-Toronto - 脉冲云, server: gyjd.yy9866.com, port: 28322, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇬🇧 GB-London - 脉冲云, server: gyjd.yy9866.com, port: 45092, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇪🇸 ES-Madrid - 脉冲云, server: gyjd.yy9866.com, port: 34502, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇮🇹 IT-Milan - 脉冲云, server: gyjd.yy9866.com, port: 39062, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: 1762e9dd-d206-493f-b87a-7d4f506a68d2, udp: true}
-- {name: 🇬🇧 OR英国-新疆国外节点 - 脉冲云, server: 79.72.95.9, port: 18419, type: vmess, uuid: 1762e9dd-d206-493f-b87a-7d4f506a68d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 3ed67428-7965-3a1e-be38-b48b72c7c78c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 5587ea9a-31f1-3f21-bfaa-edb07bed0702, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
