@@ -9,12 +9,6 @@ proxies:
 - {name: 🇭🇰香港03 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 48537, type: ss, cipher: chacha20-ietf-poly1305, password: ea8349cd-9635-428b-819f-ba45efe34f87, udp: true}
 - {name: 🇭🇰香港04 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 27886, type: ss, cipher: chacha20-ietf-poly1305, password: ea8349cd-9635-428b-819f-ba45efe34f87, udp: true}
 - {name: 🇭🇰香港05 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 25447, type: ss, cipher: chacha20-ietf-poly1305, password: ea8349cd-9635-428b-819f-ba45efe34f87, udp: true}
-- {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 20aca054-56a2-4153-af79-2d5c796d13e3, udp: true}
-- {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 20aca054-56a2-4153-af79-2d5c796d13e3, udp: true}
-- {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 20aca054-56a2-4153-af79-2d5c796d13e3, udp: true}
-- {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 20aca054-56a2-4153-af79-2d5c796d13e3, udp: true}
-- {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 20aca054-56a2-4153-af79-2d5c796d13e3, udp: true}
-- {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 20aca054-56a2-4153-af79-2d5c796d13e3, udp: true}
 - {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: 502c8ad3-798f-4883-b0b1-bde3bbce6e9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: 502c8ad3-798f-4883-b0b1-bde3bbce6e9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: 502c8ad3-798f-4883-b0b1-bde3bbce6e9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -26,8 +20,8 @@ proxies:
 - {name: 🇭🇰 香港-线路1 - 神盾, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: e88ba280-492f-41e4-91dd-00da47951925, udp: true}
 - {name: 🇭🇰 香港01A - 天际网络, server: yd.tianji6.xyz, port: 48942, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
 - {name: 🇭🇰 香港01B - 天际网络, server: lt.tianji6.xyz, port: 48945, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇭🇰 香港 -1  x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 09999a74-a555-3338-860e-cf3c13f8f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -2 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 09999a74-a555-3338-860e-cf3c13f8f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 09999a74-a555-3338-860e-cf3c13f8f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -5 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 09999a74-a555-3338-860e-cf3c13f8f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 -6 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 09999a74-a555-3338-860e-cf3c13f8f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -1  x  1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 43f0ef1b-9d00-385f-8712-968f57f99ba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -2 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 11455, type: vmess, uuid: 43f0ef1b-9d00-385f-8712-968f57f99ba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -4 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 43f0ef1b-9d00-385f-8712-968f57f99ba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -5 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 43f0ef1b-9d00-385f-8712-968f57f99ba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 -6 x 1Gbps - 火星云, server: cu1.guguyun.xyz, port: 31063, type: vmess, uuid: 43f0ef1b-9d00-385f-8712-968f57f99ba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
