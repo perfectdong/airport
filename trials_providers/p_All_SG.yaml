@@ -1,15 +1,19 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇸🇬 新加坡核心节点-01 - 快云加速, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
+- {name: 🇸🇬 新加坡边缘节点-02 - 快云加速, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇸🇬 新加坡 - CloudSurf, server: 154.19.242.140, port: 10004, type: ss, cipher: aes-256-gcm, password: 7eadb5f0-241a-48d9-89b5-30fc831194d4, udp: true}
 - {name: 🇸🇬 新加坡①一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18810, type: vmess, uuid: f3a84772-a2aa-3998-a84d-e1aad5ced7e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇸🇬 新加坡②一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18829, type: vmess, uuid: f3a84772-a2aa-3998-a84d-e1aad5ced7e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
+- {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: a161587f-1eae-4962-b63e-50d9513a240a, udp: true}
+- {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: a161587f-1eae-4962-b63e-50d9513a240a, udp: true}
 - {name: 🇸🇬 新加坡01A - 天际网络, server: yd.tianji6.xyz, port: 27529, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
 - {name: 🇸🇬 新加坡01B - 天际网络, server: lt.tianji6.xyz, port: 56789, type: ss, cipher: chacha20-ietf-poly1305, password: c868273c-8e3c-4fd6-af99-eff1cc8f0ddc, udp: true}
-- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: fa546642-be7c-3010-a568-d813734bf260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: fa546642-be7c-3010-a568-d813734bf260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: fa546642-be7c-3010-a568-d813734bf260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: fa546642-be7c-3010-a568-d813734bf260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: 8941e4af-f432-4fc8-ab3f-4e0fe19b0d41, udp: true}
-- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: 8941e4af-f432-4fc8-ab3f-4e0fe19b0d41, udp: true}
-- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: 8941e4af-f432-4fc8-ab3f-4e0fe19b0d41, udp: true}
+- {name: 🇸🇬 新加坡 - 1 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 25f32534-c063-33f2-a72f-e652ceed0796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 2 x 1Gbps - 火星云, server: jscm.concubine.top, port: 38776, type: vmess, uuid: 25f32534-c063-33f2-a72f-e652ceed0796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 3 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 25f32534-c063-33f2-a72f-e652ceed0796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 - 4 x 1Gbps - 火星云, server: gzct.guguyun.xyz, port: 46731, type: vmess, uuid: 25f32534-c063-33f2-a72f-e652ceed0796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: b3ac9703-98cf-4406-8aa3-34837f3cf778, udp: true}
+- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: b3ac9703-98cf-4406-8aa3-34837f3cf778, udp: true}
+- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: b3ac9703-98cf-4406-8aa3-34837f3cf778, udp: true}
