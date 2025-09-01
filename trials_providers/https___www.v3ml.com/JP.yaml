@@ -1,0 +1,8 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵标准|日本-01 - 美乐云, server: mlc.cac.cab, port: 51005, type: trojan, password: bdc8f899-42b6-4425-b289-e4560c606d5c, sni: jp.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵标准|日本-02 - 美乐云, server: mlc.cac.cab, port: 51005, type: trojan, password: bdc8f899-42b6-4425-b289-e4560c606d5c, sni: jp.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵标准|日本-03 - 美乐云, server: mlc.cac.cab, port: 51114, type: ss, cipher: chacha20-ietf-poly1305, password: bdc8f899-42b6-4425-b289-e4560c606d5c, udp: true}
+- {name: 🇯🇵标准|日本-04 - 美乐云, server: mlc.cac.cab, port: 51114, type: ss, cipher: chacha20-ietf-poly1305, password: bdc8f899-42b6-4425-b289-e4560c606d5c, udp: true}
+- {name: 🇯🇵IPLC高级|日本x3 - 美乐云, server: mlc.cac.cab, port: 52114, type: ss, cipher: chacha20-ietf-poly1305, password: bdc8f899-42b6-4425-b289-e4560c606d5c, udp: true}
