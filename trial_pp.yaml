@@ -31,35 +31,34 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id001
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_CN_CN_CN_CN
+  - p_All_All_All_All_CN_CN_CN_CN
+  - p_All_All_All_All_CN_CN_CN_CN
+  - p_All_All_All_All_CN_CN_CN_CN
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
   - p_All_Other
-  - p_All_JP
   - p_All_HK_CN
-  - p_All_SG
+  - p_All_JP
   - p_All_US
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_CN_CN_CN_CN
-  - p_All_All_All_All_CN_CN_CN_CN
-  - p_All_All_All_All_CN_CN_CN_CN
-  - p_All_All_All_All_CN_CN_CN_CN
-  - p_All_All_All_All_SG_SG_SG_SG
-  - p_All_All_All_All_SG_SG_SG_SG
-  - p_All_All_All_All_SG_SG_SG_SG
-  - p_All_All_All_All_SG_SG_SG_SG
-  - p_All_All_All_All_JP_JP_JP_JP
-  - p_All_All_All_All_JP_JP_JP_JP
-  - p_All_All_All_All_JP_JP_JP_JP
-  - p_All_All_All_All_JP_JP_JP_JP
-  - p_All_All_All_All_US_US_US_US
-  - p_All_All_All_All_US_US_US_US
-  - p_All_All_All_All_US_US_US_US
-  - p_All_All_All_All_US_US_US_US
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
   - p_All_TW_CN
   - p_All_All_Other_Other
   - p_All_All_Other_Other
@@ -73,6 +72,7 @@ proxy-groups:
   - p_All_All_TW_TW_CN_CN
   - p_All_All_US_US
   - p_All_All_US_US
+  - p_All_SG
   - p_All_All_All_Other_Other_Other
   - p_All_All_All_Other_Other_Other
   - p_All_All_All_Other_Other_Other
@@ -145,11 +145,11 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id002
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
   - p_All_HK_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
   - p_All_All_HK_HK_CN_CN
   - p_All_All_HK_HK_CN_CN
   - p_All_All_All_HK_HK_HK_CN_CN_CN
@@ -169,15 +169,15 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id004
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_CN_CN_CN_CN
+  - p_All_All_All_All_CN_CN_CN_CN
+  - p_All_All_All_All_CN_CN_CN_CN
+  - p_All_All_All_All_CN_CN_CN_CN
   - p_All_HK_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
-  - p_All_All_All_All_CN_CN_CN_CN
-  - p_All_All_All_All_CN_CN_CN_CN
-  - p_All_All_All_All_CN_CN_CN_CN
-  - p_All_All_All_All_CN_CN_CN_CN
   - p_All_TW_CN
   - p_All_All_HK_HK_CN_CN
   - p_All_All_HK_HK_CN_CN
@@ -194,13 +194,13 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id005
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_SG_SG
+  - p_All_All_SG_SG
   - p_All_SG
-  - p_All_All_All_All_SG_SG_SG_SG
-  - p_All_All_All_All_SG_SG_SG_SG
-  - p_All_All_All_All_SG_SG_SG_SG
-  - p_All_All_All_All_SG_SG_SG_SG
-  - p_All_All_SG_SG
-  - p_All_All_SG_SG
   - p_All_All_All_SG_SG_SG
   - p_All_All_All_SG_SG_SG
   - p_All_All_All_SG_SG_SG
@@ -208,11 +208,11 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id006
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
   - p_All_JP
-  - p_All_All_All_All_JP_JP_JP_JP
-  - p_All_All_All_All_JP_JP_JP_JP
-  - p_All_All_All_All_JP_JP_JP_JP
-  - p_All_All_All_All_JP_JP_JP_JP
   - p_All_All_JP_JP
   - p_All_All_JP_JP
   - p_All_All_All_JP_JP_JP
@@ -222,11 +222,11 @@ proxy-groups:
   type: url-test
   tolerance: 300
   use: &id007
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
   - p_All_US
-  - p_All_All_All_All_US_US_US_US
-  - p_All_All_All_All_US_US_US_US
-  - p_All_All_All_All_US_US_US_US
-  - p_All_All_All_All_US_US_US_US
   - p_All_All_US_US
   - p_All_All_US_US
   - p_All_All_All_US_US_US
@@ -236,11 +236,11 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id008
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
   - p_All_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
   - p_All_All_Other_Other
   - p_All_All_Other_Other
   - p_All_All_All_Other_Other_Other
@@ -268,51 +268,6 @@ proxy-groups:
   type: select
   use: *id008
 proxy-providers:
-  p_All_Other:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_JP:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_HK_CN:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_HK_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_HK_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_SG:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_SG.yaml
-    interval: 180
-    path: trials_providers/p_All_SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_US:
-    type: http
-    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_US.yaml
-    interval: 180
-    path: trials_providers/p_All_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
   p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN:
     type: http
     url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN.yaml
@@ -363,6 +318,42 @@ proxy-providers:
     url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_All_All_Other_Other_Other_Other.yaml
     interval: 180
     path: trials_providers/p_All_All_All_All_Other_Other_Other_Other.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_Other:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_Other.yaml
+    interval: 180
+    path: trials_providers/p_All_Other.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_HK_CN:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_HK_CN.yaml
+    interval: 180
+    path: trials_providers/p_All_HK_CN.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_JP:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_JP.yaml
+    interval: 180
+    path: trials_providers/p_All_JP.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_US:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_US.yaml
+    interval: 180
+    path: trials_providers/p_All_US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
@@ -426,6 +417,15 @@ proxy-providers:
     url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_All_US_US.yaml
     interval: 180
     path: trials_providers/p_All_All_US_US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_SG:
+    type: http
+    url: https://raw.kgithub.com/moneyfly1/jichangnodes/main/trials_providers/p_All_SG.yaml
+    interval: 180
+    path: trials_providers/p_All_SG.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
