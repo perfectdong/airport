@@ -1,12 +1,12 @@
 %YAML 1.1
 ---
 proxies:
-- &id003 {name: 🇭🇰 HK香港1-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: c547fc80-f5cf-4991-bf46-a5654e693fa8, udp: true}
-- &id004 {name: 🇭🇰 HK香港2-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: c547fc80-f5cf-4991-bf46-a5654e693fa8, udp: true}
-- &id005 {name: 🇭🇰 HK香港1-PQ - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: c547fc80-f5cf-4991-bf46-a5654e693fa8, udp: true}
-- &id006 {name: 🇭🇰 HK香港2-PQ - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: c547fc80-f5cf-4991-bf46-a5654e693fa8, udp: true}
-- &id007 {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: c547fc80-f5cf-4991-bf46-a5654e693fa8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- &id008 {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: c547fc80-f5cf-4991-bf46-a5654e693fa8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id001 {name: 🇭🇰 HK香港1-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: c547fc80-f5cf-4991-bf46-a5654e693fa8, udp: true}
+- &id002 {name: 🇭🇰 HK香港2-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: c547fc80-f5cf-4991-bf46-a5654e693fa8, udp: true}
+- &id003 {name: 🇭🇰 HK香港1-PQ - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: c547fc80-f5cf-4991-bf46-a5654e693fa8, udp: true}
+- &id004 {name: 🇭🇰 HK香港2-PQ - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: c547fc80-f5cf-4991-bf46-a5654e693fa8, udp: true}
+- &id005 {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: c547fc80-f5cf-4991-bf46-a5654e693fa8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id006 {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: c547fc80-f5cf-4991-bf46-a5654e693fa8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - &id009 {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 305e7c86-b3ec-4b03-a7cf-e624c6bc52c2, udp: true}
 - &id010 {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 305e7c86-b3ec-4b03-a7cf-e624c6bc52c2, udp: true}
 - &id011 {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 305e7c86-b3ec-4b03-a7cf-e624c6bc52c2, udp: true}
@@ -21,35 +21,41 @@ proxies:
 - {name: 🇭🇰 香港03 - 悦云, server: hytro.91ai.de, port: 10022, type: trojan, password: 09aa5ea9-2b20-4b08-9ca4-e7ad6f6ed961, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港②一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18820, type: vmess, uuid: 2cc4ad80-8493-3384-8d2e-8e1fa1aa18d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇭🇰 香港③一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18838, type: vmess, uuid: 2cc4ad80-8493-3384-8d2e-8e1fa1aa18d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- &id001 {name: 🇭🇰 ss(广移)香港1 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 28ba8642-e978-4bdf-8ab5-d534d2403c9c, udp: true}
-- &id002 {name: 🇭🇰 ss(广移)香港2 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 28ba8642-e978-4bdf-8ab5-d534d2403c9c, udp: true}
+- &id007 {name: 🇭🇰 ss(广移)香港1 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 28ba8642-e978-4bdf-8ab5-d534d2403c9c, udp: true}
+- &id008 {name: 🇭🇰 ss(广移)香港2 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 28ba8642-e978-4bdf-8ab5-d534d2403c9c, udp: true}
 - {name: 🇭🇰 香港-线路1 - 神盾, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 1bc0e955-d1c0-4ce1-b826-30cade64b5c6, udp: true}
-- &id015 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 55fc7d8e-f64b-3918-8d12-d332e34d9670, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
 - *id006
+- &id015 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 55fc7d8e-f64b-3918-8d12-d332e34d9670, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id007
 - *id008
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
 - *id009
 - *id010
 - *id011
 - *id012
 - *id013
 - *id014
+- *id007
+- *id008
+- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: 6b227880-b05f-4b5a-a985-572d6a97d130, udp: true}
+- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: 6b227880-b05f-4b5a-a985-572d6a97d130, udp: true}
+- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: 6b227880-b05f-4b5a-a985-572d6a97d130, udp: true}
 - *id001
 - *id002
-- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: bf4dfca1-fd58-4b05-a685-5258ac13937b, udp: true}
-- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: bf4dfca1-fd58-4b05-a685-5258ac13937b, udp: true}
-- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: bf4dfca1-fd58-4b05-a685-5258ac13937b, udp: true}
 - *id003
 - *id004
 - *id005
 - *id006
-- *id007
-- *id008
 - *id015
 - {name: 🇭🇰标准|香港-01 - 美乐云, server: mlc.cac.cab, port: 51001, type: trojan, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, sni: hk.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰标准|香港-02 - 美乐云, server: mlc.cac.cab, port: 51001, type: trojan, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, sni: hk.naiun.bilibili.com, skip-cert-verify: true, udp: true}
