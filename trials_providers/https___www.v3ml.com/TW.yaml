@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼标准|台湾-01 - 美乐云, server: mlc.cac.cab, port: 51003, type: trojan, password: 23cd75b2-7aba-476f-9ba3-4719b3bde512, sni: tw.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼标准|台湾-02 - 美乐云, server: mlc.cac.cab, port: 51003, type: trojan, password: 23cd75b2-7aba-476f-9ba3-4719b3bde512, sni: tw.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼标准|台湾-03 - 美乐云, server: mlc.cac.cab, port: 51112, type: ss, cipher: chacha20-ietf-poly1305, password: 23cd75b2-7aba-476f-9ba3-4719b3bde512, udp: true}
-- {name: 🇹🇼标准|台湾-04 - 美乐云, server: mlc.cac.cab, port: 51112, type: ss, cipher: chacha20-ietf-poly1305, password: 23cd75b2-7aba-476f-9ba3-4719b3bde512, udp: true}
-- {name: 🇹🇼IPLC高级|台湾X3 - 美乐云, server: mlc.cac.cab, port: 52112, type: ss, cipher: chacha20-ietf-poly1305, password: 23cd75b2-7aba-476f-9ba3-4719b3bde512, udp: true}
+- {name: 🇹🇼标准|台湾-01 - 美乐云, server: mlc.cac.cab, port: 51003, type: trojan, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, sni: tw.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼标准|台湾-02 - 美乐云, server: mlc.cac.cab, port: 51003, type: trojan, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, sni: tw.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼标准|台湾-03 - 美乐云, server: mlc.cac.cab, port: 51112, type: ss, cipher: chacha20-ietf-poly1305, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, udp: true}
+- {name: 🇹🇼标准|台湾-04 - 美乐云, server: mlc.cac.cab, port: 51112, type: ss, cipher: chacha20-ietf-poly1305, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, udp: true}
+- {name: 🇹🇼IPLC高级|台湾X3 - 美乐云, server: mlc.cac.cab, port: 52112, type: ss, cipher: chacha20-ietf-poly1305, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, udp: true}

@@ -1,24 +1,22 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本核心节点-01 - 快云加速, server: aa.cs.retardfindercoinbsc.com, port: 16540, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
-- {name: 🇯🇵 日本核心节点-02 - 快云加速, server: aa.cs.retardfindercoinbsc.com, port: 39030, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
-- {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: eea7ca2e-3a1f-49ad-a9ea-0d705b99ce4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: eea7ca2e-3a1f-49ad-a9ea-0d705b99ce4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: eea7ca2e-3a1f-49ad-a9ea-0d705b99ce4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|06 - 悦云, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: eea7ca2e-3a1f-49ad-a9ea-0d705b99ce4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|07 - 悦云, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: eea7ca2e-3a1f-49ad-a9ea-0d705b99ce4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: eea7ca2e-3a1f-49ad-a9ea-0d705b99ce4c, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: eea7ca2e-3a1f-49ad-a9ea-0d705b99ce4c, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: eea7ca2e-3a1f-49ad-a9ea-0d705b99ce4c, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18813, type: vmess, uuid: 8548c904-0011-31f6-9cda-fa6e5616fd5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18806, type: vmess, uuid: 8548c904-0011-31f6-9cda-fa6e5616fd5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18812, type: vmess, uuid: 8548c904-0011-31f6-9cda-fa6e5616fd5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
-- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: c1cacca8-2b72-48d0-b581-9750c05e3cb2, udp: true}
-- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: c1cacca8-2b72-48d0-b581-9750c05e3cb2, udp: true}
-- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: c1cacca8-2b72-48d0-b581-9750c05e3cb2, udp: true}
-- {name: 🇯🇵标准|日本-01 - 美乐云, server: mlc.cac.cab, port: 51005, type: trojan, password: 23cd75b2-7aba-476f-9ba3-4719b3bde512, sni: jp.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵标准|日本-02 - 美乐云, server: mlc.cac.cab, port: 51005, type: trojan, password: 23cd75b2-7aba-476f-9ba3-4719b3bde512, sni: jp.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵标准|日本-03 - 美乐云, server: mlc.cac.cab, port: 51114, type: ss, cipher: chacha20-ietf-poly1305, password: 23cd75b2-7aba-476f-9ba3-4719b3bde512, udp: true}
-- {name: 🇯🇵标准|日本-04 - 美乐云, server: mlc.cac.cab, port: 51114, type: ss, cipher: chacha20-ietf-poly1305, password: 23cd75b2-7aba-476f-9ba3-4719b3bde512, udp: true}
-- {name: 🇯🇵IPLC高级|日本x3 - 美乐云, server: mlc.cac.cab, port: 52114, type: ss, cipher: chacha20-ietf-poly1305, password: 23cd75b2-7aba-476f-9ba3-4719b3bde512, udp: true}
+- {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 09aa5ea9-2b20-4b08-9ca4-e7ad6f6ed961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: 09aa5ea9-2b20-4b08-9ca4-e7ad6f6ed961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: 09aa5ea9-2b20-4b08-9ca4-e7ad6f6ed961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|06 - 悦云, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: 09aa5ea9-2b20-4b08-9ca4-e7ad6f6ed961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|07 - 悦云, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: 09aa5ea9-2b20-4b08-9ca4-e7ad6f6ed961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: 09aa5ea9-2b20-4b08-9ca4-e7ad6f6ed961, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: 09aa5ea9-2b20-4b08-9ca4-e7ad6f6ed961, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: 09aa5ea9-2b20-4b08-9ca4-e7ad6f6ed961, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18813, type: vmess, uuid: 2cc4ad80-8493-3384-8d2e-8e1fa1aa18d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
+- {name: 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18806, type: vmess, uuid: 2cc4ad80-8493-3384-8d2e-8e1fa1aa18d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
+- {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18812, type: vmess, uuid: 2cc4ad80-8493-3384-8d2e-8e1fa1aa18d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
+- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 95b0793a-4f82-4bda-8243-8e5bea9079bd, udp: true}
+- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 95b0793a-4f82-4bda-8243-8e5bea9079bd, udp: true}
+- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 95b0793a-4f82-4bda-8243-8e5bea9079bd, udp: true}
+- {name: 🇯🇵标准|日本-01 - 美乐云, server: mlc.cac.cab, port: 51005, type: trojan, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, sni: jp.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵标准|日本-02 - 美乐云, server: mlc.cac.cab, port: 51005, type: trojan, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, sni: jp.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵标准|日本-03 - 美乐云, server: mlc.cac.cab, port: 51114, type: ss, cipher: chacha20-ietf-poly1305, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, udp: true}
+- {name: 🇯🇵标准|日本-04 - 美乐云, server: mlc.cac.cab, port: 51114, type: ss, cipher: chacha20-ietf-poly1305, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, udp: true}
+- {name: 🇯🇵IPLC高级|日本x3 - 美乐云, server: mlc.cac.cab, port: 52114, type: ss, cipher: chacha20-ietf-poly1305, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, udp: true}
