@@ -26,8 +26,8 @@ proxies:
 - {name: 🇦🇷 阿根廷一优化 - tuboshu.io|土拨鼠.co, server: yh.xdyqlek4lrhs.com, port: 18853, type: vmess, uuid: 8eb60a1e-99f3-382f-b6cf-c258a64fee50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.xdyqlek4lrhs.com}}, udp: true}
 - {name: 🇦🇷 阿根廷一优化① - tuboshu.io|土拨鼠.co, server: tbsyd.tbstbs.live, port: 18853, type: vmess, uuid: 8eb60a1e-99f3-382f-b6cf-c258a64fee50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tbsyd.tbstbs.live}}, udp: true}
 - {name: 🇮🇪 爱尔兰-都柏林 - 神盾, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 1bc0e955-d1c0-4ce1-b826-30cade64b5c6, udp: true}
-- {name: soga002 - v2b123, server: 107.172.89.34, port: 39002, type: ss, cipher: chacha20-ietf-poly1305, password: 58f97fcc-0013-4fe2-b482-59eb16b7175d, udp: true}
-- {name: soga001 - v2b123, server: 107.172.89.34, port: 39001, type: ss, cipher: chacha20-ietf-poly1305, password: 58f97fcc-0013-4fe2-b482-59eb16b7175d, udp: true}
+- {name: soga002 - v2b123, server: 107.172.89.34, port: 39002, type: ss, cipher: chacha20-ietf-poly1305, password: 91751037-26d7-4d76-a04f-1a6b36642982, udp: true}
+- {name: soga001 - v2b123, server: 107.172.89.34, port: 39001, type: ss, cipher: chacha20-ietf-poly1305, password: 91751037-26d7-4d76-a04f-1a6b36642982, udp: true}
 - {name: '🇮🇳 [电信专线] 印度 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59069, type: ss, cipher: chacha20-ietf-poly1305, password: f69c25c5-a767-46ff-aee9-6bc3a3bd785e, udp: true}
 - {name: '🇮🇳 [联通专线] 印度 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 50369, type: ss, cipher: chacha20-ietf-poly1305, password: f69c25c5-a767-46ff-aee9-6bc3a3bd785e, udp: true}
 - {name: '🇮🇳 [移动专线] 印度 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 54274, type: ss, cipher: chacha20-ietf-poly1305, password: f69c25c5-a767-46ff-aee9-6bc3a3bd785e, udp: true}
@@ -46,8 +46,8 @@ proxies:
 - {name: '🇫🇷 [电信专线] 法国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59720, type: ss, cipher: chacha20-ietf-poly1305, password: f69c25c5-a767-46ff-aee9-6bc3a3bd785e, udp: true}
 - {name: '🇫🇷 [联通专线] 法国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 50748, type: ss, cipher: chacha20-ietf-poly1305, password: f69c25c5-a767-46ff-aee9-6bc3a3bd785e, udp: true}
 - {name: '🇫🇷 [移动专线] 法国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59741, type: ss, cipher: chacha20-ietf-poly1305, password: f69c25c5-a767-46ff-aee9-6bc3a3bd785e, udp: true}
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 2733c2d5-9433-3a51-be27-92df000838ff, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 2733c2d5-9433-3a51-be27-92df000838ff, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: ef585639-9b7d-3e37-86f7-c8822e40fdd2, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: ef585639-9b7d-3e37-86f7-c8822e40fdd2, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 - {name: 🇹🇭标准|泰国-01 - 美乐云, server: mlc.cac.cab, port: 51116, type: ss, cipher: chacha20-ietf-poly1305, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, udp: true}
 - {name: 🇹🇭标准|泰国-02 - 美乐云, server: mlc.cac.cab, port: 51116, type: ss, cipher: chacha20-ietf-poly1305, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, udp: true}
 - {name: 🇹🇭IPLC高级|泰国x3 - 美乐云, server: mlc.cac.cab, port: 52116, type: ss, cipher: chacha20-ietf-poly1305, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, udp: true}
