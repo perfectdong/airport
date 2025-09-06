@@ -36,13 +36,13 @@ proxies:
 - *id004
 - *id005
 - *id006
-- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 3745fe08-e695-40d7-8f6a-89a872629690, udp: true}
-- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 3745fe08-e695-40d7-8f6a-89a872629690, udp: true}
-- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 3745fe08-e695-40d7-8f6a-89a872629690, udp: true}
+- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 931a2769-0fc8-4248-8e68-f94a4633d75b, udp: true}
+- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 931a2769-0fc8-4248-8e68-f94a4633d75b, udp: true}
+- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 931a2769-0fc8-4248-8e68-f94a4633d75b, udp: true}
 - *id001
 - *id002
-- {name: '🇯🇵 [ss]联通线路-日本 - 机场', server: zz002.airport.lat, port: 43123, type: ss, cipher: aes-128-gcm, password: 09d71618-443e-4b6d-8076-ac07920ac0f7, udp: true}
-- {name: '🇯🇵 [ss]直连-日本 - 机场', server: jp01.airport.lat, port: 20730, type: ss, cipher: aes-128-gcm, password: 09d71618-443e-4b6d-8076-ac07920ac0f7, udp: true}
+- {name: '🇯🇵 [ss]联通线路-日本 - 机场', server: zz002.airport.lat, port: 43123, type: ss, cipher: aes-128-gcm, password: 6922feed-e0d3-402a-9344-cd8328fde0d8, udp: true}
+- {name: '🇯🇵 [ss]直连-日本 - 机场', server: jp01.airport.lat, port: 20730, type: ss, cipher: aes-128-gcm, password: 6922feed-e0d3-402a-9344-cd8328fde0d8, udp: true}
 - {name: 🇯🇵标准|日本-01 - 美乐云, server: mlc.cac.cab, port: 51005, type: trojan, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, sni: jp.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵标准|日本-02 - 美乐云, server: mlc.cac.cab, port: 51005, type: trojan, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, sni: jp.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵标准|日本-03 - 美乐云, server: mlc.cac.cab, port: 51114, type: ss, cipher: chacha20-ietf-poly1305, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, udp: true}

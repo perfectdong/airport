@@ -48,19 +48,19 @@ proxies:
 - *id014
 - *id007
 - *id008
-- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: 3745fe08-e695-40d7-8f6a-89a872629690, udp: true}
-- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: 3745fe08-e695-40d7-8f6a-89a872629690, udp: true}
-- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: 3745fe08-e695-40d7-8f6a-89a872629690, udp: true}
+- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: 931a2769-0fc8-4248-8e68-f94a4633d75b, udp: true}
+- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: 931a2769-0fc8-4248-8e68-f94a4633d75b, udp: true}
+- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: 931a2769-0fc8-4248-8e68-f94a4633d75b, udp: true}
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
 - *id006
-- {name: '🇭🇰 [ss]联通线路-香港-02 - 机场', server: zz002.airport.lat, port: 20841, type: ss, cipher: aes-128-gcm, password: 09d71618-443e-4b6d-8076-ac07920ac0f7, udp: true}
-- {name: '🇭🇰 [ss]联通线路-香港-01 - 机场', server: zz002.airport.lat, port: 25389, type: ss, cipher: aes-128-gcm, password: 09d71618-443e-4b6d-8076-ac07920ac0f7, udp: true}
-- {name: '🇭🇰 [ss]直连-香港-01 - 机场', server: hk1.airport.lat, port: 1000, type: ss, cipher: aes-128-gcm, password: 09d71618-443e-4b6d-8076-ac07920ac0f7, udp: true}
-- {name: '🇭🇰 [ss]直连-香港-02 - 机场', server: hk01.airport.lat, port: 20840, type: ss, cipher: aes-128-gcm, password: 09d71618-443e-4b6d-8076-ac07920ac0f7, udp: true}
+- {name: '🇭🇰 [ss]联通线路-香港-02 - 机场', server: zz002.airport.lat, port: 20841, type: ss, cipher: aes-128-gcm, password: 6922feed-e0d3-402a-9344-cd8328fde0d8, udp: true}
+- {name: '🇭🇰 [ss]联通线路-香港-01 - 机场', server: zz002.airport.lat, port: 25389, type: ss, cipher: aes-128-gcm, password: 6922feed-e0d3-402a-9344-cd8328fde0d8, udp: true}
+- {name: '🇭🇰 [ss]直连-香港-01 - 机场', server: hk1.airport.lat, port: 1000, type: ss, cipher: aes-128-gcm, password: 6922feed-e0d3-402a-9344-cd8328fde0d8, udp: true}
+- {name: '🇭🇰 [ss]直连-香港-02 - 机场', server: hk01.airport.lat, port: 20840, type: ss, cipher: aes-128-gcm, password: 6922feed-e0d3-402a-9344-cd8328fde0d8, udp: true}
 - *id015
 - {name: 🇭🇰标准|香港-01 - 美乐云, server: mlc.cac.cab, port: 51001, type: trojan, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, sni: hk.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰标准|香港-02 - 美乐云, server: mlc.cac.cab, port: 51001, type: trojan, password: e8d09a76-9378-4940-b8bb-bbbb44af9b2c, sni: hk.naiun.bilibili.com, skip-cert-verify: true, udp: true}
