@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: '🇸🇬 [ss]联通线路-新加坡-02 - 机场', server: zz002.airport.lat, port: 47026, type: ss, cipher: aes-128-gcm, password: 09d71618-443e-4b6d-8076-ac07920ac0f7, udp: true}
+- {name: '🇸🇬 [ss]直连-新加坡-02 - 机场', server: sg01.airport.lat, port: 20850, type: ss, cipher: aes-128-gcm, password: 09d71618-443e-4b6d-8076-ac07920ac0f7, udp: true}
