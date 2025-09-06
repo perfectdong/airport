@@ -31,7 +31,7 @@ proxies:
 - *id004
 - *id005
 - *id006
-- &id015 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: c541bdcb-e1f2-3d47-9a0e-b3e55a270876, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id015 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 61a489fe-5a3f-393f-8765-fdb4627d4ee9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id007
 - *id008
 - *id001
@@ -48,9 +48,9 @@ proxies:
 - *id014
 - *id007
 - *id008
-- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: f3071708-abe0-45dd-bfc0-094630a1cd31, udp: true}
-- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: f3071708-abe0-45dd-bfc0-094630a1cd31, udp: true}
-- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: f3071708-abe0-45dd-bfc0-094630a1cd31, udp: true}
+- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: dabea969-2523-4ff4-b8b2-bcbba9be7bb9, udp: true}
+- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: dabea969-2523-4ff4-b8b2-bcbba9be7bb9, udp: true}
+- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: dabea969-2523-4ff4-b8b2-bcbba9be7bb9, udp: true}
 - *id001
 - *id002
 - *id003
